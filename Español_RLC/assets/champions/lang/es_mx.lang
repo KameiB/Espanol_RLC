@@ -84,8 +84,8 @@ champions.general.affix.adaptable.damagereductionincrement.tooltip=El incremento
 champions.general.affix.adaptable.maxdamagereduction=Reduccion Maxima de Daño
 champions.general.affix.adaptable.maxdamagereduction.tooltip=La reduccion maxima aplicada al daño recibido
 
-champions.general.affix.arctic=artico
-champions.general.affix.arctic.tooltip=Configuraciones para el afijo artico
+champions.general.affix.arctic=Artico
+champions.general.affix.arctic.tooltip=Configuraciones para el afijo Artico
 champions.general.affix.arctic.attackinterval=Intervalo de Ataque
 champions.general.affix.arctic.attackinterval.tooltip=Frecuencia de los proyectiles que lanzara el Campeon (en ticks)
 
