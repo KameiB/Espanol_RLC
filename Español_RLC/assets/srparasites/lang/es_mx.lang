@@ -9,6 +9,8 @@ entity.srparasites.pri_yelloweye.name=Yelloweye primitivo
 entity.srparasites.pri_bolster.name=Bolster primitivo
 entity.srparasites.pri_arachnida.name=Arachnida primitivo
 entity.srparasites.pri_devourer.name=Devourer primitivo
+entity.srparasites.pri_vermin.name=Vermin primitivo
+entity.srparasites.pri_tozoon.name=Tozoon primitivo
 
 entity.srparasites.host.name=Host
 entity.srparasites.hostii.name=Herd
@@ -17,6 +19,7 @@ entity.srparasites.heed.name=Heed
 entity.srparasites.thrall.name=Thrall
 
 entity.srparasites.sim_bear.name=Oso asimilado
+entity.srparasites.sim_squid.name=Calamar asimilado
 entity.srparasites.sim_enderman.name=Enderman asimilado
 entity.srparasites.sim_endermanhead.name=Cabeza caminante (Enderman)
 entity.srparasites.sim_adventurer.name=Aventurero asimilado
@@ -41,19 +44,35 @@ entity.srparasites.incompleteform_small.name=Forma incompleta menor
 entity.srparasites.sim_dragone.name=Ender dragon asimilado
 entity.srparasites.sim_dragonehead.name=Cabeza caminante (Ender dragon)
 
+entity.srparasites.fer_cow.name=Vaca salvaje
+entity.srparasites.fer_bear.name=Oso salvaje
+entity.srparasites.fer_enderman.name=Enderman salvaje
+entity.srparasites.fer_human.name=Humano salvaje
+entity.srparasites.fer_horse.name=Caballo salvaje
+entity.srparasites.fer_sheep.name=Oveja salvaje
+entity.srparasites.fer_pig.name=Cerdo salvaje
+entity.srparasites.fer_villager.name=Aldeano salvaje
+entity.srparasites.fer_wolf.name=Lobo salvaje
+
+entity.srparasites.hi_blaze.name=Blaze secuestrado
+entity.srparasites.hi_golem.name=Golem secuestrado
+entity.srparasites.hi_skeleton.name=Skeleton secuestrado
+
 entity.srparasites.overseer.name=Overseer
 entity.srparasites.bomber_light.name=Bomber ligero
 entity.srparasites.carrier_heavy.name=Carrier pesado
+entity.srparasites.carrier_light.name=Carrier ligero
 entity.srparasites.buglin.name=Buglin
 entity.srparasites.mangler.name=Mangler
-entity.srparasites.worker.name=Worker
+entity.srparasites.gnat.name=Gnat
+entity.srparasites.worker.name=Trabajador
 entity.srparasites.carrier_flying.name=Carrier flotante
 entity.srparasites.rupter.name=Rupter
-entity.srparasites.beckon_si.name=Beckon Fase I
-entity.srparasites.beckon_sii.name=Beckon Fase II
-entity.srparasites.beckon_siii.name=Beckon Fase III
-entity.srparasites.beckon_siv.name=Beckon Fase IV
-entity.srparasites.beckon_sv.name=Beckon Fase V
+entity.srparasites.beckon_si.name=Beckon Etapa I
+entity.srparasites.beckon_sii.name=Beckon Etapa II
+entity.srparasites.beckon_siii.name=Beckon Etapa III
+entity.srparasites.beckon_siv.name=Beckon Etapa IV
+entity.srparasites.beckon_sv.name=Beckon Etapa V
 entity.srparasites.warden.name=Warden
 entity.srparasites.marauder.name=Marauder
 entity.srparasites.monarch.name=Monarca
@@ -61,10 +80,14 @@ entity.srparasites.grunt.name=Grunt
 entity.srparasites.sentry.name=Sentry
 entity.srparasites.kyphosis.name=Kyphosis
 entity.srparasites.dispatcherten.name=Tentaculo de Dispatcher
-entity.srparasites.dispatcher_si.name=Dispatcher Fase I
-entity.srparasites.dispatcher_sii.name=Dispatcher Fase II
-entity.srparasites.dispatcher_siii.name=Dispatcher Fase III
-entity.srparasites.dispatcher_siv.name=Dispatcher Fase IV
+entity.srparasites.dispatcher_si.name=Dispatcher Etapa I
+entity.srparasites.dispatcher_sii.name=Dispatcher Etapa II
+entity.srparasites.dispatcher_siii.name=Dispatcher Etapa III
+entity.srparasites.dispatcher_siv.name=Dispatcher Etapa IV
+entity.srparasites.rooter_si.name=Rooter Etapa I
+entity.srparasites.rooter_sii.name=Rooter Etapa II
+entity.srparasites.rooter_siii.name=Rooter Etapa III
+entity.srparasites.rooter_siv.name=Rooter Etapa IV
 entity.srparasites.seizer.name=Seizer
 
 entity.srparasites.bomber_heavy.name=Bomber pesado
@@ -73,6 +96,10 @@ entity.srparasites.wraith.name=Wraith
 entity.srparasites.bogle.name=Bogle
 entity.srparasites.haunter.name=Haunter
 entity.srparasites.succor.name=Succor
+entity.srparasites.seeker.name=Seeker
+entity.srparasites.architect.name=Arquitecto
+
+entity.srparasites.draconite.name=§9Draconite
 
 entity.srparasites.anc_dreadnaut.name=Antiguo Dreadnaut
 entity.srparasites.anc_overlord.name=Antiguo Overlord
@@ -91,10 +118,13 @@ entity.srparasites.ada_yelloweye.name=Yelloweye adaptado
 entity.srparasites.ada_bolster.name=Bolster adaptado
 entity.srparasites.ada_arachnida.name=Arachnida adaptado
 
+entity.srparasites.wave.name=Onda
+entity.srparasites.waveshock.name=Onda
+
 entity.srparasites.remain.name=Restos
 # Creative Tab
 
-itemGroup.SRParasites=Scape and Run:Parasites
+itemGroup.SRParasites=Scape and Run: Parasites
 
 # Items
 item.srparasites.itemmobspawner_pod.name=Generar Pod
@@ -106,6 +136,7 @@ item.srparasites.itemmobspawner_cruxa.name=Generar Crux
 item.srparasites.itemmobspawner_mes.name=Generar Thrall
 
 item.srparasites.itemmobspawner_infbear.name=Generar Oso asimilado
+item.srparasites.itemmobspawner_infsquid.name=Generar Calamar asimilado
 item.srparasites.itemmobspawner_infenderman.name=Generar Enderman asimilado 
 item.srparasites.itemmobspawner_infendermanhead.name=Generar Cabeza caminante (Enderman)
 item.srparasites.itemmobspawner_infplayer.name=Generar Aventurero asimilado 
@@ -130,29 +161,49 @@ item.srparasites.itemmobspawner_inhoom.name=Generar Forma incompleta (Mediana)
 item.srparasites.itemmobspawner_infdragone.name=Generar Ender Dragon asimilado
 item.srparasites.itemmobspawner_infdragonehead.name=Generar cabeza caminante (Ender Dragon)
 
+item.srparasites.itemmobspawner_fercow.name=Generar Vaca salvaje
+item.srparasites.itemmobspawner_ferbear.name=Generar Oso salvaje
+item.srparasites.itemmobspawner_ferenderman.name=Generar Enderman salvaje
+item.srparasites.itemmobspawner_ferhuman.name=Generar Humano salvaje
+item.srparasites.itemmobspawner_ferhorse.name=Generar Caballo salvaje
+item.srparasites.itemmobspawner_ferpig.name=Generar Cerdo salvaje
+item.srparasites.itemmobspawner_fersheep.name=Generar Oveja salvaje
+item.srparasites.itemmobspawner_fervillager.name=Generar Aldeano salvaje
+item.srparasites.itemmobspawner_ferwolf.name=Generar Lobo salvaje
+
+item.srparasites.itemmobspawner_hiblaze.name=Generar Blaze secuestrado
+item.srparasites.itemmobspawner_higolem.name=Generar Golem secuestrado
+item.srparasites.itemmobspawner_hiskeleton.name=Generar Esqueleto secuestrado
+
 item.srparasites.itemmobspawner_alafha.name=Generar Overseer
 item.srparasites.itemmobspawner_omboo.name=Generar Bomber ligero
 item.srparasites.itemmobspawner_rathol.name=Generar Carrier pesado
+item.srparasites.itemmobspawner_gothol.name=Generar Carrier ligero
 item.srparasites.itemmobspawner_buthol.name=Generar Carrier flotante
 item.srparasites.itemmobspawner_lodo.name=Generar Buglin
 item.srparasites.itemmobspawner_nuuh.name=Generar Mangler
-item.srparasites.itemmobspawner_worker.name=Generar Worker
+item.srparasites.itemmobspawner_ata.name=Generar Gnat
+item.srparasites.itemmobspawner_worker.name=Generar Trabajador
 item.srparasites.itemmobspawner_mudo.name=Generar Rupter
-item.srparasites.itemmobspawner_venkrol.name=Generar Beckon Fase I
-item.srparasites.itemmobspawner_venkrolsii.name=Generar Beckon Fase II
-item.srparasites.itemmobspawner_venkrolsiii.name=Generar Beckon Fase III
-item.srparasites.itemmobspawner_venkrolsiv.name=Generar Beckon Fase IV
-item.srparasites.itemmobspawner_venkrolsv.name=Generar Beckon Fase V
+item.srparasites.itemmobspawner_venkrol.name=Generar Beckon Etapa I
+item.srparasites.itemmobspawner_venkrolsii.name=Generar Beckon Etapa II
+item.srparasites.itemmobspawner_venkrolsiii.name=Generar Beckon Etapa III
+item.srparasites.itemmobspawner_venkrolsiv.name=Generar Beckon Etapa IV
+item.srparasites.itemmobspawner_venkrolsv.name=Generar Beckon Etapa V
 item.srparasites.itemmobspawner_ganro.name=Generar Warden
 item.srparasites.itemmobspawner_esor.name=Generar Marauder
 item.srparasites.itemmobspawner_orch.name=Generar Monarca
 item.srparasites.itemmobspawner_flog.name=Generar Grunt
 item.srparasites.itemmobspawner_unvo.name=Generar Sentry 
 item.srparasites.itemmobspawner_tonro.name=Generar Kyphosis
-item.srparasites.itemmobspawner_dod.name=Generar Dispatcher Fase I
-item.srparasites.itemmobspawner_dodsii.name=Generar Dispatcher Fase II
-item.srparasites.itemmobspawner_dodsiii.name=Generar Dispatcher Fase III
-item.srparasites.itemmobspawner_dodsiv.name=Generar Dispatcher Fase IV
+item.srparasites.itemmobspawner_dod.name=Generar Dispatcher Etapa I
+item.srparasites.itemmobspawner_dodsii.name=Generar Dispatcher Etapa II
+item.srparasites.itemmobspawner_dodsiii.name=Generar Dispatcher Etapa III
+item.srparasites.itemmobspawner_dodsiv.name=Generar Dispatcher Etapa IV
+item.srparasites.itemmobspawner_leem.name=Generar Rooter Etapa I
+item.srparasites.itemmobspawner_leemsii.name=Generar Rooter Etapa II
+item.srparasites.itemmobspawner_leemsiii.name=Generar Rooter Etapa III
+item.srparasites.itemmobspawner_leemsiv.name=Generar Rooter Etapa IV
 item.srparasites.itemmobspawner_nak.name=Generar Seizer
 
 item.srparasites.itemmobspawner_jinjo.name=Generar Bomber pesado
@@ -161,6 +212,10 @@ item.srparasites.itemmobspawner_elvia.name=Generar Wraith
 item.srparasites.itemmobspawner_lencia.name=Generar Bogle
 item.srparasites.itemmobspawner_pheon.name=Generar Haunter
 item.srparasites.itemmobspawner_flam.name=Generar Succor
+item.srparasites.itemmobspawner_soo.name=Generar Seeker
+item.srparasites.itemmobspawner_tenn.name=Generar Arquitecto
+
+item.srparasites.itemmobspawner_heblu.name=Generar Draconite
 
 item.srparasites.itemmobspawner_oronco.name=Generar Antiguo Dreadnaut
 item.srparasites.itemmobspawner_terla.name=Generar Antiguo Overlord
@@ -175,6 +230,8 @@ item.srparasites.itemmobspawner_nogla.name=Generar Reeker primitivo
 item.srparasites.itemmobspawner_bano.name=Generar Bolster primitivo
 item.srparasites.itemmobspawner_ranrac.name=Generar Arachnida primitivo
 item.srparasites.itemmobspawner_lum.name=Generar Devourer primitivo
+item.srparasites.itemmobspawner_iki.name=Generar Vermin primitivo
+item.srparasites.itemmobspawner_wymo.name=Generar Tozoon primitivo
 
 item.srparasites.itemmobspawner_shycoadapted.name=Generar Longarms adaptado
 item.srparasites.itemmobspawner_canraadapted.name=Generar Summoner adaptado
@@ -184,76 +241,85 @@ item.srparasites.itemmobspawner_emanaadapted.name=Generar Yelloweye adaptado
 item.srparasites.itemmobspawner_banoadapted.name=Generar Bolster adaptado
 item.srparasites.itemmobspawner_ranracadapted.name=Generar Arachnida adaptado
 
-item.srparasites.itemthrow.name=Quench
-item.srparasites.itemtab.name=NULL
-item.srparasites.evclock.name=Reloj sangriento
-item.srparasites.weapon_scythe.name=Guadaña viviente
-item.srparasites.weapon_scythe_sentient.name=Gran guadaña consciente
-item.srparasites.weapon_bow.name=Arco viviente
-item.srparasites.weapon_bow_sentient.name=Gran arco consciente
-item.srparasites.weapon_axe.name=Hacha viviente
-item.srparasites.weapon_axe_sentient.name=Gran hacha consciente
-item.srparasites.weapon_sword.name=Espada viviente
-item.srparasites.weapon_sword_sentient.name=Gran espada consciente
-item.srparasites.weapon_cleaver.name=Cuchilla viviente
-item.srparasites.weapon_cleaver_sentient.name=Gran cuchilla consciente
+item.srparasites.itemthrow.name=§6Quench
+item.srparasites.itemtab.name=§dNULL
+item.srparasites.itemevolve.name=Baculo de evolucion
+item.srparasites.itemassimilate.name=Baculo de asimilacion
+item.srparasites.itemdevolve.name=Baculo de desevolucion
+item.srparasites.itemvariant.name=Baculo de variante
+item.srparasites.evclock.name=§cReloj sangriento
+item.srparasites.weapon_scythe.name=§eGuadaña viviente
+item.srparasites.weapon_scythe_sentient.name=§6Gran guadaña consciente
+item.srparasites.weapon_bow.name=§eArco viviente
+item.srparasites.weapon_bow_sentient.name=§6Gran arco consciente
+item.srparasites.weapon_axe.name=§eHacha viviente
+item.srparasites.weapon_axe_sentient.name=§6Gran hacha consciente
+item.srparasites.weapon_sword.name=§eEspada viviente
+item.srparasites.weapon_sword_sentient.name=§6Gran espada consciente
+item.srparasites.weapon_cleaver.name=§eCuchilla viviente
+item.srparasites.weapon_cleaver_sentient.name=§6Gran cuchilla consciente
+item.srparasites.weapon_maul.name=§eMazo viviente
+item.srparasites.weapon_maul_sentient.name=§6Gran mazo consciente
+item.srparasites.weapon_lance.name=§eLanza viviente
+item.srparasites.weapon_lance_sentient.name=§6Gran lanza consciente
 
-item.srparasites.armor_helm.name=Casco viviente
-item.srparasites.armor_chest.name=Pechera viviente
-item.srparasites.armor_pants.name=Pantalones vivientes
-item.srparasites.armor_boots.name=Botas vivientes
-item.srparasites.armor_helm_sentient.name=Casco consciente
-item.srparasites.armor_chest_sentient.name=Pechera consciente
-item.srparasites.armor_pants_sentient.name=Pantalones conscientes
-item.srparasites.armor_boots_sentient.name=Botas conscientes
+item.srparasites.armor_helm.name=§eCasco viviente
+item.srparasites.armor_chest.name=§ePechera viviente
+item.srparasites.armor_pants.name=§ePantalones vivientes
+item.srparasites.armor_boots.name=§eBotas vivientes
+item.srparasites.armor_helm_sentient.name=§6Casco consciente
+item.srparasites.armor_chest_sentient.name=§6Pechera consciente
+item.srparasites.armor_pants_sentient.name=§6Pantalones conscientes
+item.srparasites.armor_boots_sentient.name=§6Botas conscientes
 
 #//////
-item.srparasites.bow_upperlimb.name=Brazo superior de Gran arco viviente
-item.srparasites.bow_lowerlimb.name=Brazo inferior de Gran arco viviente
-item.srparasites.bow_string.name=Cuerda de Gran arco viviente
-item.srparasites.bow_grip.name=Mango de Gran arco viviente
-item.srparasites.bow_core.name=Nucleo de Gran arco viviente
+item.srparasites.bow_upperlimb.name=§6Brazo superior de Gran arco viviente
+item.srparasites.bow_lowerlimb.name=§6Brazo inferior de Gran arco viviente
+item.srparasites.bow_string.name=§6Cuerda de Gran arco viviente
+item.srparasites.bow_grip.name=§6Mango de Gran arco viviente
+item.srparasites.bow_core.name=§6Nucleo de Gran arco viviente
 
-item.srparasites.scythe_back.name=Parte trasera de Guadaña viviente
-item.srparasites.scythe_blade.name=Cuchilla de Guadaña viviente
-item.srparasites.scythe_core.name=Nucleo de Guadaña viviente
-item.srparasites.scythe_handle.name=Mango de Guadaña viviente
-item.srparasites.scythe_head.name=Cabeza de Guadaña viviente
+item.srparasites.scythe_back.name=§6Parte trasera de Guadaña viviente
+item.srparasites.scythe_blade.name=§6Cuchilla de Guadaña viviente
+item.srparasites.scythe_core.name=§6Nucleo de Guadaña viviente
+item.srparasites.scythe_handle.name=§6Mango de Guadaña viviente
+item.srparasites.scythe_head.name=§6Cabeza de Guadaña viviente
 #///////
 
-item.srparasites.dried_tendons.name=Tendones secos
-item.srparasites.hardened_bone_handle.name=Mango de hueso endurecido
-item.srparasites.infectious_blade_fragment.name=Fragmento de cuchilla infecciosa
-item.srparasites.living_core.name=Nucleo viviente
-item.srparasites.vile_shell.name=Coraza vil
-item.srparasites.bone.name=Hueso raro
+item.srparasites.dried_tendons.name=§eTendones secos
+item.srparasites.hardened_bone_handle.name=§eMango de hueso endurecido
+item.srparasites.infectious_blade_fragment.name=§eFragmento de cuchilla infecciosa
+item.srparasites.living_core.name=§eNucleo viviente
+item.srparasites.vile_shell.name=§eCoraza vil
+item.srparasites.bone.name=§eHueso raro
 
 
-item.srparasites.ada_longarms_drop.name=Fragmento de armadura de Longarms
-item.srparasites.ada_summoner_drop.name=Nucleo de Summoner
-item.srparasites.ada_yelloweye_drop.name=Hueso de Yelloweye
-item.srparasites.ada_reeker_drop.name=Colmillo de Reeker
-item.srparasites.ada_manducater_drop.name=Orbe de Manducater
-item.srparasites.ada_bolster_drop.name=Carcasa de Bolster
-item.srparasites.ada_arachnida_drop.name=Garra de Arachnida
-item.srparasites.ada_devourer_drop.name=Tentaculo de Devourer
+item.srparasites.ada_longarms_drop.name=§bFragmento de armadura de Longarms
+item.srparasites.ada_summoner_drop.name=§bNucleo de Summoner
+item.srparasites.ada_yelloweye_drop.name=§bHueso de Yelloweye
+item.srparasites.ada_reeker_drop.name=§bColmillo de Reeker
+item.srparasites.ada_manducater_drop.name=§bOrbe de Manducater
+item.srparasites.ada_bolster_drop.name=§bCarcasa de Bolster
+item.srparasites.ada_arachnida_drop.name=§bGarra de Arachnida
+item.srparasites.ada_devourer_drop.name=§bTentaculo de Devourer
 
 item.srparasites.assimilated_flesh.name=Carne infectada
-item.srparasites.beckon_drop.name=Membrana de Beckon
-item.srparasites.dispatcher_drop.name=Membrana de Dispatcher
+item.srparasites.beckon_drop.name=§aMembrana de Beckon
+item.srparasites.dispatcher_drop.name=§cMembrana de Dispatcher
 
-item.srparasites.lurecomponent1.name=Visceras de Rupter
-item.srparasites.lurecomponent2.name=Corazon putrido
-item.srparasites.lurecomponent3.name=Tendones alterados
-item.srparasites.lurecomponent4.name=Pulmon toxico
-item.srparasites.lurecomponent5.name=Cerebro nocivo
-item.srparasites.lurecomponent6.name=Segmento esencial
+item.srparasites.lurecomponent1.name=§bVisceras de Rupter
+item.srparasites.lurecomponent2.name=§bCorazon putrido
+item.srparasites.lurecomponent3.name=§bTendones alterados
+item.srparasites.lurecomponent4.name=§bPulmon toxico
+item.srparasites.lurecomponent5.name=§bCerebro nocivo
+item.srparasites.lurecomponent6.name=§bSegmento esencial
+item.srparasites.nodecompass.name=§cBrujula de nodos
 
 # Blocks
 
-tile.srparasites.parasitesapling_tree.name=Retoño venoso
-tile.srparasites.parasitesapling_treethin.name=Retoño monstruoso
-tile.srparasites.parasitesapling_flowertall.name=Retoño oscuro
+tile.srparasites.parasitesapling_tree.name=Retoño de veneto
+tile.srparasites.parasitesapling_treethin.name=Retoño de monstrueto
+tile.srparasites.parasitesapling_flowertall.name=Retoño de obscurio
 
 tile.srparasites.parasitebush_tendril.name=Retoño capilar
 tile.srparasites.parasitebush_pop.name=Vesicula parasitaria
@@ -261,216 +327,272 @@ tile.srparasites.parasitebush_bine.name=Rizo nervioso
 tile.srparasites.parasitebush_eye.name=Tapaojos terminal
 tile.srparasites.parasitebush_tooh.name=Incisivo pequeño
 
-tile.srparasites.srpweb_one.name=Telaraña gris
-tile.srparasites.srpweb_two.name=Telaraña infectada verde
-tile.srparasites.srpweb_three.name=Telaraña infectada oscura
+tile.srparasites.infestedore_co.name=Mineral de carbon pestilente
+tile.srparasites.infestedore_dia.name=Mineral de diamante pestilente
+tile.srparasites.infestedore_eme.name=Mineral de esmeralda pestilente
+tile.srparasites.infestedore_gol.name=Mineral de oro pestilente
+tile.srparasites.infestedore_iro.name=Mineral de hierro pestilente
+tile.srparasites.infestedore_lap.name=Mineral de lapislazuli pestilente
+tile.srparasites.infestedore_red.name=Mineral de redstone pestilente
+tile.srparasites.infestedore_un.name= Mineral pestilente
+
+tile.srparasites.srpweb_one.name=§8Telaraña delgada
+tile.srparasites.srpweb_two.name=§aTelaraña intoxicante
+tile.srparasites.srpweb_three.name=§8Telaraña empañada
 tile.srparasites.tunnel.name=Tunel
-tile.srparasites.dispatchern.name=Nido de Dispatcher
+tile.srparasites.dispatchern.name=§cNido de Dispatcher
 tile.srparasites.biomeheart.name=Nucleo de colmena
 tile.srparasites.colonyheart.name=Nucleo de colonia parasitaria
-tile.srparasites.biomepurifier.name=Purificador de colmena
+tile.srparasites.colonyoutpost.name=Puesto de colonia parasitaria
+tile.srparasites.biomepurifier.name=§bPurificador de bioma
 tile.srparasites.parasitestructure.name=Estructura incompleta de colonia parasitaria
-tile.srparasites.parasitethin.name=Tronco parasitario delgado
+tile.srparasites.parasitethin.name=Tronco de monstrueto
 tile.srparasites.parasitemouth.name=Fauces
 tile.srparasites.parasitetendril.name=Zarcillo parasitario
 tile.srparasites.parasitefog.name=Niebla infestada
 
-tile.srparasites.gore_sim_small.name=Restos de asimilado
-tile.srparasites.gore_sim_big.name=Restos de asimilado
-tile.srparasites.gore_sim_flat.name=Restos de asimilado
-tile.srparasites.gore_pri_small.name=Restos de primitivo 
-tile.srparasites.gore_pri_big.name=Restos de primitivo
-tile.srparasites.gore_pri_flat.name=Restos de primitivo
-tile.srparasites.gore_ada_small.name=Restos de adaptado
-tile.srparasites.gore_ada_big.name=Restos de adaptado
-tile.srparasites.gore_ada_flat.name=Restos de adaptado
-tile.srparasites.gore_pure_small.name=Restos de puro 
-tile.srparasites.gore_pure_big.name=Restos de puro
-tile.srparasites.gore_pure_flat.name=Restos de puro
+tile.srparasites.gore_sim_small.name=Restos de asimilado (P)
+tile.srparasites.gore_sim_big.name=Restos de asimilado (G)
+tile.srparasites.gore_sim_flat.name=Restos de asimilado (M)
+tile.srparasites.gore_pri_small.name=Restos de primitivo  (P)
+tile.srparasites.gore_pri_big.name=Restos de primitivo (G)
+tile.srparasites.gore_pri_flat.name=Restos de primitivo (M)
+tile.srparasites.gore_ada_small.name=Restos de adaptado (P)
+tile.srparasites.gore_ada_big.name=Restos de adaptado (G)
+tile.srparasites.gore_ada_flat.name=Restos de adaptado (M)
+tile.srparasites.gore_pure_small.name=Restos de puro (P)
+tile.srparasites.gore_pure_big.name=Restos de puro (G)
+tile.srparasites.gore_pure_flat.name=Restos de puro (M)
 
 tile.srparasites.infestedstain.name=Tierra infestada
 tile.srparasites.infestedtrunk.name=Tronco infestado
 tile.srparasites.infestedrubble.name=Piedra infestada
 tile.srparasites.infestremain.name=Residuos infestados
 
-tile.srparasites.infestedbush_infected.name=Arbusto infestado
-tile.srparasites.infestedbush_grass1.name=Pasto infestado
-tile.srparasites.infestedbush_flower1.name=Flor infestada
-tile.srparasites.infestedbush_spine.name=Espinas infestadas
-tile.srparasites.infestedbush_vine.name=Lianas infestadas
-tile.srparasites.infestedbush_arc.name=Arco de espinas infestadas
+tile.srparasites.infestedbush_infected.name=Espinas venosas infestadas
+tile.srparasites.infestedbush_grass1.name=Ramas venosas infestadas
+tile.srparasites.infestedbush_flower1.name=Brote venoso infestado
+tile.srparasites.infestedbush_spine.name=Arbusto venoso infestado
+tile.srparasites.infestedbush_vine.name=Rollo venoso infestado
+tile.srparasites.infestedbush_arc.name=Raices venosas infestadas
 
-tile.srparasites.parasitecanister_sac.name=Ampolla 
+tile.srparasites.parasitecanister_sac.name=§aVejiga
 tile.srparasites.parasitecanister_cyst.name=Quiste vacio
 tile.srparasites.canisteractive.name=Quiste gloton
 tile.srparasites.parasitecanister_lump.name=Bulto grotesco
 tile.srparasites.parasitecanister_bag.name=Saco de carne
 
-tile.srparasites.parasitetrunk_ball.name=Tronco magullado
-tile.srparasites.parasitetrunk_tree.name=Tronco magullado
-tile.srparasites.parasitetrunk_plant.name=Tronco magullado
+tile.srparasites.parasitetrunk_ball.name=Tronco de cardenio
+tile.srparasites.parasitetrunk_tree.name=Tronco de veneto
+tile.srparasites.parasitetrunk_plant.name=Tronco de obscurio
 
 tile.srparasites.parasitestain_dirt.name=Tierra de colmena
 tile.srparasites.parasitestain_mud.name=Lodo visceral
-tile.srparasites.parasitestain_flesh.name=Pedazo de carne
+tile.srparasites.parasitestain_flesh.name=Bulto de carne
 tile.srparasites.parasitestain_fleshstairs.name=Escaleras de carne
 tile.srparasites.parasitestain_feeler.name=Arterias comprimidas
 
 tile.srparasites.parasiterubble_slabhalf.name=Losa de hueso fortificado
-tile.srparasites.parasiterubble_flesh.name=Pedazo de carne concentrada
+tile.srparasites.parasiterubble_slabdouble.name=Hueso fortificado
+tile.srparasites.parasiterubble_flesh.name=Bulto concentrado de carne
 tile.srparasites.parasiterubble_bone.name=Hueso fortificado
 tile.srparasites.parasiterubble_bonestairs.name=Escaleras de hueso fortificado
 tile.srparasites.parasiterubble_stone.name=Piedra de colmena
+tile.srparasites.parasiterubble_stonedebris.name=Escombros de piedra de colmena
+tile.srparasites.parasiterubble_wood.name=Madera consumida
+tile.srparasites.parasiterubble_bricks.name=Ladrillos de piedra de colmena
+tile.srparasites.parasiterubble_metal.name=Acero de colmena
+tile.srparasites.parasiterubble_obsidian.name=Obsidiana sangrante
+tile.srparasites.parasiterubble_fungus.name=Hongo asimilado
 
 tile.srparasites.parasiterubbledense_wall.name=Piedra de colmena comprimida
 tile.srparasites.parasiterubbledense_biome.name=Piedra de colmena reforzada
 tile.srparasites.parasiterubbledense_colony.name=Piedra de colonia parasitaria comprimida
 
-tile.srparasites.evolutionlure_one.name=Carnada (Debil)
-tile.srparasites.evolutionlure_two.name=Carnada (Tenue)
-tile.srparasites.evolutionlure_three.name=Carnada (Esbelta)
-tile.srparasites.evolutionlure_four.name=Carnada (Estable)
-tile.srparasites.evolutionlure_five.name=Carnada (Sustancial)
-tile.srparasites.evolutionlure_six.name=Carnada (Concentrada)
-tile.srparasites.evolutionlure_seven.name=Carnada (Concentrada+)
-tile.srparasites.evolutionlure_eight.name=Carnada (Concentrada++)
+tile.srparasites.evolutionlure_one.name=Señuelo (§4Debilitado§f)
+tile.srparasites.evolutionlure_two.name=Señuelo (§cAtenuado§f)
+tile.srparasites.evolutionlure_three.name=Señuelo (§6Esbelto§f)
+tile.srparasites.evolutionlure_four.name=Señuelo (§eEstable§f)
+tile.srparasites.evolutionlure_five.name=Señuelo (§2Sustancial§f)
+tile.srparasites.evolutionlure_six.name=Señuelo (§aConcentrado§f)
+tile.srparasites.evolutionlure_seven.name=Señuelo (§bConcentrado+§f)
+tile.srparasites.evolutionlure_eight.name=Señuelo (§dConcentrado++§f)
+tile.srparasites.evolutionlure_nine.name=Señuelo (§dConcentrado+++§f)
+tile.srparasites.evolutionlure_ten.name=Señuelo (§dConcentrado++++§f)
+
+tile.srparasites.bloodyice.name=Hielo sangrante
+
+# Fluids
+
+fluid.deadblood=Sangre muerta
 
 # Effects
 
-mob_effect.srparasites:coth=Colmena llama
-splash_potion.effect.srparasites:coth=Pocion arrojadiza de Llamado de la colmena
-potion.effect.srparasites:coth=Pocion de Llamado de la colmena
-lingering_potion.effect.srparasites:coth=Pocion persistente de Llamado de la colmena
-tipped_arrow.effect.srparasites:coth=Flecha de Llamado de la colmena
+mob_effect.srparasites:coth=§4Colmena llama
+splash_potion.effect.srparasites:coth=Pocion arrojadiza de §4Llamado de la colmena
+potion.effect.srparasites:coth=Pocion de §4Llamado de la colmena
+lingering_potion.effect.srparasites:coth=Pocion persistente de §4Llamado de la colmena
+tipped_arrow.effect.srparasites:coth=Flecha de §4Llamado de la colmena
 
-mob_effect.srparasites:fear=Terror
-splash_potion.effect.srparasites:fear=Pocion arrojadiza de Terror
-potion.effect.srparasites:fear=Pocion de Terror
-lingering_potion.effect.srparasites:fear=Pocion persistente de Terror
-tipped_arrow.effect.srparasites:fear=Flecha de Terror
+mob_effect.srparasites:fear=§8Terror
+splash_potion.effect.srparasites:fear=Pocion arrojadiza de §8Terror
+potion.effect.srparasites:fear=Pocion de §8Terror
+lingering_potion.effect.srparasites:fear=Pocion persistente de §8Terror
+tipped_arrow.effect.srparasites:fear=Flecha de §8Terror
 
-mob_effect.srparasites:antimall=Inmaleable
-splash_potion.effect.srparasites:antimall=Pocion arrojadiza de Inmaleabilidad
-potion.effect.srparasites:antimall=Pocion de Inmaleabilidad
-lingering_potion.effect.srparasites:antimall=Pocion persistente de Inmaleabilidad
-tipped_arrow.effect.srparasites:antimall=Flecha de Inmaleabilidad
+mob_effect.srparasites:antimall=§7Inmaleable
+splash_potion.effect.srparasites:antimall=Pocion arrojadiza de §7Inmaleabilidad
+potion.effect.srparasites:antimall=Pocion de §7Inmaleabilidad
+lingering_potion.effect.srparasites:antimall=Pocion persistente de §7Inmaleabilidad
+tipped_arrow.effect.srparasites:antimall=Flecha de §7Inmaleabilidad
 
-mob_effect.srparasites:bleed=Hemorragia
-splash_potion.effect.srparasites:bleed=Pocion arrojadiza de Hemorragia
-potion.effect.srparasites:bleed=Pocion de Hemorragia
-lingering_potion.effect.srparasites:bleed=Pocion persistente de Hemorragia
-tipped_arrow.effect.srparasites:bleed=Flecha de Hemorragia
+mob_effect.srparasites:bleed=§4Hemorragia
+splash_potion.effect.srparasites:bleed=Pocion arrojadiza de §4Hemorragia
+potion.effect.srparasites:bleed=Pocion de §4Hemorragia
+lingering_potion.effect.srparasites:bleed=Pocion persistente de §4Hemorragia
+tipped_arrow.effect.srparasites:bleed=Flecha de §4Hemorragia
 
-mob_effect.srparasites:corrosive=Corrosion
-splash_potion.effect.srparasites:corrosive=Pocion arrojadiza de Corrosion
-potion.effect.srparasites:corrosive=Pocion de Corrosion
-lingering_potion.effect.srparasites:corrosive=Pocion persistente de Corrosion
-tipped_arrow.effect.srparasites:corrosive=Flecha de Corrosion
+mob_effect.srparasites:corrosive=§6Corrosion
+splash_potion.effect.srparasites:corrosive=Pocion arrojadiza de §6Corrosion
+potion.effect.srparasites:corrosive=Pocion de §6Corrosion
+lingering_potion.effect.srparasites:corrosive=Pocion persistente de §6Corrosion
+tipped_arrow.effect.srparasites:corrosive=Flecha de §6Corrosion
 
-mob_effect.srparasites:viral=Viral
-splash_potion.effect.srparasites:viral=Pocion arrojadiza de Viral
-potion.effect.srparasites:viral=Pocion de Viral
-lingering_potion.effect.srparasites:viral=Pocion persistente de Viral
-tipped_arrow.effect.srparasites:viral=Flecha de Viral
+mob_effect.srparasites:viral=§aViral
+splash_potion.effect.srparasites:viral=Pocion arrojadiza de §aViral
+potion.effect.srparasites:viral=Pocion de §aViral
+lingering_potion.effect.srparasites:viral=Pocion persistente de §aViral
+tipped_arrow.effect.srparasites:viral=Flecha de §aViral
 
-mob_effect.srparasites:rage=Furia
-splash_potion.effect.srparasites:rage=Pocion arrojadiza de Furia
-potion.effect.srparasites:rage=Pocion de Furia
-lingering_potion.effect.srparasites:rage=Pocion persistente de Furia
-tipped_arrow.effect.srparasites:rage=Flecha de Furia
+mob_effect.srparasites:rage=§cFuria
+splash_potion.effect.srparasites:rage=Pocion arrojadiza de §cFuria
+potion.effect.srparasites:rage=Pocion de §cFuria
+lingering_potion.effect.srparasites:rage=Pocion persistente de §cFuria
+tipped_arrow.effect.srparasites:rage=Flecha de §cFuria
 
-mob_effect.srparasites:repel=Camuflaje
-splash_potion.effect.srparasites:repel=Pocion arrojadiza de Camuflaje
-potion.effect.srparasites:repel=Pocion de Camuflaje
-lingering_potion.effect.srparasites:repel=Pocion persistente de Camuflaje
-tipped_arrow.effect.srparasites:repel=Flecha de Camuflaje
+mob_effect.srparasites:repel=§2Camuflaje
+splash_potion.effect.srparasites:repel=Pocion arrojadiza de §2Camuflaje
+potion.effect.srparasites:repel=Pocion de §2Camuflaje
+lingering_potion.effect.srparasites:repel=Pocion persistente de §2Camuflaje
+tipped_arrow.effect.srparasites:repel=Flecha de §2Camuflaje
 
-mob_effect.srparasites:senses=Sentidos agudos
-splash_potion.effect.srparasites:senses=Pocion arrojadiza de Sentidos agudos
-potion.effect.srparasites:senses=Pocion de Sentidos agudos
-lingering_potion.effect.srparasites:senses=Pocion persistente de Sentidos agudos
-tipped_arrow.effect.srparasites:senses=Flecha de Sentidos agudos
+mob_effect.srparasites:senses=§3Sentidos agudos
+splash_potion.effect.srparasites:senses=Pocion arrojadiza de §3Sentidos agudos
+potion.effect.srparasites:senses=Pocion de §3Sentidos agudos
+lingering_potion.effect.srparasites:senses=Pocion persistente de §3Sentidos agudos
+tipped_arrow.effect.srparasites:senses=Flecha de §3Sentidos agudos
 
-mob_effect.srparasites:debar=Exclusion
-splash_potion.effect.srparasites:debar=Pocion arrojadiza de Exclusion
-potion.effect.srparasites:debar=Pocion de Exclusion
-lingering_potion.effect.srparasites:debar=Pocion persistente de Exclusion
-tipped_arrow.effect.srparasites:debar=Flecha de Exclusion
+mob_effect.srparasites:debar=§7Exclusion
+splash_potion.effect.srparasites:debar=Pocion arrojadiza de §7Exclusion
+potion.effect.srparasites:debar=Pocion de §7Exclusion
+lingering_potion.effect.srparasites:debar=Pocion persistente de §7Exclusion
+tipped_arrow.effect.srparasites:debar=Flecha de §7Exclusion
 
-mob_effect.srparasites:needler=Agujas
-splash_potion.effect.srparasites:needler=Pocion arrojadiza de Agujas
-potion.effect.srparasites:needler=Pocion de Agujas
-lingering_potion.effect.srparasites:needler=Pocion persistente de Agujas
-tipped_arrow.effect.srparasites:needler=Flecha de Agujas
+mob_effect.srparasites:needler=§6Agujas
+splash_potion.effect.srparasites:needler=Pocion arrojadiza de §6Agujas
+potion.effect.srparasites:needler=Pocion de §6Agujas
+lingering_potion.effect.srparasites:needler=Pocion persistente de §6Agujas
+tipped_arrow.effect.srparasites:needler=Flecha de §6Agujas
 
-mob_effect.srparasites:link=Enlace
-splash_potion.effect.srparasites:link=Pocion arrojadiza de Enlace
-potion.effect.srparasites:link=Pocion de Enlace
-lingering_potion.effect.srparasites:link=Pocion persistente de Enlace
-tipped_arrow.effect.srparasites:link=Flecha de Enlace
+mob_effect.srparasites:link=§aEnlace
+splash_potion.effect.srparasites:link=Pocion arrojadiza de §aEnlace
+potion.effect.srparasites:link=Pocion de §aEnlace
+lingering_potion.effect.srparasites:link=Pocion persistente de §aEnlace
+tipped_arrow.effect.srparasites:link=Flecha de §aEnlace
 
-mob_effect.srparasites:foster=Promocion
-splash_potion.effect.srparasites:foster=Pocion arrojadiza de Promocion
-potion.effect.srparasites:foster=Pocion de Promocion
-lingering_potion.effect.srparasites:foster=Pocion persistente de Promocion
-tipped_arrow.effect.srparasites:foster=Flecha de Promocion
+mob_effect.srparasites:foster=§ePromocion
+splash_potion.effect.srparasites:foster=Pocion arrojadiza de §ePromocion
+potion.effect.srparasites:foster=Pocion de §ePromocion
+lingering_potion.effect.srparasites:foster=Pocion persistente de §ePromocion
+tipped_arrow.effect.srparasites:foster=Flecha de §ePromocion
+
+mob_effect.srparasites:prey=§ePresa
+splash_potion.effect.srparasites:prey=Pocion arrojadiza de §ePresa
+potion.effect.srparasites:prey=Pocion de §ePresa
+lingering_potion.effect.srparasites:prey=Pocion persistente de §ePresa
+tipped_arrow.effect.srparasites:prey=Flecha de §ePresa
+
+mob_effect.srparasites:pivot=§ePivote
+splash_potion.effect.srparasites:pivot=Pocion arrojadiza de §ePivote
+potion.effect.srparasites:pivot=Pocion de §ePivote
+lingering_potion.effect.srparasites:pivot=Pocion persistente de §ePivote
+tipped_arrow.effect.srparasites:pivot=Flecha de §ePivote
 
 # Extra
 
 message.srparasites.lure=Puntos reducidos!
-message.srparasites.fearitem=El terror te inmobiliza! 
-message.srparasites.fearblock=El terror te inmobiliza! 
-message.srparasites.feargui=El terror te inmobiliza! 
+message.srparasites.lureb=Enfriamiento de puntos agregado!
+message.srparasites.lurec=Puntos reducidos!
+message.srparasites.fearitem=El terror te inmobiliza!
+message.srparasites.fearblock=El terror te inmobiliza!
+message.srparasites.feargui=El terror te inmobiliza!
 message.srparasites.evolutionsleep=No puedes dormir ahora...
 message.srparasites.armortooltips1=Adaptacion actual
 
-tootip.srparasites.lurecomp.1=Un trozo de entrañas de rupter. Componente de carnada.
-tootip.srparasites.lurecomp.2=Un corazon asquerosamente hinchado, cosechado de un cuerpo asimilado. Componente de carnada.
-tootip.srparasites.lurecomp.3=Trozo de musculo desarrollado, cosechado del cuerpo de un parasito primitivo, excreta un horrible olor. Componente de carnada.
-tootip.srparasites.lurecomp.4=Un pulmon bien desarrollado cosechado del cuerpo de un parasito adaptado. Componente de carnada.
-tootip.srparasites.lurecomp.5=Un cerebro bien desarrollado cosechado del cuerpo de un parasito puro. Componente de carnada.
-tootip.srparasites.lurecomp.6=Un objeto parecido a una columna vertebral, cosechado de los sacos colgantes en la colmena. Componente de carnada.
+tootip.srparasites.quench=§fUna sustancia tibia y maleable hecha de crema de magma. Su alta concentracion de polvo de blaze la vuelve increiblemente §atoxica§f a la materia parasitaria.
 
-tootip.srparasites.item.1=Una esfera que parece emitir energia, cosechada del cuerpo de un Summoner. Componente de armas.
-tootip.srparasites.item.2=Un hueso robusto cosechado del cuerpo de un Yelloweye. Componente de armas.
-tootip.srparasites.item.3=Un orbe que parece emitir energia, cosechado del cuerpo de un Manducater. Componente de armas.
-tootip.srparasites.item.4=Un colmillo muy afilado, arrancado de las fauces de un Reeker. Componente de armas.
-tootip.srparasites.item.5=Un ligero y resistente fragmento de la armadura de un Longarms. Componente de armas.
-tootip.srparasites.item.6=Un pedazo de carne, arrancado de una criatura asimilada. Material basico de fabricacion.
+tootip.srparasites.lurecomp.1=§fUn trozo de entrañas de §7rupter§f. Componente de §cseñuelo§f.
+tootip.srparasites.lurecomp.2=§fUn corazon asquerosamente hinchado, cosechado del cuerpo de una criatura §4asimilada§f. Componente de §cseñuelo§f.
+tootip.srparasites.lurecomp.3=§fTrozo de musculos desarrollados, cosechado del cuerpo de un parasito §cprimitivo§f, excreta un horrible olor. Componente de §cseñuelo§f.
+tootip.srparasites.lurecomp.4=§fUn pulmon bien desarrollado, cosechado del cuerpo de un parasito §6adaptado§f. Componente de §cseñuelo§f.
+tootip.srparasites.lurecomp.5=§fUn cerebro bien desarrollado, cosechado del cuerpo de un parasito §epuro§f. Componente de §cseñuelo§f.
+tootip.srparasites.lurecomp.6=§fUn objeto parecido a una columna vertebral, cosechado de los sacos colgantes en el bioma. Componente de §cseñuelo§f.
+
+tootip.srparasites.item.1=Una pequeña esfera que parece emitir energia, cosechada del cuerpo de un §6Summoner§f. Ingrediente de componentes de §6armas§f.
+tootip.srparasites.item.2=Un hueso robusto, cosechado del cuerpo de un §6Yelloweye§f. Ingrediente de componentes de §6armas§f.
+tootip.srparasites.item.3=Un pequeño orbe que parece emitir energia, cosechado del cuerpo de un §6Manducater§f. Ingrediente de componentes de §6armas§f.
+tootip.srparasites.item.4=Un colmillo terriblemente afilado, arrancado de las fauces de un §6Reeker§f. Ingrediente de componentes de §6armas§f.
+tootip.srparasites.item.5=Un ligero pero resistente fragmento de armadura de un §6Longarms§f. Ingrediente de componentes de §6armas§f.
+tootip.srparasites.item.6=Un pedazo de carne, arrancado de una criatura §4asimilada§f. Material basico de fabricacion.
 tootip.srparasites.item.7=
-tootip.srparasites.item.8=Un material elastico, hecho a partir de partes de parasitos. Componente de armas.
-tootip.srparasites.item.9=Una pieza de cuchilla, hecha con partes de parasitos. Componente de armas.
-tootip.srparasites.item.10=La llama de la aún no brilla en este objeto. El nucleo que alimenta a todas las armas y armaduras.
-tootip.srparasites.item.11=Una coraza muy resistente hecha a partir de partes de parasitos. Componente de armas y armaduras.
-tootip.srparasites.item.12=Un mango grueso compuesto por huesos, hecho a partir de partes de parasitos. Componente de armas.
-tootip.srparasites.item.13=Un hueso extraño y flexible, extraido de parasitos primitivos y adaptados. Componente de armas.
+tootip.srparasites.item.8=Un material elastico, hecho de partes de cuerpos de parasitos. Componente de §6armas§f.
+tootip.srparasites.item.9=Una pieza de cuchilla, hecha de partes de cuerpos de parasitos. Componente de §6armas§f.
+tootip.srparasites.item.10=La llama de la vida aun no brilla en este objeto. El nucleo que alimenta a todas las §6armas§f y §9armaduras§f.
+tootip.srparasites.item.11=Una coraza extremadamente resistente, hecha de partes de cuerpos de parasitos. Componente de §6armas§f y §9armaduras§f.
+tootip.srparasites.item.12=Un mango particularmente grueso, compuesto por huesos, hecho de partes de cuerpos de parasitos. Componente de §6armas§f.
+tootip.srparasites.item.13=Un hueso extraño y flexible, extraido de parasitos §cprimitivos§f y §6adaptados§f. Componente de §6armas§f.
+
+tootip.srparasites.item.20=Un pedazo de piel seca, cosechada del cadaver de un §7Bolster§f.
+tootip.srparasites.item.21=Garras terriblemente afiladas, cosechadas del cadaver de un §7Arachnida§f.
+tootip.srparasites.item.22=Un tentaculo huesudo arrancado de un §bDevourer§f.
+tootip.srparasites.item.23=Un revestimiento de §aBeckon§f, desollado de su cuerpo.
+tootip.srparasites.item.24=Un revestimiento de §cDispatcher§f, desollado de su cuerpo.
+
+tootip.srparasites.item.25=Apunta a un parasito para que §cevolucione
+tootip.srparasites.item.28=Apunta a una criatura para que se vuelva §4asimilada
+tootip.srparasites.item.26=Apunta a un parasito para que §cdesevolucione
+tootip.srparasites.item.27=Apunta a un parasito para cambiar su §3variante
+
 tootip.srparasites.item.18=Mientras gotea sangre, el reloj avanza a una horrible media noche. 
-tootip.srparasites.item.20=Un pedazo de piel seca, cosechada de un Bolster.
-tootip.srparasites.item.21=Garras terriblemente afiladas, cortadas del cuerpo de un Arachnida.
-tootip.srparasites.item.22=Un tentaculo huesudo arrancado de un Devourer.
-tootip.srparasites.item.23=Un revestimiento de Beckon, desollado de su cuerpo.
-tootip.srparasites.item.24=Un revestimiento de Dispatcher, desollado de su cuerpo.
 
-tootip.srparasites.weaponm.1=Un arma improvisada de varias partes de parasitos. La llama de la vida arde dentro de ella.
-tootip.srparasites.weaponm.2=La forma evolucionada de la Guadaña viviente. Ha desarrollado mente propia.
-tootip.srparasites.weaponm.3=Un arma improvisada de varias partes de parasitos. La llama de la vida arde dentro de ella.
-tootip.srparasites.weaponm.4=La forma evolucionada del Hacha viviente. Ha desarrollado mente propia.
-tootip.srparasites.weaponm.5=Un arma improvisada de varias partes de parasitos. La llama de la vida arde dentro de ella.
-tootip.srparasites.weaponm.6=La forma evolucionada de la Espada viviente. Ha desarrollado mente propia.
-tootip.srparasites.weaponm.7=Un arma improvisada de varias partes de parasitos. La llama de la vida arde dentro de ella.
-tootip.srparasites.weaponm.8=La forma evolucionada de la Cuchilla viviente. Ha desarrollado mente propia.
+tootip.srparasites.weaponm.1=§fUn arma improvisada de partes de varios parasitos. La llama de la vida arde dentro de ella.
+tootip.srparasites.weaponm.2=§eLa forma evolucionada de la Guadaña viviente. Ha desarrollado §bmente propia§e.
+tootip.srparasites.weaponm.3=§fUn arma improvisada de partes de varios parasitos. La llama de la vida arde dentro de ella.
+tootip.srparasites.weaponm.4=§eLa forma evolucionada del Hacha viviente. Ha desarrollado §bmente propia§e.
+tootip.srparasites.weaponm.5=§fUn arma improvisada de partes de varios parasitos. La llama de la vida arde dentro de ella.
+tootip.srparasites.weaponm.6=§eLa forma evolucionada de la Espada viviente. Ha desarrollado §bmente propia§e.
+tootip.srparasites.weaponm.7=§fUn arma improvisada de partes de varios parasitos. La llama de la vida arde dentro de ella.
+tootip.srparasites.weaponm.8=§eLa forma evolucionada de la Cuchilla viviente. Ha desarrollado §bmente propia§e.
+tootip.srparasites.weaponm.9=§fUn arma improvisada de partes de varios parasitos. La llama de la vida arde dentro de ella.
 
-tootip.srparasites.weaponm.10=Barre una gran area.
-tootip.srparasites.weaponm.20=Destruye una gran area.
-tootip.srparasites.weaponm.30=Inutiliza una armadura con el tiempo.
-tootip.srparasites.weaponm.40=Inutiliza una armadura con el tiempo.
-tootip.srparasites.weaponm.50=Inflige heridas mortales.
-tootip.srparasites.weaponm.60=Inflige heridas mortales.
-tootip.srparasites.weaponm.70=Suelta golpes virulentos.
-tootip.srparasites.weaponm.80=Suelta golpes virulentos.
+tootip.srparasites.weaponm.10=§cBarre§f un gran area.
+tootip.srparasites.weaponm.20=§cDestruye§f un gran area.
+tootip.srparasites.weaponm.30=§cInutiliza§f una armadura con el tiempo.
+tootip.srparasites.weaponm.40=§cInutiliza§f una armadura con el tiempo.
+tootip.srparasites.weaponm.50=§fInflige heridas §cmortales§f.
+tootip.srparasites.weaponm.60=§fInflige heridas §cmortales§f.
+tootip.srparasites.weaponm.70=§fSuelta golpes §avirulentos§f.
+tootip.srparasites.weaponm.80=§fSuelta golpes §avirulentos§f.
+tootip.srparasites.weaponm.90=§cMata uno§f, mata muchos.
+
+tootip.srparasites.weaponm.11=
+tootip.srparasites.weaponm.110=
+tootip.srparasites.weaponm.12=
+tootip.srparasites.weaponm.120=
 
 tootip.srparasites.weaponm.100=Ya no podras esconderte...
 tootip.srparasites.weaponm.200=Ya no podras esconderte...
+
 tootip.srparasites.weaponm.300=Ya no podras esconderte...
 tootip.srparasites.weaponm.400=Ya no podras esconderte...
 tootip.srparasites.weaponm.500=Ya no podras esconderte...
@@ -478,8 +600,8 @@ tootip.srparasites.weaponm.600=Ya no podras esconderte...
 tootip.srparasites.weaponm.700=Ya no podras esconderte...
 tootip.srparasites.weaponm.800=Ya no podras esconderte...
 
-tootip.srparasites.weaponr.1=Un arma improvisada de varias partes de parasitos. La llama de la vida arde dentro de ella.
-tootip.srparasites.weaponr.2=La forma evolucionada del Arco viviente. Ha desarrollado mente propia.
+tootip.srparasites.weaponr.1=§fUn arma improvisada de varias partes de parasitos. La llama de la vida arde dentro de ella.
+tootip.srparasites.weaponr.2=§eLa forma evolucionada del Arco viviente. Ha desarrollado §bmente propia§e.
 
 tootip.srparasites.weaponr.10=Sigue cargando ese arco
 tootip.srparasites.weaponr.20=Sigue cargando ese arco
@@ -487,8 +609,116 @@ tootip.srparasites.weaponr.20=Sigue cargando ese arco
 tootip.srparasites.weaponr.100=Ya no podras esconderte...
 tootip.srparasites.weaponr.200=Ya no podras esconderte...
 
+tooltip.tile.srparasites.evolutionlure=Pausara los puntos de evolucion por aprox. %s segundos
+
+# Subtitles
+subtitles.carrierdeath=Carrier perece
+subtitles.carrierliving=Carrier burbujea
+subtitles.carrierhurt=Carrier gruñe
+subtitles.devourerliving=Devourer primitivo ruge
+subtitles.devourerhurt=Devourer primitivo herido
+subtitles.devourerdeath=Devourer primitivo muriendo
+subtitles.adabolsterdeath=Bolster adaptado muere
+subtitles.adabolsterliving=Bolster adaptado brama
+subtitles.adabolsterhurt=Bolster adaptado gruñe
+subtitles.monarchdeath=Monarca llora
+subtitles.monarchliving=Monarca llama
+subtitles.monarchhurt=Monarca chilla
+subtitles.marauderdeath=Marauder perece
+subtitles.marauderliving=Marauder gorgotea
+subtitles.marauderhurt=Marauder gruñe
+subtitles.assimhumanliving=Humano asimilado grita
+subtitles.assimhumanhurt=Humano asimilado aulla
+subtitles.assimhumandeath=Humano asimilado muere
+subtitles.assimpigliving=Gruñidos distorsionados
+subtitles.assimpighurt=Cerdo asimilado chilla
+subtitles.assimpigdeath=Cerdo asimilado muere
+subtitles.assimhorseliving=Relinchidos distorsionados
+subtitles.assimhorsecharge=Caballo asimilado embiste
+subtitles.assimhorsehurt=Caballo asimilado grita
+subtitles.assimhorsedeath=Caballo asimilado muere
+subtitles.assimspiderliving=Siseos distorsionados
+subtitles.assimspidersteps=Pasos de insecto
+subtitles.assimspiderdeath=Araña grande muere
+subtitles.headliving=Cabeza grita
+subtitles.headhurt=Cabeza chilla
+subtitles.headdeath=Cabeza muere
+subtitles.verminliving=Vermin bucea
+subtitles.verminhurt=Vermin grita
+subtitles.vermindeath=Vermin perece
+subtitles.buglinliving=Buglin sisea
+subtitles.buglinhurt=Buglin aplastado
+subtitles.buglindeath=Buglin aplastado
+subtitles.rupterliving=Rupter chasquea
+subtitles.rupterhurt=Rupter chilla
+subtitles.rupterdies=Rupter muere
+subtitles.rupterinfects=Rupter libera Llamado de la colmena
+subtitles.wardenliving=Warden gruñe
+subtitles.wardenhurt=Warden gruñe
+subtitles.wardendeath=Warden muere
+subtitles.adaarachliving=Aracnida adaptado gruñe
+subtitles.adaarachhurt=Aracnida adaptado gruñe
+subtitles.adaarachdeath=Aracnida adaptado sisea
+subtitles.assimcowliving=Mugido distorsionado
+subtitles.assimcowhurt=Vaca asimilada gruñe
+subtitles.assimcowdeath=Vaca asimilada muere
+subtitles.assimsheepliving=Balados distorsionados
+subtitles.assimsheephurt=Oveja asimilada gime
+subtitles.assimsheepdeath=Oveja asimilada muere
+subtitles.assimwolfliving=Ladridos inusuales
+subtitles.assimwolfhurt=Ladridos distorsionados
+subtitles.assimwolfdeath=Lobo asimilado muere
+subtitles.assimbearliving=Gruñidos distorsionados
+subtitles.assimbearhurt=Rugidos distorsionados
+subtitles.assimbeardeath=Oso asimilado muere
+subtitles.simmermanliving=Vwoomps de otro mundo
+subtitles.simmermanhurt=Bwoomps distorsionados
+subtitles.simmermanteleports=Woomps corruptos
+subtitles.simmermandeath=Enderman asimilado grita
+subtitles.infectedfleshmelt=Carne chapoteanto se fusiona
+subtitles.adasummonerliving=Summoner adaptado grita
+subtitles.adasummonerhurt=Summoner adaptado chilla
+subtitles.adasummonerdeath=Summoner adaptado cries
+subtitles.adasummonersummon=Rechinidos fuertes
+subtitles.adayelloweyeliving=Yelloweye adaptado gruñe
+subtitles.adayelloweyehurt=Yelloweye adaptado ruge
+subtitles.adayelloweyedeath=Yelloweye adaptado muere
+subtitles.adayelloweyeshoot=Yelloweye adaptado escupe
+subtitles.adareekerliving=Reeker adaptado gruñe
+subtitles.adareekerhurt=Reeker adaptado ruge
+subtitles.adareekerdeath=Reeker adaptado muere
+subtitles.adamanduliving=Manducator adaptado gruñe
+subtitles.adamanduhurt=Manducator adaptado grita
+subtitles.adamandudeath=Manducator adaptado ruge
+subtitles.vigiliving=Vigilante retumba
+subtitles.vigihurt= Vigilante cruge
+subtitles.vigideath=Vigilante burbujea
+subtitles.bogleliving=Gárgaras
+subtitles.boglehurt=Gruñidos
+subtitles.bogledeath=Algo perece
+subtitles.hostliving=Host se arrastra
+subtitles.hosthurt=Host grita
+subtitles.hostdeath=Host muere
+subtitles.hostmerge=Quejidos colectivos
+subtitles.adamaducamo=Mofas fantasmales
+subtitles.adavomit=Vómitos parasitarios
+subtitles.flesh=Carne pululando
+subtitles.sentryliving=Sentry gruñe
+subtitles.sentryhurt=Sentry sisea
+subtitles.sentrydeath=Sentry muere
+subtitles.beckonliving=Beckon susurra
+subtitles.beckonhurt=Beckon sisea
+subtitles.beckondeath=Beckon llora
+subtitles.beckonbell=Campanadas
+subtitles.mobexplodes=Mob explota
+subtitles.mobswipe=Mob se desliza
+subtitles.moblands=Mob cae al suelo
+subtitles.cysteats=Objeto cruje
+subtitles.adaptationpart=Parásito se adapta
+subtitles.adaptationfull=Parásito se adaptó
+subtitles.biomeheart=§cLatidos
+
 # Added by KameiB
-fluid.deadblood=Sangre muerta
 entity.srparasites.anc_dreadnaut_ten.name=Extremidad de Antiguo Dreadnaut
 
 ## From Localizator
@@ -498,49 +728,17 @@ tooltip.srparasites.armor.reduction=§a  Reducción:
 # Biome names
 biome.srparasites:biome_parasite.name=Bioma parasitario
 
-# Command messages
-message.srparasites.phasedecreased=Fase reducida
-message.srparasites.invalidargument=Argumento inválido
-message.srparasites.conjuring=Conjurando: [%s]
-message.srparasites.entitynotfound=Entidad no encontrada
-
-message.srparasites.phasesnotactive=Las fases de evolución no están activas
-message.srparasites.toggle_evolutionloss=La pérdida de evolución (srpevolutionloss) ahora es %s
-message.srparasites.toggle_evolutiongaining=La ganancia de evolución (srpevolutiongaining) ahora es %s
-message.srparasites.getphase= ======> \n -> Fase de evolución actual: %1$s \n -> Puntos totales: %2$s \n -> Puntos necesarios para la sig. fase: %3$s \n -> Progreso: %4$s%%  \n -> Enfriamiento de fase: %5$s segundo(s) faltante(s) \n -> srpevolutiongaining: %6$s (pueden ganar puntos) \n -> srpevolutionloss: %7$s (no pueden perder puntos) \n -> Cantidad actual de parásitos: %8$s
-message.srparasites.evolutionlock_reset=La lista se ha reseteado
-message.srparasites.evolutionlock_getlist=Lista actual: %s
-message.srparasites.invalidarg=Arg inválido
-message.srparasites.addpoints_2=Fase actual -2, no se pueden agregar puntos
-message.srparasites.addpoints_cannotgain=La dimensión actual no puede ganar puntos
-message.srparasites.addpoints_cannotlose=La dimensión actual no puede perder puntos
-message.srparasites.addpoints_cooldown=La fase actual está en enfriamiento, no se pueden agregar puntos
-message.srparasites.addedpoint=Se agregó %s punto
-message.srparasites.addedpoints=Se agregaron %s puntos
-message.srparasites.setcooldown_negative=El valor de enfriamiento debe ser positivo o 0
-message.srparasites.setcooldown=El enfriamiento se asignó en %s segundo(s)
-message.srparasites.setphase_high=Argumento inválido: Fase muy alta
-message.srparasites.setphase_low=Argumento inválido: Fase muy baja
-message.srparasites.setphase_success=Se cambió la fase de evolución para los parásitos a %s
-message.srparasites.invalidcommand=Comando inválido
-
-message.srparasites.readconfigurationfile_success=Los archivos de configuración fueron leídos satisfactoriamente \n NOTA: No aplica para todas las opciones, como opciones de registro o de lado cliente
-message.srparasites.readconfigurationfile_error=Hubo un problema al leer el archivo de configuración, revisa las entradas \n NOTA: No aplica para todas las opciones, como opciones de registro o de lado cliente
-message.srparasites.toggle_dotiledrops=El valor actual de doTileDrop es %s
-message.srparasites.toggle_domobevolution=El valor actual de doMobEvolution es %s
-message.srparasites.getbeckonlimit=Cantidad actual de Beckons generados por RS en esta dimensión: %s
-message.srparasites.resetdatafile=El archivo de datos de esta dimensión ha sido reseteado
-message.srparasites.setbeckonlimit=La cantidad actual de Beckons generados por RS en esta dimensión ha sido asignado a %s
-
 # From CFG files
-message.srparasites.phase_0_warning=CERO
-message.srparasites.phase_1_warning=Uno
-message.srparasites.phase_2_warning=Dos
-message.srparasites.phase_3_warning=Tres
-message.srparasites.phase_4_warning=Cuatro
-message.srparasites.phase_5_warning=Cinco
-message.srparasites.phase_6_warning=Seis
-message.srparasites.phase_7_warning=Siete
-message.srparasites.phase_8_warning=Ocho
-message.srparasites.node_warning=La infección se esparce...
+message.srparasites.phase_0_warning=§fCERO
+message.srparasites.phase_1_warning=§fUno
+message.srparasites.phase_2_warning=§eDos
+message.srparasites.phase_3_warning=§eTres
+message.srparasites.phase_4_warning=§6Cuatro
+message.srparasites.phase_5_warning=§6Cinco
+message.srparasites.phase_6_warning=§cSeis
+message.srparasites.phase_7_warning=§cSiete
+message.srparasites.phase_8_warning=§4Ocho
+message.srparasites.phase_9_warning=§4Nueve
+message.srparasites.phase_10_warning=§0Diez
+message.srparasites.node_warning=§4La infección se esparce...
 message.srparasites.colony_warning=Colonia
