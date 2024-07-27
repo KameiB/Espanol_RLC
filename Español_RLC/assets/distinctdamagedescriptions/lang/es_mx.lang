@@ -1,0 +1,131 @@
+# Translated by KameiB for RLCraft 2.10.  Jul/2024
+item.distinctdamagedescriptions.recorddistinction.name=Disco Distinción
+
+damagetypes.distinctdamagedescriptions.slashing=Cortante
+damagetypes.distinctdamagedescriptions.piercing=Perforador
+damagetypes.distinctdamagedescriptions.bludgeoning=Contundente
+damagetypes.distinctdamagedescriptions.acid=Acido
+damagetypes.distinctdamagedescriptions.cold=Frio
+damagetypes.distinctdamagedescriptions.fire=Fuego
+damagetypes.distinctdamagedescriptions.force=Fuerza
+damagetypes.distinctdamagedescriptions.lightning=Electricidad
+damagetypes.distinctdamagedescriptions.necrotic=Necrotico
+damagetypes.distinctdamagedescriptions.poison=Veneno
+damagetypes.distinctdamagedescriptions.psychic=Psiquico
+damagetypes.distinctdamagedescriptions.radiant=Radiante
+damagetypes.distinctdamagedescriptions.thunder=Rayo
+
+keys.distinctdamagedescriptions.shift=<Shift>
+keys.distinctdamagedescriptions.ctrl=<Ctrl>
+
+commands.distinctdamagedescriptions.notargets=%s no encontró nada...
+commands.distinctdamagedescriptions.invalidtype=%s no es un tipo registrado en DDD!
+commands.distinctdamagedescriptions.numerr=No se pudo analizar el argumento numérico: %s
+commands.distinctdamagedescriptions.stat.usage=/ddd <resistance|immunity> ...
+commands.distinctdamagedescriptions.resistance.usage=/ddd resistance <set|add> <target> <dddtype> <amount>
+commands.distinctdamagedescriptions.resistance.set.usage=/ddd resistance set <target> <dddtype> <amount>
+commands.distinctdamagedescriptions.resistance.add.usage=/ddd resistance add <target> <dddtype> <amount>
+commands.distinctdamagedescriptions.immunity.usage=/ddd immunity <give|take|toggle> <target> <dddtype>
+commands.distinctdamagedescriptions.immunity.give.usage=/ddd immunity give <target> <dddtype>
+commands.distinctdamagedescriptions.immunity.take.usage=/ddd immunity take <target> <dddtype>
+commands.distinctdamagedescriptions.immunity.toggle.usage=/ddd immunity toggle <target> <dddtype>
+
+tooltips.distinctdamagedescriptions.damage=
+tooltips.distinctdamagedescriptions.resistance=
+tooltips.distinctdamagedescriptions.immunities=Inmunidades iniciales:
+tooltips.distinctdamagedescriptions.adaptivechance=Prob. adaptación:
+tooltips.distinctdamagedescriptions.adaptiveamount=Cant. adaptación:
+tooltips.distinctdamagedescriptions.effectiveness=
+tooltips.distinctdamagedescriptions.weakness=(Debilidad)
+tooltips.distinctdamagedescriptions.noresists=Ninguna
+tooltips.distinctdamagedescriptions.damagedistribution=Distribución de daño:
+tooltips.distinctdamagedescriptions.projectiledistribution=Distribución de proyectil:
+tooltips.distinctdamagedescriptions.armorresistances=Efectividad de armadura:
+tooltips.distinctdamagedescriptions.shielddist=Efectividad de escudo:
+tooltips.distinctdamagedescriptions.mobresistances=Resistencias del mob:
+tooltips.distinctdamagedescriptions.mobdistribution=Daño del mob:
+tooltips.distinctdamagedescriptions.notgenerated=¡Auto generar capacidades está encendido y Capacidades de Mob no se ha generado aún! Genera este mob para generar sus capacidades (podría requerir reinicio)
+tooltips.distinctdamagedescriptions.effectiveArmor=Armadura efectiva
+tooltips.distinctdamagedescriptions.effectiveToughness=Dureza efectiva de armadura
+tooltips.distinctdamagedescriptions.hwyla.mobresistances=Resistencia máxima:
+tooltips.distinctdamagedescriptions.hwyla.witharmor=Máx: %s con armadura
+tooltips.distinctdamagedescriptions.tic.distributionbias=Tendencia de distribución:
+tooltips.distinctdamagedescriptions.tic.influence=Influencia:
+
+enchantment.distinctdamagedescriptions.slystrike=Golpe astuto
+enchantment.distinctdamagedescriptions.bruteforce=Fuerza bruta
+
+enchantment.distinctdamagedescriptions.slystrike.desc=¡La herramienta o arma con este encantamiento ignora inmunidades!
+enchantment.distinctdamagedescriptions.bruteforce.desc=¡La herramienta o arma con este encantamiento ignora hasta el (10%% * Nivel) de las resistencias de los mobs!
+
+distinctdamagedescriptions.subtitle.resist_ding=Ataque reducido por resistencia
+distinctdamagedescriptions.subtitle.weakness_hit=Ataque aumentado por debilidad
+distinctdamagedescriptions.subtitle.immunity_hit=Ataque bloqueado por inmunidad
+distinctdamagedescriptions.subtitle.adaptability_change=Adaptación cambió
+distinctdamagedescriptions.subtitle.high_resist_hit=Ataque nulificado por resistencias
+
+distinctdamagedescriptions.general.damage.mobbasedmg=Daño base del mob
+distinctdamagedescriptions.general.damage.projectiledamagetypes=Tipos de daño de proyectil
+distinctdamagedescriptions.general.damage.itembasedamage=Daño base del item
+distinctdamagedescriptions.general.resistance.armorresist=Resistencias de armadura
+distinctdamagedescriptions.general.resistance.mobbaseresist=Resistencias base del mob
+distinctdamagedescriptions.general.resistance.shieldresist=Resistencias de escudo
+
+### TINKERS ###
+distinctdamagedescriptions.tinkers.book.flexibility.flexible=El daño de esta herramienta es fácilmente influenciado por los materiales de su cabeza, haciendo su daño muy personalizable.
+distinctdamagedescriptions.tinkers.book.flexibility.moderate=El daño de esta herramienta está moderadamente influenciado por los materiales de su cabeza. Su daño no se desviará mucho de su distribución base.
+distinctdamagedescriptions.tinkers.book.flexibility.inflexible=El daño de esta herramienta se adhiere estrictamente a su distribución base. Necesitarás materiales de cabeza extremadamente influyentes para cambiarlo.
+distinctdamagedescriptions.tinkers.book.flexibility.measure=Tendencia de herramienta: %s
+distinctdamagedescriptions.tinkers.book.distributions.favoured.only=El %s sólo hace %d de daño.
+distinctdamagedescriptions.tinkers.book.distributions.favoured.strongly=El %1$s favorece fuertemente al daño %2$s.
+distinctdamagedescriptions.tinkers.book.distributions.favoured.moderately=El %1$s gravita moderadamente hacia el daño %2$s.
+distinctdamagedescriptions.tinkers.book.distributions.favoured.barely=Esta herramienta también salpica daño %s.
+distinctdamagedescriptions.tinkers.book.distributions.favoured.barely_two=Esta herramienta también salpica daños tipo %1$s y %2$s.
+distinctdamagedescriptions.tinkers.book.distributions.favoured.balanced=El %1$s golpea con un buen balance entre daños tipo %2$s y %3$s.
+distinctdamagedescriptions.tinkers.book.distributions.shield=¡Esta herramienta también funciona como un escudo!
+distinctdamagedescriptions.tinkers.book.distributions.launcher=Esta herramienta lanza proyectiles. La distribución de %s sólo es usada al atacar cuerpo a cuerpo.
+distinctdamagedescriptions.tinkers.book.distributions.projectile=El %s es un proyectil. Su distribución es usada tanto al atacar cuerpo a cuerpo, como al ser lanzado como proyectil.
+distinctdamagedescriptions.tinkers.book.distributions.start=Distribución base:
+distinctdamagedescriptions.tinkers.book.distributions.entry=%1$s%% %2$s
+distinctdamagedescriptions.tinkers.book.materialListingTitle=Tendencia de distribución del material
+distinctdamagedescriptions.tinkers.book.materialInfluenceStart=Tendencia del material:
+distinctdamagedescriptions.tinkers.book.materialInfluenceEntry=%1$s: %2$s
+distinctdamagedescriptions.tinkers.book.materialInfluenceBias=Calif. influencia: %s
+
+modifier.slystrike.name=Golpe astuto
+modifier.slystrike.desc=§o¡Sigiloso!§r\n¡Tus ataques ignoran inmunidades!
+modifier.bruteforce.name=Fuerza bruta
+modifier.bruteforce.desc=§o¡Rápido y furioso!§r\n¡Tus ataques son tan poderosos que los mobs insignificantes no pueden resistirlos del todo!
+modifier.bruteforce.extra=%s%% de resistencias ignoradas.
+
+### CONARM ###
+distinctdamagedescriptions.conarm.book.materialListingTitle=Distribuciones de armadura por material
+distinctdamagedescriptions.conarm.book.materialInfluenceStart=Distribución de armadura:
+distinctdamagedescriptions.conarm.book.materialInfluenceEntry=%1$s: %2$s
+
+modifier.ddd_slashing_immunity_armor.name=Impunidad a Cortante
+modifier.ddd_slashing_immunity_armor.desc=§oSlash n' Solo!§r\nYour armor makes you immune to Slashing damage!
+modifier.ddd_piercing_immunity_armor.name=Impunidad a Perforante
+modifier.ddd_piercing_immunity_armor.desc=§oYoink!§r\nYour armor makes you immune to Piercing damage!
+modifier.ddd_bludgeoning_immunity_armor.name=Impunidad a Contundente
+modifier.ddd_bludgeoning_immunity_armor.desc=§oIron Skin!§r\nYour armor makes you immune to Bludgeoning damage!
+modifier.ddd_acid_immunity_armor.name=Impunidad a Acido
+modifier.ddd_acid_immunity_armor.desc=§oIt washes right off!§r\nYour armor makes you immune to Acid damage!
+modifier.ddd_cold_immunity_armor.name=Impunidad a Frio
+modifier.ddd_cold_immunity_armor.desc=§oLike wool armor!§r\nYour armor makes you immune to Cold damage!
+modifier.ddd_fire_immunity_armor.name=Impunidad a Fuego
+modifier.ddd_fire_immunity_armor.desc=§oLight the house on fire!§r\nYour armor makes you immune to Fire damage!
+modifier.ddd_force_immunity_armor.name=Impunidad a Fuerza
+modifier.ddd_force_immunity_armor.desc=§oThe force isn't with them.§r\nYour armor makes you immune to Force damage!
+modifier.ddd_lightning_immunity_armor.name=Impunidad a Electricidad
+modifier.ddd_lightning_immunity_armor.desc=§oVolt Absorb!§r\nYour armor makes your immune to Lightning damage!
+modifier.ddd_necrotic_immunity_armor.name=Impunidad a Nectrotico
+modifier.ddd_necrotic_immunity_armor.desc=§oBring out your undead!§r\nYour armor makes you immune to Necrotic damage!
+modifier.ddd_poison_immunity_armor.name=Impunidad a Veneno
+modifier.ddd_poison_immunity_armor.desc=§oAntitoxin not required.§r\nYour armor makes you immune to Poison damage!
+modifier.ddd_psychic_immunity_armor.name=Impunidad a Psiquico
+modifier.ddd_psychic_immunity_armor.desc=§oDedekind-complete!§r\nYour armor makes you immune to Psychic damage!
+modifier.ddd_radiant_immunity_armor.name=Impunidad a Radiante
+modifier.ddd_radiant_immunity_armor.desc=§oThe Savior is here!§r\nYour armor makes you immune to Radiant damage!
+modifier.ddd_thunder_immunity_armor.name=Impunidad a Rayo
+modifier.ddd_thunder_immunity_armor.desc=§oThunderstruck!§r\nYour armor makes you immune to Thunder damage!

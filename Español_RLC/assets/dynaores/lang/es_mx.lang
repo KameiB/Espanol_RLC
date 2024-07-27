@@ -18,9 +18,3 @@ tile.dynaores.RawUmbriumBlock.name=Bloque de umbranio crudo
 # Silver
 item.dynaores.RawSilver.name=Plata cruda
 tile.dynaores.RawSilverBlock.name=Bloque de plata cruda
-
-# New version?
-material.dynaores.rawiron.name=Hierro crudo (new)
-material.dynaores.rawgold.name=Oro crudo (new)
-material.dynaores.rawumbrium.name=Umbranio crudo (new)
-material.dynaores.rawsilver.name=Plata cruda (new)
