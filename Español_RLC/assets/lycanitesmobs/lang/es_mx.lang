@@ -1233,7 +1233,7 @@ entity.lobber.habitat=Se encuentran en lagos de lava.
 entity.lobber.combat=Escupen grandes bolas de magma a sus victimas, las cuales inundan el area con lava temporal.
 # ========================================================================
 entity.lurker.name=Lurker (Ostimien)
-entity.lurker.description=Son capaces de mexclarse completamente con su entorno. Muerden con veneno caotico y una vez que sus victimas fueron envenenadas, se ocultaran, dejando que el veneno hagan su trabajo. Pueden domesticarse como excelentes mascotas, tambien son geniales contra Creepers!
+entity.lurker.description=Son capaces de mezclarse completamente con su entorno. Muerden con veneno caotico y una vez que sus victimas fueron envenenadas, se ocultaran, dejando que el veneno hagan su trabajo. Pueden domesticarse como excelentes mascotas, tambien son geniales contra Creepers!
 entity.lurker.habitat=Se encuentran en bosques y pantanos, pero evitan areas frias.
 entity.lurker.combat=Sus mordeduras causan Veneno y Ceguera. Despues de morder, huira e intentara esconderse para que el veneno haga su trabajo. Volveran a atacar si el veneno se termina.
 # ========================================================================
