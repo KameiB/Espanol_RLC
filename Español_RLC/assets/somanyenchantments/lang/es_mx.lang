@@ -76,7 +76,7 @@ enchantment.CursedEdge=§cHoja maldita
 enchantment.somanyenchantments.cursededge.desc=Mientras infliges daño adicional (20 * Nivel)%%, tambien recibiras daño en funcion de tu daño de ataque (25%%).
 
 enchantment.Unpredictable=§cImpredecible
-enchantment.somanyenchantments.unpredictable.desc=Literalmente hace que tu daño sea impredecible de negativo a positivo (el negativo cura la vida del enemigo). El ataque que se aleatoriza se basa en tu daño recibido.
+enchantment.somanyenchantments.unpredictable.desc=Literalmente hace que tu daño sea impredecible de negativo a positivo (el negativo cura la vida del enemigo). El ataque que se aleatoriza se basa en tu daño por golpe.
 
 enchantment.Purification=Purificacion
 enchantment.somanyenchantments.purification.desc=El hacha purifica ciertas entidades si son purificables (Aldeano zombi, Hombrecerdo zombi, Cubo de magma).
