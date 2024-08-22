@@ -14,6 +14,7 @@ tile.iceandfire.fire_lily.name=Lirio de fuego
 tile.iceandfire.frost_lily.name=Lirio de hielo
 tile.iceandfire.goldpile.name=Pila de oro
 tile.iceandfire.silverpile.name=Pila de plata
+tile.iceandfire.diamondpile.name=Pila de diamantes
 tile.iceandfire.silverOre.name=Mineral de plata
 tile.iceandfire.sapphireOre.name=Mineral de zafiro
 tile.iceandfire.silverBlock.name=Bloque de plata
@@ -77,6 +78,8 @@ tile.iceandfire.crackledGrassPath.name=Sendero de pasto agrietado
 tile.iceandfire.lightning_stone.name=Piedra rayo
 
 tile.iceandfire.dragonscale_block.name=Bloque de escamas de dragon
+tile.iceandfire.ancient_dragon_bone_block.name=Bloque de huesos de dragon ancestrales
+tile.iceandfire.ancient_dragon_bone_wall.name=Pared de huesos de dragon ancestrales
 tile.iceandfire.dragon_bone_block.name=Bloque de huesos de dragon
 tile.iceandfire.dragon_bone_wall.name=Pared de hueso de dragon
 tile.iceandfire.sea_serpent_scale_block.name=Bloque de escamas de serpiente marina
@@ -94,6 +97,7 @@ tile.iceandfire.burnt_torch.name=Antorcha quemada
 tile.iceandfire.dread_stone_slab.name=Losa de ladrillos de piedra del horror
 tile.iceandfire.dread_stone_stairs.name=Escaleras de ladrillos de piedra del horror
 tile.iceandfire.dread_spawner.name=Generador de criaturas de piedra del horror
+tile.iceandfire.monster_spawner.name=Generador de criaturas
 
 item.iceandfire.bestiary.name=Bestiario
 item.iceandfire.manuscript.name=Manuscrito
@@ -478,7 +482,7 @@ dragon.blue=Azul §bHielo
 dragon.sapphire=Zafiro §bHielo§9
 dragon.silver=§7Plata §bHielo§7
 dragon.white=Blanco §bHielo§f
-dragon.stage=Etapa 
+#dragon.stage=Etapa 
 dragon.fire=§4Fuego§r
 dragon.ice=§bHielo§r
 dragon.name=Nombre: 
@@ -486,6 +490,7 @@ dragon.unnamed=Sin nombre
 dragon.health=Salud: 
 
 dragon.gender=Genero: 
+dragon.stage=Etapa 
 dragon.gender.male=Masculino
 dragon.gender.female=Femenino
 dragon.hunger=Hambre: 
@@ -616,32 +621,32 @@ message.iceandfire.dragonGrown=Este Dragon ha crecido una Etapa
 message.iceandfire.dragonGrownEnd=!
 message.iceandfire.dragonGrownName=, ha crecido a la Etapa 
 
-death.attack.dragon.player_0=fue partido en dos por un Dragon
-death.attack.dragon.player_1=fue desgarrado por un Dragon
-death.attack.dragon.player_2=fue devorado por un Dragon
-death.attack.dragon_fire.player_0=fue convertido en pollo frito por un Dragon
-death.attack.dragon_fire.player_1=fue incinerado por un Dragon
-death.attack.dragon_fire.player_2=fue reducido a cenizas por un Dragon
-death.attack.dragon_ice.player_0=fue congelado por un Dragon
-death.attack.dragon_ice.player_1=fue convertido en hielo por un Dragon
-death.attack.dragon_ice.player_2=fue puesto en animacion suspendida por un Dragon
-death.attack.dragon_lightning.player_0=fue azotado con un rayo por un dragon
-death.attack.dragon_lightning.player_1=fue energizado por un dragon
-death.attack.dragon_lightning.player_2=fue electrocutado por un dragon
+death.attack.dragon.player_0=fue partido en dos por un Dragón
+death.attack.dragon.player_1=fue desgarrado por un Dragón
+death.attack.dragon.player_2=fue devorado por un Dragón
+death.attack.dragon_fire.player_0=fue convertido en pollo frito por un Dragón
+death.attack.dragon_fire.player_1=fue incinerado por un Dragón
+death.attack.dragon_fire.player_2=fue reducido a cenizas por un Dragón
+death.attack.dragon_ice.player_0=fue congelado por un Dragón
+death.attack.dragon_ice.player_1=fue convertido en hielo por un Dragón
+death.attack.dragon_ice.player_2=fue puesto en animación suspendida por un Dragón
+death.attack.dragon_lightning.player_0=fue azotado con un rayo por un Dragón
+death.attack.dragon_lightning.player_1=fue energizado por un Dragón
+death.attack.dragon_lightning.player_2=fue electrocutado por un Dragón
 death.attack.acid.player_0=fue disuelto por un ácido
 death.attack.acid.player_1=fue derretido por un ácido
 death.attack.acid.player_2=fue convertido en sopa por un ácido
 death.attack.gorgon.player_0=fue petrificado por una Gorgona
 death.attack.gorgon.player_1=fue convertido en Gorgonzola por una Gorgona
 death.attack.gorgon.player_2=fue solidificado por una Gorgona
-key.dragon_strike=Golpe de Dragon
-key.dragon_fireAttack=Aliento de Dragon
-key.dragon_down=Baja/Sube al Dragon bebe de tu hombro
+key.dragon_strike=Golpe de Dragón
+key.dragon_fireAttack=Aliento de Dragón
+key.dragon_down=Baja/Sube al Dragón bebe de tu hombro
 key.dragon_change_view=Cambiar a 3era persona cuando montas
 
 achievement.manuscript=¡Por los suelos!
 achievement.manuscript.desc=Adquiere un Manuscrito
-achievement.bestiary=¡Bestias fantasticas!
+achievement.bestiary=¡Bestias fantásticas!
 achievement.bestiary.desc=Craftea un Bestiario.
 achievement.silver=¡Brillante!
 achievement.silver.desc=Mina Mineral de plata.
@@ -671,27 +676,28 @@ achievement.fireSword=¡Combatir el fuego con fuego!
 achievement.fireSword.desc=Crea una Espada infundida con fuego.
 achievement.iceSword=¡Sorpresa helada!
 achievement.iceSword.desc=Crea una Espada infundida con hielo.
-achievement.tameHippogryph=Mitad pajaro, mitad caballo. Todo genial.
+achievement.tameHippogryph=Mitad pájaro, mitad caballo. Todo genial.
 achievement.tameHippogryph.desc=Domestica un Hipogrifo.
-achievement.findGorgon=Mirame a los ojos...
+achievement.findGorgon=Mírame a los ojos...
 achievement.findGorgon.desc=Encuentra una Gorgona.
 achievement.killGorgon=Ahora encuentra un Kraken...
 achievement.killGorgon.desc=Mata a una Gorgona.
-achievement.findPixie=¡Que pintoresco!
+achievement.findPixie=¡Qué pintoresco!
 achievement.findPixie.desc=Encuentra un Hada.
 achievement.killPixie=¡No creo en la magia!
 achievement.killPixie.desc=Mata a un Hada.
-achievement.tamePixie=¡Amigos del Bosque Magico!
+achievement.tamePixie=¡Amigos del Bosque Mágico!
 achievement.tamePixie.desc=Hazte amigo de un Hada.
-achievement.jarPixie=¡Eso es poco etico!
+achievement.jarPixie=¡Eso es poco ético!
 achievement.jarPixie.desc=Mete un Hada en un Frasco.
 
 tc.aspect.mythus=Criatura mitologica, ser legendario, criptico, bicho temible
 tc.aspect.draco=Dragon
 
 ## From Localizator
-# Biome name
+# Biome names
 biome.iceandfire:glacier.name=Glaciar
+
 # Damage sources
 dragon_fire=Fuego de dragón
 dragon_ice=Hielo de dragón
