@@ -251,6 +251,30 @@ death.attack.drown=%1$s descanse en pez.
 
 commands.give.success=%3$s recibió %2$s de %1$s
 
+# Shield Banner patterns
+item.banner.base.white=Base blanca
+item.banner.base.orange=Base naranja
+item.banner.base.magenta=Base magenta
+item.banner.base.light_blue=Base azul claro
+item.banner.base.yellow=Base amarilla
+item.banner.base.lime=Base verde lima
+item.banner.base.pink=Base rosa
+item.banner.base.gray=Base gris
+item.banner.base.silver=Base gris claro
+item.banner.base.cyan=Base cian
+item.banner.base.purple=Base morada
+item.banner.base.blue=Base azul
+item.banner.base.brown=Base cafe
+item.banner.base.green=Base verde
+item.banner.base.red=Base roja
+item.banner.base.black=Base negra
+entity.monsterPlacer.name=Huevo de generacion
+
+# Entities
+entity.SpectralArrow.name=Flecha espectral
+entity.TippedArrow.name=Flecha con efecto
+entity.ItemFrame.name=Marco
+
 ## From Localizator
 # Biome names
 biome.minecraft:ocean.name=Océano
@@ -346,6 +370,40 @@ mob=Mob
 
 Ender Dragon=Dragona de Ender
 
+# BiomeTypes
+biometype.HOT=CALIENTE
+biometype.COLD=FRÍO
+biometype.SPARSE=ESCASO
+biometype.DENSE=DENSO
+biometype.WET=HÚMEDO
+biometype.DRY=SECO
+biometype.SAVANNA=SAVANA
+biometype.CONIFEROUS=CONÍFERO
+biometype.JUNGLE=JUNGLA
+biometype.SPOOKY=ESCALOFRIANTE
+biometype.DEAD=MUERTO
+biometype.LUSH=FRONDOSO
+biometype.NETHER=NETHER
+biometype.END=EL END
+biometype.MUSHROOM=HONGO
+biometype.MAGICAL=MAGICO
+biometype.RARE=RARO
+biometype.OCEAN=OCÉANO
+biometype.RIVER=RÍO
+biometype.WATER=AGUA
+biometype.MESA=MESETA
+biometype.FOREST=BOSQUE
+biometype.PLAINS=LLANURA
+biometype.MOUNTAIN=MONTAÑA
+biometype.HILLS=COLINAS
+biometype.SWAMP=PANTANO
+biometype.SANDY=ARENOSO
+biometype.SNOWY=NEVADO
+biometype.WASTELAND=BALDÍO
+biometype.BEACH=PLAYA
+biometype.VOID=VACÍO
+biometype.UNKNOWN=DESCONOCIDO
+
 ## From Shivaxi's scripts
 item.fishingRod.name=Caña de pescar ancestral
 item.fishingRod.addedtooltip.1=Solo es un componente de crafteo!
@@ -370,23 +428,3 @@ effect.fireResistance.detail.1=Inmunidad a fuego y lava
 effect.waterBreathing.detail.1=Oxigeno bajo el agua
 effect.invisibility.detail.1=Deteccion de enemigos reducida
 effect.nightVision.detail.1=Vision mejorada en la oscuridad
-
-item.banner.base.white=Base blanca
-item.banner.base.orange=Base naranja
-item.banner.base.magenta=Base magenta
-item.banner.base.light_blue=Base azul claro
-item.banner.base.yellow=Base amarilla
-item.banner.base.lime=Base verde lima
-item.banner.base.pink=Base rosa
-item.banner.base.gray=Base gris
-item.banner.base.silver=Base gris claro
-item.banner.base.cyan=Base cian
-item.banner.base.purple=Base morada
-item.banner.base.blue=Base azul
-item.banner.base.brown=Base cafe
-item.banner.base.green=Base verde
-item.banner.base.red=Base roja
-item.banner.base.black=Base negra
-
-entity.SpectralArrow.name=Flecha espectral
-entity.TippedArrow.name=Flecha con efecto
