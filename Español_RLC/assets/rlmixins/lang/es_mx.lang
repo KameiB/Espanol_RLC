@@ -23,6 +23,8 @@ item.cleansing_talisman.name=Talisman de limpieza
 selectWorld.dregoraCreate=Crear mundo Dregora
 selectWorld.vanillaCreate=Crear mundo Vanilla
 
+advancementTab.questMenu=Misiones
+
 # From scripts
 item.cleansing_talisman.addedtooltip.1=Craftealo con cualquier libro encantado para convertirlo en Rompe maldiciones
 
