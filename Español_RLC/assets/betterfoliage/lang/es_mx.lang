@@ -86,29 +86,36 @@ betterfoliage.blocks.lilypadWhitelist=Lista blanca de Nenufar
 betterfoliage.blocks.lilypadBlacklist=Lista negra de Nenufar
 betterfoliage.blocks.lilypadWhitelist.arrayEntry=%d Entradas
 betterfoliage.blocks.lilypadBlacklist.arrayEntry=%d Entradas
-betterfoliage.blocks.lilypadWhitelist.tooltip=Bloques reconocidos como Nenufar. Afecta a Better Lilypad
-betterfoliage.blocks.lilypadBlacklist.tooltip=Bloques que no se aceptaran como Nenufar. Afecta a Better Lilypad
+betterfoliage.blocks.lilypadWhitelist.tooltip=Bloques reconocidos como Nenufar. Afecta a Nenufar mejorado
+betterfoliage.blocks.lilypadBlacklist.tooltip=Bloques que no se aceptaran como Nenufar. Afecta a Nenufar mejorado
 
 betterfoliage.blocks.cactusWhitelist=Lista blanca de Cactus 
 betterfoliage.blocks.cactusBlacklist=Lista negra de Cactus 
 betterfoliage.blocks.cactusWhitelist.arrayEntry=%d Entradas 
 betterfoliage.blocks.cactusBlacklist.arrayEntry=%d Entradas 
-betterfoliage.blocks.cactusWhitelist.tooltip=Bloques reconocidos como Cactus. Afecta a Better Cactus
-betterfoliage.blocks.cactusBlacklist.tooltip=Bloques que no se aceptaran como Cactus. Afecta a Better Cactus
+betterfoliage.blocks.cactusWhitelist.tooltip=Bloques reconocidos como Cactus. Afecta a Cactus mejorado
+betterfoliage.blocks.cactusBlacklist.tooltip=Bloques que no se aceptaran como Cactus. Afecta a Cactus mejorado
 
-betterfoliage.blocks.myceliumWhitelist=Lista blanca de Mycelium
-betterfoliage.blocks.myceliumBlacklist=Lista negra de Mycelium
+betterfoliage.blocks.myceliumWhitelist=Lista blanca de Micelio
+betterfoliage.blocks.myceliumBlacklist=Lista negra de Micelio
 betterfoliage.blocks.myceliumWhitelist.arrayEntry=%d Entradas
 betterfoliage.blocks.myceliumBlacklist.arrayEntry=%d Entradas
-betterfoliage.blocks.myceliumWhitelist.tooltip=Bloques reconocidos como Mycelium. Afecta a Better Grass
-betterfoliage.blocks.myceliumBlacklist.tooltip=Bloques que no se aceptaran como Mycelium. Afecta a Better Grass
+betterfoliage.blocks.myceliumWhitelist.tooltip=Bloques reconocidos como Micelio. Afecta a Pasto corto
+betterfoliage.blocks.myceliumBlacklist.tooltip=Bloques que no se aceptaran como Micelio. Afecta a Pasto corto
 
 betterfoliage.blocks.netherrackWhitelist=Lista blanca de Netherrack
 betterfoliage.blocks.netherrackBlacklist=Lista negra de Netherrack
 betterfoliage.blocks.netherrackWhitelist.arrayEntry=%d Entradas
 betterfoliage.blocks.netherrackBlacklist.arrayEntry=%d Entradas
-betterfoliage.blocks.netherrackWhitelist.tooltip=Bloques reconocidos como Netherrack. Afecta a las Netherrack Vines
-betterfoliage.blocks.netherrackBlacklist.tooltip=Bloques que no se aceptaran como Netherrack. Afecta a Netherrack Vines
+betterfoliage.blocks.netherrackWhitelist.tooltip=Bloques reconocidos como Netherrack. Afecta a las Lianas de Netherrack
+betterfoliage.blocks.netherrackBlacklist.tooltip=Bloques que no se aceptaran como Netherrack. Afecta a las Lianas de Netherrack
+
+betterfoliage.blocks.packedIceWhitelist=Lista blanca de Hielo comprimido
+betterfoliage.blocks.packedIceBlacklist=Lista negra de Hielo comprimido
+betterfoliage.blocks.packedIceWhitelist.arrayEntry=%d Entradas
+betterfoliage.blocks.packedIceBlacklist.arrayEntry=%d Entradas
+betterfoliage.blocks.packedIceWhitelist.tooltip=Bloques reconocidos como Hielo comprimido. Afecta a los Picos de hielo comprimido
+betterfoliage.blocks.packedIceBlacklist.tooltip=Bloques que no se aceptaran como Hielo comprimido. Afecta a los Picos de hielo comprimido
 
 betterfoliage.shaders=Configuracion de Shader
 betterfoliage.shaders.tooltip=Configura la integracion con shaders
@@ -126,12 +133,12 @@ betterfoliage.leaves.snowEnabled.tooltip=Habilitar nieve sobre las hojas extra?
 betterfoliage.leaves.hideInternal=Oculta las hojas internas
 betterfoliage.leaves.hideInternal.tooltip=Omite el renderizado de las hojas extra si el bloque de hoja esta rodeado por completo por otras hojas o bloques solidos
 
-betterfoliage.shortGrass=Pasto corto y Mycelium
-betterfoliage.shortGrass.tooltip=Mechones de pasto/mycelium sobre los bloques apropiados
+betterfoliage.shortGrass=Pasto corto y Micelio
+betterfoliage.shortGrass.tooltip=Mechones de pasto/micelio sobre los bloques apropiados
 betterfoliage.shortGrass.useGenerated=Usa la textura generada para el pasto
 betterfoliage.shortGrass.useGenerated.tooltip=La textura generada se obtiene cortando a la mitad la textura del pasto alto del paquete de recursos activo
-betterfoliage.shortGrass.myceliumEnabled=Habilitar para Mycelium
-betterfoliage.shortGrass.myceliumEnabled.tooltip=Habilitar esta caracteristica para bloques de mycelium?
+betterfoliage.shortGrass.myceliumEnabled=Habilitar para Micelio
+betterfoliage.shortGrass.myceliumEnabled.tooltip=Habilitar esta caracteristica para bloques de micelio?
 betterfoliage.shortGrass.grassEnabled=Habilitar para Pasto
 betterfoliage.shortGrass.grassEnabled.tooltip=Habilitar esta caracteristica para bloques de pasto?
 betterfoliage.shortGrass.snowEnabled=Habilitar bajo la nieve
@@ -182,6 +189,9 @@ betterfoliage.coral.shallowWater.tooltip=Deberian aparecer corales en agua de 1 
 
 betterfoliage.netherrack=Lianas de Netherrack
 betterfoliage.netherrack.tooltip=Lianas colgantes bajo el netherrack
+
+betterfoliage.packedIce=Picos de hielo comprimido
+betterfoliage.packedIce.tooltip=Picos bajo el hielo comprimido
 
 betterfoliage.fallingLeaves=Hojas que caen
 betterfoliage.fallingLeaves.tooltip=Efecto de particula de hojas que caen emitidas desde el fondo de los bloques de hoja
