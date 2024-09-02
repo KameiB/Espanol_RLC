@@ -25,6 +25,8 @@ selectWorld.vanillaCreate=Crear mundo Vanilla
 
 advancementTab.questMenu=Misiones
 
+rlmixins.dshuds.photometer.light_level=Nivel de luminosidad: %1$d
+
 # From scripts
 item.cleansing_talisman.addedtooltip.1=Craftealo con cualquier libro encantado para convertirlo en Rompe maldiciones
 
