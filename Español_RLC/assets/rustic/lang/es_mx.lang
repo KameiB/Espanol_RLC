@@ -177,6 +177,7 @@ tile.rustic.horsetail.name=Cola de caballo
 tile.rustic.marsh_mallow.name=Malvavisco
 tile.rustic.mooncap_mushroom.name=Hongo lunar
 tile.rustic.wind_thistle.name=Cardo de viento
+tile.rustic.vanta_lily.name=Lirio Vanta
 tile.rustic.condenser.name=Condensador alquimico
 tile.rustic.retort.name=Retorta alquimica
 tile.rustic.condenser_advanced.name=Condensador alquimico avanzado
@@ -241,6 +242,8 @@ tile.rustic.ale_wort.name=Mosto de cerveza
 fluid.alewort=Mosto de cerveza
 tile.rustic.honey.name=Miel
 fluid.honey=Miel
+tile.rustic.vantaoil.name=Aceite vanta
+fluid.vantaoil=Aceite vanta
 
 fluid.ale=Cerveza
 fluid.cider=Sidra
