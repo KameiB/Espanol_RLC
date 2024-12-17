@@ -32,12 +32,14 @@ splash_potion.effect.sluggish=Pocion arrojadiza de Pereza
 lingering_potion.effect.sluggish=Pocion persistente de Pereza
 tipped_arrow.effect.sluggish=Flecha con Pereza
 effect.sluggish=Pereza
+description.effect.sluggish=Reduce dramaticamente tu velocidad de movimiento
 
 potion.effect.skystride=Pocion de Paso aereo
 splash_potion.effect.skystride=Pocion arrojadiza de Paso aereo
 lingering_potion.effect.skystride=Pocion persistente de Paso aereo
 tipped_arrow.effect.skystride=Flecha con Paso aereo
 effect.skystride=Paso aereo
+description.effect.skystride=Te permite dar unos pasos en el aire
 
 potion.effect.nimble=Pocion de Agilidad
 splash_potion.effect.nimble=Pocion arrojadiza de Agilidad
@@ -56,12 +58,14 @@ splash_potion.effect.forceful=Pocion arrojadiza de Vigor
 lingering_potion.effect.forceful=Pocion persistente de Vigor
 tipped_arrow.effect.forceful=Flecha con Vigor
 effect.forceful=Vigor
+description.effect.forceful=Aumenta la distancia que puedes esquivar
 
 potion.effect.feeble=Pocion de Flojera
 splash_potion.effect.feeble=Pocion arrojadiza de Flojera
 lingering_potion.effect.feeble=Pocion persistente de Flojera
 tipped_arrow.effect.feeble=Flecha con Flojera
 effect.feeble=Flojera
+description.effect.feeble=Reduce la distancia que puedes esquivar
 
 enchantment.lightweight=Ligereza
 enchantment.lightweight.desc=Reduce el peso para poder esquivar mas veces.
@@ -69,6 +73,7 @@ enchantment.elenaidodge.lightweight.desc=Reduce el peso para poder esquivar mas 
 
 item.elenaidodge.golden_feather.name=Lingote Emplumado de Oro
 item.elenaidodge.iron_feather.name=Lingote Emplumado de Hierro
+
 
 # Added by KameiB. UsefulTooltips
 potion.effect.forceful.addedtooltip.1=Al aplicarse:
