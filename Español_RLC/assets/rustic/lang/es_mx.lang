@@ -6,9 +6,14 @@ itemGroup.rustic.alchemy=Rustic: Alquimia
 
 #Tooltips
 tooltip.rustic.olive_oil=Con aceite de oliva
-tooltip.rustic.quality=Calidad: 
+tooltip.rustic.vanta_oil=Aceitado con Vanta:
+tooltip.rustic.vanta_oil_use=%s usos restantes
+tooltip.rustic.vanta_oil_uses=%s usos restantes
 tooltip.rustic.empty=Vacio
+tooltip.rustic.quality=Calidad: 
 tooltip.rustic.quality.desc=Calidad: %1$s §8[%2$s]
+tooltip.rustic.drinkable=Bebible 
+tooltip.rustic.ghost_pepper=Poseído por el Espíritu Infernal
 #Quality - Highest
 tooltip.rustic.quality.highest.0=Celestial
 tooltip.rustic.quality.highest.1=Excepcional
@@ -64,6 +69,7 @@ tooltip.rustic.quality.lowest.5=Nocivo
 tooltip.rustic.quality.lowest.6=Rancio
 tooltip.rustic.quality.lowest.7=Peor que pipí
 
+
 #Containers
 container.rustic.cabinet=Gabinete
 container.rustic.barrel=Barril
@@ -85,10 +91,13 @@ tile.rustic.chandelier.name=Candelabro de hierro
 tile.rustic.chandelier_gold.name=Candelabro de oro
 tile.rustic.chandelier_silver.name=Candelabro de plata
 tile.rustic.candle.name=Candelero de hierro
+tile.rustic.candle_double.name=Candelabro de hierro
 tile.rustic.candle_lever.name=Candelero-palanca de hierro
 tile.rustic.candle_gold.name=Candelero de oro
+tile.rustic.candle_double_gold.name=Candelabro de oro
 tile.rustic.candle_lever_gold.name=Candelero-palanca de oro
 tile.rustic.candle_silver.name=Candelero de plata
+tile.rustic.candle_double_silver.name=Candelabro de plata
 tile.rustic.candle_lever_silver.name=Candelero-palanca de plata
 tile.rustic.beehive.name=Colmena
 tile.rustic.apiary.name=Apiario
@@ -209,6 +218,7 @@ item.rustic.ironberries.name=Bayas de argan
 item.rustic.olives.name=Oliva
 item.rustic.fluid_bottle.name=Botella con %s
 item.rustic.dust_tiny_iron.name=Pila pequeña de polvo de hierro
+item.rustic.dust_gold.name=Polvo de oro
 item.tile.rustic.cloudsbluff.name=Nube
 item.tile.rustic.core_root.name=Raiz central
 item.tile.rustic.ginseng.name=Raiz de ginseng
@@ -216,6 +226,7 @@ item.tile.rustic.marsh_mallow.name=Raiz de malvavisco
 item.rustic.tomato.name=Tomate
 item.rustic.tomato_seeds.name=Semillas de tomate
 item.rustic.chili_pepper.name=Chile
+item.rustic.ghost_pepper.name=Chile fantasma 
 item.rustic.chili_pepper_seeds.name=Semillas de chile
 item.rustic.wildberries.name=Moras
 item.rustic.grapes.name=Uvas
@@ -243,6 +254,8 @@ fluid.alewort=Mosto de cerveza
 tile.rustic.honey.name=Miel
 fluid.honey=Miel
 tile.rustic.vantaoil.name=Aceite vanta
+fluid.goldenapplejuice=Jugo de Manzana dorada
+tile.rustic.vanta_oil.name=Aceite vanta
 fluid.vantaoil=Aceite vanta
 
 fluid.ale=Cerveza
@@ -251,6 +264,7 @@ fluid.ironwine=Vino de argan
 fluid.mead=Aguamiel
 fluid.wildberrywine=Vino de mora
 fluid.wine=Vino de uva
+fluid.ambrosia=Ambrosia liquida
 
 #Potion Effects
 effect.ironskin=Piel blindada
@@ -260,17 +274,25 @@ effect.shame=Deshonor
 effect.full=Panza llena
 effect.magic_resistance=Resis. magi
 effect.wither_ward=Prot. a Wither
-effect.tipsy=Embriaguez
+effect.undying=Inmortal
 effect.fullmetal=Fullmetal
+effect.fire_power=Llamas a mi 
+effect.tipsy=Embriaguez
 
 #Elixirs
 rustic.elixir.prefix=Elixir de 
 rustic.elixir.separator=, 
 
+
 #Entities
 entity.rustic.tomato.name=Tomate
 entity.rustic.chair.name=Silla
 entity.rustic.vegetable_lamb=Canónigo
+
+
+#Deaths
+death.attack.badAmbrosia=%1$s probó la divinidad contaminada
+
 
 #Advancements
 advancements.rustic.root=Rústico
@@ -284,6 +306,7 @@ advancements.rustic.winemaxxing=Mami está winemaxxeando
 advancements.rustic.winemaxxing.desc=Ahora no cariño, mami está winemaxxeando, mami es una vicodinchad winemaxxeada. Mami está medicada y totalmente embellecida, mi cielo. Ve a jugar tus jueguitos, corazón, ve a ser un buen gamercel por mami.
 advancements.rustic.max_drunk=Sin arropentimientos
 advancements.rustic.max_drunk.desc=Alcanza niveles peligrosos de embriaguez
+
 
 #JEI Categories
 rustic.jei.recipe.crushing_tub=Tina de trituracion
@@ -332,6 +355,7 @@ book.rustic.entry.herbs=Hierbas
 
 book.rustic.entry.alchemy=Alquimia
 book.rustic.entry.elixirs=Elixires
+book.rustic.entry.vanta_oil=Aceite vanta
 book.rustic.entry.brewing=Fermentacion
 book.rustic.entry.alcoholic_beverages=Bebidas alcoholicas
 book.rustic.entry.crushing=Trituracion
@@ -367,6 +391,7 @@ book.rustic.text.tomatoes=Los tomates son el fruto de la tomatera, la cual crece
 book.rustic.text.tomatoes_1=Los tallos de tomate se enredan alrededor de una estaca y pueden crecer hasta tres bloques de alto. Puedes recolectar tomates dando clic derecho a la tomatera madura o rompiendola. No se recomienda romper el tallo, porque tendra que volver a crecer. Puedes comer o lanzar (agacharte y clic derecho) los tomates, aplicando Deshonor.
 book.rustic.text.chili_peppers=Los chiles son el fruto de la planta de chile, la cual crece alrededor de una estaca. Las semillas de chile pueden sembrarse dando clic derecho a una estaca que esta clavada a una tierra arada o fertil. Las semillas entonces creceran tallos que eventualmente daran chiles.
 book.rustic.text.chili_peppers_1=Los chiles pueden cosecharse dando clic derecho a la planta de chile madura o rompiendola. Puedes comerte los chiles, pero te incendiaran por su picor. Sin embargo, tambien te dara Velocidad. Tambien es ingrediente de alquima.
+book.rustic.text.chili_peppers_2=Rara vez, al cosechar chiles, uno puede encontrar un chile fantasma. Al comerlo, los chiles fantasma otorgan el poder del fuego por corto tiempo, provocando que tus ataques disparen bolas de fuego.
 book.rustic.text.wildberries=Las moras crecen en los arbustos de mora. Los arbustos de mora se generan naturalmente por el mundo en climas calidos, pero no secos. Da clic a un arbusto para obtener moras. Romper el arbusto tambien funciona, pero tendras que volver a plantarlo.
 book.rustic.text.wildberries_1=Los arbustos de mora se esparcen naturalmente en RLCraft. Las moras se comen mas rapido que otras comidas, aunque no llenan mucho.
 book.rustic.text.wildberry_juice=Puedes triturar las moras en una tina de trituracion para obtener su jugo. Cuando lo bebes, rellenas un poco de hambre, saturacion y sed. Tambien puedes fermentarlo para obtener vino de mora, el cual potencializa tus efectos positivos.
@@ -394,6 +419,7 @@ book.rustic.text.horsetail=La cola de caballo se genera en biomas de jungla, pan
 book.rustic.text.marsh_mallow=El malvavisco se generan en biomas de jungla y pantano.
 book.rustic.text.mooncap=Los hongos lunares se generan en biomas de jungla y cuevas.
 book.rustic.text.wind_thistle=Los cardos de viento se generan en biomas de montaña y llanura.
+book.rustic.text.vanta_lily=Los lirios vanta se generan en biomas de llanura y bosque. Puede triturarse en aceite vanta.
 
 book.rustic.text.elixirs=Los elixires son brebajes destilados en condensadores alquimicos. Su naturaleza es similar a la de las pociones, pero pueden stackearse en grupos de dieciseis, no pueden aplicarse a flechas, ni hacerse arrojadizos ni persistentes.
 book.rustic.text.alchemy=La alquimia es el proceso de destilar elixires. La alquimia se realiza en condensadores, los cuales requieren tener retortes conectados a ellos. Crear elixires requiere agua, ingredientes y (opcionalmente) modificadores, asi como combustible para operar el condensador. Cualquier combustible para horno funciona.
@@ -403,6 +429,8 @@ book.rustic.text.alchemy_basic_2=El espacio en la parte inferior central es para
 book.rustic.text.alchemy_advanced=Los condensadores avanzados se parecen a su contraparte basica, pero tienen varias diferencias clave. Primero, en lugar de usar dos retortes basicos, requieren tres retortes avanzados para funcionar. Los retortes avanzados deben conectarse a la parte inferior del condensador avanzado, a su lado izquierdo, derecho y trasero, relativo a la cara frontal.
 book.rustic.text.alchemy_advanced_1=Los condensadores avanzados pueden destilar elixires con hasta tres ingredientes, junto con un modificador. Los modificadores son opcionales en las recetas, y cambian la duracion o potencia del elixir resultante. Los modificadores se colocan en el espacio superior a la mitad de la interfase, justo arriba del espacio del combustible. La interfase tambien agrega un tercer espacio para ingredientes, a la izquierda.
 book.rustic.text.alchemy_advanced_2=Finalmente, los condensadores avanzados son un poco mas rapidos que los basicos. Cualquier elixir que se pueda destilar en un condensador basico, tambien se puede destilar en uno avanzado.
+book.rustic.text.vanta_oil_weapons=El aceite vanta puede obtenerse triturando lirios vanta. Puede craftearse con la mayoria de armas melee, junto con cualquier cantidad de elixires o pociones para imbuirla con sus efectos. Golpear a otra criatura con un arma aceitada consumira un poco del aceite del arma para aplicar el efecto imbuido al objetivo.
+book.rustic.text.vanta_oil_weapons_1=Los efectos que no son instantaneos se aplicaran por ~15 seg. por golpe, y golpes subsecuentes alargaran la duracion del efecto aplicado. Puedes agregar mas aceite a un arma ya aceitada crafteandola con mas aceite vanta y mas elixires o pociones con el mismo efecto.
 book.rustic.text.alcoholic_beverages=Las bebidas alcoholicas pueden obtenerse fermentando fluidos en un barril de fermentacion. Estas bebidas te otorgan efectos agradables o desastrozos segun su calidad. Todos los alcoholes tienen una calidad entre 0 y 1. Deben tener una calidad de al menos 0.5 para otorgarte un efecto positivo, pero si bebes un alcohol con calidad menor a 0.5 te hara daño.
 book.rustic.text.alcoholic_beverages_1=La fuerza o duracion de los efectos que te da, aumentaran entre mas cerca este su calidad de 0 o de 1. Si obtienes un alcohol con calidad menor a 0.5, es mejor que lo tires. Es mas conveniente poner esa botella de alcohol en la mesa de crafteo para vaciarla y asi poder reutilizarla.
 book.rustic.text.alcoholic_beverages_2=Todos los alcoholes te pueden embriagar, pero entre mayor sea su calidad, la probabilidad de embriagarte sera menor. La embriaguez es un efecto negativo que no se cura bebiendo leche, pero el cafe te bajara la embriaguez. Seguir bebiendo alcohol estando ebrio hara que su duracion y severidad aumenten. Embriaguez I y II no te haran nada. Embriaguez III te aplicara Lentitud I y Nauseas I. Embriaguez IV te aplicara Lentitud II, Nauseas II y Ceguera I.
@@ -413,6 +441,7 @@ book.rustic.text.iron_wine=El vino de argan aplica Absorcion, lo cual te agrega 
 book.rustic.text.mead=El aguamiel aplica Revitalizacion, lo cual aumenta la salud que recibes por items, comidas, encantamientos y efectos curativos.
 book.rustic.text.wildberry_wine=El vino de mora aumenta el nivel de todos tus efectos positivos, hasta un maximo de nivel III.
 book.rustic.text.wine=El vino de uva extiende la duracion de todos tus efectos positivos, hasta un maximo de 5 minutos.
+book.rustic.text.ambrosia=La ambrosia liquida otorga proteccion a la muerte, igual que un totem de inmortalidad, aunque temporalmente. La amrosia liquida mas fuerte, sin embargo, durara hasta la muerte. La amrosia liquida se diferencia de otros alcoholes en que una baja calidad es extremadamente rara, y calidades altas tienden a ser facil de conseguir.
 book.rustic.text.brewing=La fermentacion es el proceso de fermentar fluidos para obtener alcohol, y se realiza en un barril de fermentacion. El proceso de fermentacion consta de tres elementos: la entrada (jugo), la salida (alcohol) y opcionalmente, el alcohol base. El alcohol base solo se puede colocar si es del mismo tipo que el jugo. La interfase del barril de fermentacion contiene tres tanques de liquido, asi como espacios en las partes de arriba y abajo de cada tanque.
 book.rustic.text.brewing_1=Los espacios arriba de los tanques son sus entradas. Si colocas botellas llenas, el tanque se llenara. Si colocas botellas vacias, el tanque se vaciara. Los espacios abajo de los tanques son sus salidas. Las botellas vacias que colocaste arriba se llenaran con el liquido del tanque y apareceran en el espacio de abajo. El tanque de en medio es para el jugo de entrada, el tanque de la derecha es el resultado fermentado.
 book.rustic.text.brewing_2=El tanque de la izquierda es para el alcohol base.
