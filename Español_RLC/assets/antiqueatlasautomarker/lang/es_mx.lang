@@ -1,0 +1,105 @@
+# Keys
+key.aaam.librarian=Marcar Aldeanos Túnica Blanca
+key.aaam.goldenbookwyrm=Marcar Librodrilos dorados
+
+# Config pages
+antiqueatlasautomarker.general.enchantmentstomark=Encantamientos de trueque a marcar
+antiqueatlasautomarker.general.interactionmarkers=Marcar automáticamente al interactuar
+antiqueatlasautomarker.general.ruinsmarkers=Marcadores de Estructuras en ruinas
+antiqueatlasautomarker.general.structuremarkers=Estructuras auto marcadas - Necesita AAAM en el servidor
+
+# Atlas buttons
+gui.antiqueatlas.copymarker=Compartir marcador
+gui.antiqueatlas.copymarker.shiftdown=Copiar comando PutMarker
+gui.antiqueatlas.compareatlas=Comparar con el Atlas de la mano secundaria
+
+# Atlas actions
+gui.antiqueatlas.defaultlabel=[Marcador]
+gui.antiqueatlas.nomarker=No se eligió un marcador compartible
+gui.antiqueatlas.copymarker.clipboard=Se copió [%s] al Portapapeles
+gui.antiqueatlas.copymarker.packetcommand=§a%s§r compartió el marcador: [%s]
+gui.antiqueatlas.copymarker.packetcommand.hover=Clic para recibir
+gui.antiqueatlas.shiftdelete=Eliminar todos los [%s] del Atlas #%d?
+gui.antiqueatlas.shiftdelete.hover=Clic para eliminar todos los marcadores con coincidencia tipo+etiqueta
+gui.antiqueatlas.compareatlas.copy=Copiado [%s] al Atlas #%s
+gui.antiqueatlas.compareatlas.nouniquemarkers=¡No hay marcadores únicos en el Atlas principal!
+gui.antiqueatlas.compareatlas.nooffhandatlas=Sujeta diferentes Atlas en ambas manos. Los marcadores copiados irán al Atlas en la mano secundaria.
+
+# Marker labels
+gui.aaam.marker.wildWaystone=Traslador natural
+gui.aaam.marker.betterMineshaft=Mina abandonada
+gui.aaam.marker.dungeons2=Dungeon2
+gui.aaam.marker.quarkPirateShip=Piratas
+
+gui.aaam.marker.Tower-ruined-short=Torre Batalla pequeña
+gui.aaam.marker.Tower-edit=Torre Batalla
+gui.aaam.marker.TowerEasy=Torre Batalla
+gui.aaam.marker.TowerMedium=Torre Batalla
+gui.aaam.marker.TowerHard=Torre Batalla
+gui.aaam.marker.ZombieHut=Dos generadores de zombi
+gui.aaam.marker.SkyCastle=Castillo en el cielo
+gui.aaam.marker.UnderwaterBase=Base submarina
+gui.aaam.marker.Floater=Flotador
+gui.aaam.marker.PirateShip=Barco pirata
+gui.aaam.marker.StoneHouseM=Casa inicial de piedra
+gui.aaam.marker.PortalShrine=Portal del Nether
+gui.aaam.marker.GraveyardHaunted=Cementerio
+gui.aaam.marker.GateUnderGlass=Portal del Nether
+gui.aaam.marker.Mausoleum=Ocho generadores de zombi
+gui.aaam.marker.ArrowTrapTomb=Tumba con trampa
+gui.aaam.marker.SnowCastleSpire=Generadores de Blaze
+gui.aaam.marker.NetherShrine=Portal del Nether
+
+# Doomlike Dungeons.
+# Themes names are the file names in /config/DLDungeonsJBG/themes
+gui.aaam.marker.doomlike_common=Mazmorra Doomlike común
+gui.aaam.marker.doomlike_continentalShelf=Mazmorra Doomlike subacuática
+gui.aaam.marker.doomlike_dank=Mazmorra Doomlike inundada
+gui.aaam.marker.doomlike_desert=Mazmorra Doomlike desértica
+gui.aaam.marker.doomlike_frozen=Mazmorra Doomlike congelada
+gui.aaam.marker.doomlike_jungle=Mazmorra Doomlike selvática
+gui.aaam.marker.doomlike_mesa=Mazmorra Doomlike baldía (Mesa)
+gui.aaam.marker.doomlike_nether=Mazmorra Doomlike del Nether
+gui.aaam.marker.doomlike_oceanic=Mazmorra Doomlike oceánica
+gui.aaam.marker.doomlike_template=Mazmorra Doomlike plantilla
+gui.aaam.marker.doomlike_urban=Mazmorra Doomlike urbana
+gui.aaam.marker.doomlike_villagelike=Mazmorra Doomlike estilo aldea
+gui.aaam.marker.doomlike_volvanic=Mazmorra Doomlike volcánica
+
+# Lycanite Dungeons
+gui.aaam.marker.lycaAberrantStation=Estación aberrante
+gui.aaam.marker.lycaAberrantStationRandom=Estación aberrante
+gui.aaam.marker.lycaAshenMausoleum=Mausoleo volcánico
+gui.aaam.marker.lycaDemonicTemple=Templo demoníaco
+gui.aaam.marker.lycaDesertCrypts=Cripta desértica
+gui.aaam.marker.lycaLushTomb=Tumba lujosa
+gui.aaam.marker.lycaShadowLabyrinth=Laberinto sombrío
+gui.aaam.marker.lycaShadowLabyrinthRandom=Laberinto sombrío
+gui.aaam.marker.lycaStreamShrine=Santuario torrente
+
+# Battle Towers
+gui.aaam.marker.BT.null=TB nula
+gui.aaam.marker.BT.null_r=TB nula invertida
+gui.aaam.marker.BT.cobblestone=TB de piedra labrada
+gui.aaam.marker.BT.cobblestone_r=TB invertida de piedra labrada
+gui.aaam.marker.BT.cobblestonemossy=TB de piedra labrada musgosa
+gui.aaam.marker.BT.cobblestonemossy_r=TB invertida de piedra labrada musgosa
+gui.aaam.marker.BT.sandstone=TB de arenisca
+gui.aaam.marker.BT.sandstone_r=TB invertida de arenisca
+gui.aaam.marker.BT.ice=TB de hielo
+gui.aaam.marker.BT.ice_r=TB invertida de hielo
+gui.aaam.marker.BT.smoothstone=TB de piedra lisa
+gui.aaam.marker.BT.smoothstone_r=TB invertida de piedra lisa
+gui.aaam.marker.BT.netherrack=TB de Netherrack
+gui.aaam.marker.BT.netherrack_r=TB invertida de Netherrack
+gui.aaam.marker.BT.jungle=TB de jungla
+gui.aaam.marker.BT.jungle_r=TB invertida de jungla
+
+# Commands
+commands.aaam.invalidusage=Uso no válido. Usa /help aaam para ver sus usos.
+commands.aaam.typenotfound=Tipo no válido de Marcador. Usa la tecla TAB para auto completar.
+commands.aaam.missingatlas=No hay un Atlas en el inventario.
+commands.aaam.removemarkers.success=Se eliminaron %d marcadores coincidentes.
+commands.aaam.removemarkers.fail=No se encontraron marcadores coincidentes.
+commands.aaam.putmarker.success=Se agregó "%s".
+commands.aaam.putmarker.fail=Todos los Atlas ya contienen "%s".
