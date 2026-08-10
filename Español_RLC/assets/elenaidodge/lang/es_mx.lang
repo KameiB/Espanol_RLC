@@ -24,46 +24,46 @@ tutorial.forwardsdoubledodge.description=Presiona 2 veces %s, %s, %s o %s
 potion.effect.can_dodge=Bendicion de Elenai
 splash_potion.effect.can_dodge=Pocion arrojadiza de Bendicion de Elenai
 lingering_potion.effect.can_dodge=Pocion persistente de Bendicion de Elenai
-tipped_arrow.effect.can_dodge=Flecha con Bendicion de Elenai
+tipped_arrow.effect.can_dodge=Flecha de Bendicion de Elenai
 effect.can_dodge=Bendicion Elenai
 
 potion.effect.sluggish=Pocion de Pereza
 splash_potion.effect.sluggish=Pocion arrojadiza de Pereza
 lingering_potion.effect.sluggish=Pocion persistente de Pereza
-tipped_arrow.effect.sluggish=Flecha con Pereza
+tipped_arrow.effect.sluggish=Flecha de Pereza
 effect.sluggish=Pereza
 description.effect.sluggish=Reduce dramaticamente tu velocidad de movimiento
 
 potion.effect.skystride=Pocion de Paso aereo
 splash_potion.effect.skystride=Pocion arrojadiza de Paso aereo
 lingering_potion.effect.skystride=Pocion persistente de Paso aereo
-tipped_arrow.effect.skystride=Flecha con Paso aereo
+tipped_arrow.effect.skystride=Flecha de Paso aereo
 effect.skystride=Paso aereo
 description.effect.skystride=Te permite dar unos pasos en el aire
 
 potion.effect.nimble=Pocion de Agilidad
 splash_potion.effect.nimble=Pocion arrojadiza de Agilidad
 lingering_potion.effect.nimble=Pocion persistente de Agilidad
-tipped_arrow.effect.nimble=Flecha con Agilidad
+tipped_arrow.effect.nimble=Flecha de Agilidad
 effect.nimble=Agilidad
 
 potion.effect.climber=Pocion de Trepador
 splash_potion.effect.climber=Pocion arrojadiza de Trepador
 lingering_potion.effect.climber=Pocion persistente de Trepador
-tipped_arrow.effect.climber=Flecha con Trepador
+tipped_arrow.effect.climber=Flecha de Trepador
 effect.climber=Trepador
 
 potion.effect.forceful=Pocion de Vigor
 splash_potion.effect.forceful=Pocion arrojadiza de Vigor
 lingering_potion.effect.forceful=Pocion persistente de Vigor
-tipped_arrow.effect.forceful=Flecha con Vigor
+tipped_arrow.effect.forceful=Flecha de Vigor
 effect.forceful=Vigor
 description.effect.forceful=Aumenta la distancia que puedes esquivar
 
 potion.effect.feeble=Pocion de Flojera
 splash_potion.effect.feeble=Pocion arrojadiza de Flojera
 lingering_potion.effect.feeble=Pocion persistente de Flojera
-tipped_arrow.effect.feeble=Flecha con Flojera
+tipped_arrow.effect.feeble=Flecha de Flojera
 effect.feeble=Flojera
 description.effect.feeble=Reduce la distancia que puedes esquivar
 
