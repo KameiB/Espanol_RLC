@@ -1,0 +1,7 @@
+dsd.tooltip.effect.removeimmunity=Remueve la inmunidad a %s
+dsd.tooltip.effect.immunity=Inmunidad a %s
+dsd.tooltip.effect.resistance=Resistencia a %2$s %1$s
+dsd.tooltip.effect.damage=Daño %2$s %1$s
+
+dsd.tooltip.default.fire_damage=Daño Ardiente +5
+dsd.tooltip.default.fire_resistance=Resistencia a Ardiente +50%%
