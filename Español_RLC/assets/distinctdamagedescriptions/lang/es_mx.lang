@@ -1,19 +1,33 @@
 # Translated by KameiB for RLCraft 2.10.  Jul/2024
 item.distinctdamagedescriptions.recorddistinction.name=Disco Distinción
 
-damagetypes.distinctdamagedescriptions.slashing=Cortante
-damagetypes.distinctdamagedescriptions.piercing=Perforador
-damagetypes.distinctdamagedescriptions.bludgeoning=Contundente
-damagetypes.distinctdamagedescriptions.acid=Acido
-damagetypes.distinctdamagedescriptions.cold=Frio
-damagetypes.distinctdamagedescriptions.fire=Igneo
-damagetypes.distinctdamagedescriptions.force=Fuerza
-damagetypes.distinctdamagedescriptions.lightning=Electrico
+fingerprint.distinctdamagedescriptions.ignore=Ignora ésto, ¡sé lo que estoy haciendo!
+fingerprint.distinctdamagedescriptions.curseforge=Abrir la página de CurseForge de este mod
+fingerprint.distinctdamagedescriptions.modrinth=Abrir la pagina de Modrinth de este mod
+fingerprint.distinctdamagedescriptions.close=Cerrar juego
+fingerprint.distinctdamagedescriptions.info0=¡Distinct Damage Descriptions encontró una incongruencia de huella!
+fingerprint.distinctdamagedescriptions.info1=Esto seguramente significa que el código de este mod ha sido alterado de alguna manera
+fingerprint.distinctdamagedescriptions.info2=que el autor original no está enterado.
+fingerprint.distinctdamagedescriptions.info3=Esto podría significar que el mod ha sido alterado por un tercero..
+fingerprint.distinctdamagedescriptions.info4=Si has alterado el código de Distinct Damage Descriptions, es normal que veas esto.
+fingerprint.distinctdamagedescriptions.info5=En ese caso, puedes ignorar este mensaje.
+fingerprint.distinctdamagedescriptions.info6=Si optas por ignorar este mensaje, no se mostrará de nuevo para esta versión.
+fingerprint.distinctdamagedescriptions.info7=Puedes ir a las páginas oficiales de este mod para descargarlo si lo obtuviste de otro lugar.
+fingerprint.distinctdamagedescriptions.info8=Este mod está hospedad oficialmente en CurseForge, Modrinth y su repositorio de GitHub.
+
+damagetypes.distinctdamagedescriptions.slashing=Tajante
+damagetypes.distinctdamagedescriptions.piercing=Perforante
+damagetypes.distinctdamagedescriptions.bludgeoning=Contuso
+damagetypes.distinctdamagedescriptions.acid=Corrosivo
+damagetypes.distinctdamagedescriptions.cold=Gelido
+damagetypes.distinctdamagedescriptions.fire=Ardiente
+damagetypes.distinctdamagedescriptions.force=Presionante
+damagetypes.distinctdamagedescriptions.lightning=Voltico
 damagetypes.distinctdamagedescriptions.necrotic=Necrotico
-damagetypes.distinctdamagedescriptions.poison=Venenoso
-damagetypes.distinctdamagedescriptions.psychic=Psiquico
+damagetypes.distinctdamagedescriptions.poison=Toxico
+damagetypes.distinctdamagedescriptions.psychic=Mental
 damagetypes.distinctdamagedescriptions.radiant=Radiante
-damagetypes.distinctdamagedescriptions.thunder=Trueno
+damagetypes.distinctdamagedescriptions.thunder=Resonante
 
 keys.distinctdamagedescriptions.shift=<Shift>
 keys.distinctdamagedescriptions.ctrl=<Ctrl>
@@ -22,22 +36,36 @@ commands.distinctdamagedescriptions.notargets=%s no encontró nada...
 commands.distinctdamagedescriptions.invalidtype=%s no es un tipo registrado en DDD!
 commands.distinctdamagedescriptions.numerr=No se pudo analizar el argumento numérico: %s
 commands.distinctdamagedescriptions.stat.usage=/ddd <resistance|immunity> ...
-commands.distinctdamagedescriptions.resistance.usage=/ddd resistance <set|add> <target> <dddtype> <amount>
-commands.distinctdamagedescriptions.resistance.set.usage=/ddd resistance set <target> <dddtype> <amount>
-commands.distinctdamagedescriptions.resistance.add.usage=/ddd resistance add <target> <dddtype> <amount>
+commands.distinctdamagedescriptions.usage=/ddd <resistance|immunity|adaptability> ...
+commands.distinctdamagedescriptions.resistance.usage=/ddd resistance <set|add> <target> <dddtype> <cantidad>
+commands.distinctdamagedescriptions.resistance.set.usage=/ddd resistance set <target> <dddtype> <cantidad>
+commands.distinctdamagedescriptions.resistance.add.usage=/ddd resistance add <target> <dddtype> <cantidad>
 commands.distinctdamagedescriptions.immunity.usage=/ddd immunity <give|take|toggle> <target> <dddtype>
 commands.distinctdamagedescriptions.immunity.give.usage=/ddd immunity give <target> <dddtype>
 commands.distinctdamagedescriptions.immunity.take.usage=/ddd immunity take <target> <dddtype>
 commands.distinctdamagedescriptions.immunity.toggle.usage=/ddd immunity toggle <target> <dddtype>
+commands.distinctdamagedescriptions.adaptability.usage=/ddd adaptability <status|amount> ...
+commands.distinctdamagedescriptions.adaptability.status.usage=/ddd adaptability status <give|take|toggle> <objetivo>
+commands.distinctdamagedescriptions.adaptability.status.give.usage=/ddd adaptability status give <objetivo>
+commands.distinctdamagedescriptions.adaptability.status.take.usage=/ddd adaptability status take <objetivo>
+commands.distinctdamagedescriptions.adaptability.status.toggle.usage=/ddd adaptability status toggle <objetivo>
+commands.distinctdamagedescriptions.adaptability.amount.usage=/ddd adaptability amount <set|add> <target> <cantidad>
+commands.distinctdamagedescriptions.adaptability.amount.set.usage=/ddd adaptability amount set <target> <cantidad>
+commands.distinctdamagedescriptions.adaptability.amount.add.usage=/ddd adaptability amount add <target> <cantidad>
 
-tooltips.distinctdamagedescriptions.damage=
-tooltips.distinctdamagedescriptions.resistance=
+tooltips.distinctdamagedescriptions.damage=Daño
+tooltips.distinctdamagedescriptions.resistance=Resistencia
 tooltips.distinctdamagedescriptions.immunities=Inmunidades iniciales:
 tooltips.distinctdamagedescriptions.adaptivechance=Prob. adaptación:
 tooltips.distinctdamagedescriptions.adaptiveamount=Cant. adaptación:
-tooltips.distinctdamagedescriptions.effectiveness=
-tooltips.distinctdamagedescriptions.weakness=(Debilidad)
+tooltips.distinctdamagedescriptions.effectiveness=Efectividad
+tooltips.distinctdamagedescriptions.weakness=Debilidad
 tooltips.distinctdamagedescriptions.noresists=Ninguna
+tooltips.distinctdamagedescriptions.ineffective=No efectivo
+tooltips.distinctdamagedescriptions.unchangedall=Sin cambio contra todos los tipos
+tooltips.distinctdamagedescriptions.unchangedallothers=Sin cambio contra los demás tipos
+tooltips.distinctdamagedescriptions.alltypes=Todos los tipos
+tooltips.distinctdamagedescriptions.allothertypes=Los demás tipos
 tooltips.distinctdamagedescriptions.damagedistribution=Distribución de daño:
 tooltips.distinctdamagedescriptions.projectiledistribution=Distribución de proyectil:
 tooltips.distinctdamagedescriptions.armorresistances=Efectividad de armadura:
@@ -45,12 +73,27 @@ tooltips.distinctdamagedescriptions.shielddist=Efectividad de escudo:
 tooltips.distinctdamagedescriptions.mobresistances=Resistencias del mob:
 tooltips.distinctdamagedescriptions.mobdistribution=Daño del mob:
 tooltips.distinctdamagedescriptions.notgenerated=¡Auto generar capacidades está encendido y Capacidades de Mob no se ha generado aún! Genera este mob para generar sus capacidades (podría requerir reinicio)
-tooltips.distinctdamagedescriptions.effectiveArmor=Armadura efectiva
-tooltips.distinctdamagedescriptions.effectiveToughness=Dureza efectiva de armadura
+tooltips.distinctdamagedescriptions.notooltip=No se generó un tooltip para esta capacidad.
+tooltips.distinctdamagedescriptions.effectiveArmor=Armadura
+tooltips.distinctdamagedescriptions.effectiveToughness=Dureza de armadura
 tooltips.distinctdamagedescriptions.hwyla.mobresistances=Resistencia máxima:
-tooltips.distinctdamagedescriptions.hwyla.witharmor=Máx: %s con armadura
+tooltips.distinctdamagedescriptions.hwyla.immunities=Inmunidades:
+tooltips.distinctdamagedescriptions.hwyla.max=Max:
+tooltips.distinctdamagedescriptions.hwyla.witharmor=con armadura
+tooltips.distinctdamagedescriptions.hwyla.alltypes=Todos los tipos:
+tooltips.distinctdamagedescriptions.hwyla.allothertypes=Los demás tipos:
+tooltips.distinctdamagedescriptions.hwyla.adaptedto=Adaptado a:
 tooltips.distinctdamagedescriptions.tic.distributionbias=Tendencia de distribución:
 tooltips.distinctdamagedescriptions.tic.influence=Influencia:
+tooltips.distinctdamagedescriptions.baubles.modifiers=Al equiparse:
+tooltips.distinctdamagedescriptions.baubles.bruteforce=Perfora hasta
+tooltips.distinctdamagedescriptions.baubles.immunitychance=(%s prob.)
+tooltips.distinctdamagedescriptions.baubles.immunity=Inmunidad
+tooltips.distinctdamagedescriptions.baubles.slystrike=Perfora inmunidad hasta
+tooltips.distinctdamagedescriptions.firstaid.armor=Armadura local
+tooltips.distinctdamagedescriptions.firstaid.toughness=Dureza local de armadura
+tooltips.distinctdamagedescriptions.ebwizardry.spelldistribution=Distribución de magia:
+tooltips.distinctdamagedescriptions.thaumcraft.focusdistribution=Distribución de magia:
 
 enchantment.distinctdamagedescriptions.slystrike=Golpe astuto
 enchantment.distinctdamagedescriptions.bruteforce=Fuerza bruta
@@ -71,7 +114,7 @@ distinctdamagedescriptions.general.resistance.armorresist=Resistencias de armadu
 distinctdamagedescriptions.general.resistance.mobbaseresist=Resistencias base del mob
 distinctdamagedescriptions.general.resistance.shieldresist=Resistencias de escudo
 
-### TINKERS ###
+### TINKERS ###### TINKERS ###
 distinctdamagedescriptions.tinkers.book.flexibility.flexible=El daño de esta herramienta es fácilmente influenciado por los materiales de su cabeza, haciendo su daño muy personalizable.
 distinctdamagedescriptions.tinkers.book.flexibility.moderate=El daño de esta herramienta está moderadamente influenciado por los materiales de su cabeza. Su daño no se desviará mucho de su distribución base.
 distinctdamagedescriptions.tinkers.book.flexibility.inflexible=El daño de esta herramienta se adhiere estrictamente a su distribución base. Necesitarás materiales de cabeza extremadamente influyentes para cambiarlo.
@@ -95,7 +138,7 @@ distinctdamagedescriptions.tinkers.book.materialInfluenceBias=Calif. influencia:
 modifier.slystrike.name=Golpe astuto
 modifier.slystrike.desc=§o¡Sigiloso!§r\n¡Tus ataques ignoran inmunidades!
 modifier.bruteforce.name=Fuerza bruta
-modifier.bruteforce.desc=§o¡Rápido y furioso!§r\n¡Tus ataques son tan poderosos que los mobs insignificantes no pueden resistirlos del todo!
+modifier.bruteforce.desc=§o¡Rápido y furioso!§r\n¡Tus ataques son tan poderosos que los mobs insignificantes no pueden resistirlos en absoluto!
 modifier.bruteforce.extra=%s%% de resistencias ignoradas.
 
 ### CONARM ###
@@ -103,29 +146,905 @@ distinctdamagedescriptions.conarm.book.materialListingTitle=Distribuciones de ar
 distinctdamagedescriptions.conarm.book.materialInfluenceStart=Distribución de armadura:
 distinctdamagedescriptions.conarm.book.materialInfluenceEntry=%1$s: %2$s
 
-modifier.ddd_slashing_immunity_armor.name=Impunidad a Cortante
-modifier.ddd_slashing_immunity_armor.desc=§oSlash n' Solo!§r\nYour armor makes you immune to Slashing damage!
-modifier.ddd_piercing_immunity_armor.name=Impunidad a Perforante
-modifier.ddd_piercing_immunity_armor.desc=§oYoink!§r\nYour armor makes you immune to Piercing damage!
-modifier.ddd_bludgeoning_immunity_armor.name=Impunidad a Contundente
-modifier.ddd_bludgeoning_immunity_armor.desc=§oIron Skin!§r\nYour armor makes you immune to Bludgeoning damage!
-modifier.ddd_acid_immunity_armor.name=Impunidad a Acido
-modifier.ddd_acid_immunity_armor.desc=§oIt washes right off!§r\nYour armor makes you immune to Acid damage!
-modifier.ddd_cold_immunity_armor.name=Impunidad a Frio
-modifier.ddd_cold_immunity_armor.desc=§oLike wool armor!§r\nYour armor makes you immune to Cold damage!
-modifier.ddd_fire_immunity_armor.name=Impunidad a Fuego
-modifier.ddd_fire_immunity_armor.desc=§oLight the house on fire!§r\nYour armor makes you immune to Fire damage!
-modifier.ddd_force_immunity_armor.name=Impunidad a Fuerza
-modifier.ddd_force_immunity_armor.desc=§oThe force isn't with them.§r\nYour armor makes you immune to Force damage!
-modifier.ddd_lightning_immunity_armor.name=Impunidad a Electricidad
-modifier.ddd_lightning_immunity_armor.desc=§oVolt Absorb!§r\nYour armor makes your immune to Lightning damage!
-modifier.ddd_necrotic_immunity_armor.name=Impunidad a Nectrotico
-modifier.ddd_necrotic_immunity_armor.desc=§oBring out your undead!§r\nYour armor makes you immune to Necrotic damage!
-modifier.ddd_poison_immunity_armor.name=Impunidad a Veneno
-modifier.ddd_poison_immunity_armor.desc=§oAntitoxin not required.§r\nYour armor makes you immune to Poison damage!
-modifier.ddd_psychic_immunity_armor.name=Impunidad a Psiquico
-modifier.ddd_psychic_immunity_armor.desc=§oDedekind-complete!§r\nYour armor makes you immune to Psychic damage!
-modifier.ddd_radiant_immunity_armor.name=Impunidad a Radiante
-modifier.ddd_radiant_immunity_armor.desc=§oThe Savior is here!§r\nYour armor makes you immune to Radiant damage!
-modifier.ddd_thunder_immunity_armor.name=Impunidad a Rayo
-modifier.ddd_thunder_immunity_armor.desc=§oThunderstruck!§r\nYour armor makes you immune to Thunder damage!
+modifier.ddd_slashing_immunity_armor.name=Inmunidad a Tajante
+modifier.ddd_slashing_immunity_armor.desc=§oTabla de picar!§r\nTu armadura te vuelve inmune al daño Tajante!
+modifier.ddd_piercing_immunity_armor.name=Inmunidad a Perforante
+modifier.ddd_piercing_immunity_armor.desc=§oA mi no me inyectas!§r\nTu armadura te vuelve inmune al daño Perforante!
+modifier.ddd_bludgeoning_immunity_armor.name=Inmunidad a Contuso
+modifier.ddd_bludgeoning_immunity_armor.desc=§oComo el Pipila!§r\nTu armadura te vuelve inmune al daño Contuso!
+modifier.ddd_acid_immunity_armor.name=Inmunidad a Corrosivo
+modifier.ddd_acid_immunity_armor.desc=§oSe me resbala!§r\nTu armadura te vuelve inmune al daño Corrosivo!
+modifier.ddd_cold_immunity_armor.name=Inmunidad a Gelido
+modifier.ddd_cold_immunity_armor.desc=§oCobija de tigre!§r\nTu armadura te vuelve inmune al daño Gelido!
+modifier.ddd_fire_immunity_armor.name=Inmunidad a Ardiente
+modifier.ddd_fire_immunity_armor.desc=§oTodo está bien...§r\nTu armadura te vuelve inmune al daño Ardiente!
+modifier.ddd_force_immunity_armor.name=Inmunidad a Presionante
+modifier.ddd_force_immunity_armor.desc=§oLa Fuerza no los acompaña.§r\nTu armadura te vuelve inmune al daño Presionante!
+modifier.ddd_lightning_immunity_armor.name=Inmunidad a Voltico
+modifier.ddd_lightning_immunity_armor.desc=§oBien aterrizado!§r\nTu armadura te vuelve inmune al daño Voltico!
+modifier.ddd_necrotic_immunity_armor.name=Inmunidad a Necrotico
+modifier.ddd_necrotic_immunity_armor.desc=§oEl mago blanco!§r\nTu armadura te vuelve inmune al daño Necrotico!
+modifier.ddd_poison_immunity_armor.name=Inmunidad a Toxico
+modifier.ddd_poison_immunity_armor.desc=§oA prueba de chismes.§r\nTu armadura te vuelve inmune al daño Toxico!
+modifier.ddd_psychic_immunity_armor.name=Inmunidad a Mental
+modifier.ddd_psychic_immunity_armor.desc=§oNo me doblo ante tus jueguitos!§r\nTu armadura te vuelve inmune al daño Mental!
+modifier.ddd_radiant_immunity_armor.name=Inmunidad a Radiante
+modifier.ddd_radiant_immunity_armor.desc=§oCaballero blanco!§r\nTu armadura te vuelve inmune al daño Radiante!
+modifier.ddd_thunder_immunity_armor.name=Inmunidad a Resonante
+modifier.ddd_thunder_immunity_armor.desc=§oPararrayos!§r\nTu armadura te vuelve inmune al daño Resonante!
+### EBWIZARDRY ###
+ebwizardry.distinctdamagedescriptions.newDist=El daño %s es un nuevo tipo de daño. Su daño se divide como:
+
+### FERMIUMBOOTER ###
+fermiumbooter.distinctdamagedescriptions.info0=El mod %s requiere Fermium Booter para integrarse correctamente con Distinct Damage Descriptions.
+fermiumbooter.distinctdamagedescriptions.info1=Puedes encontrar e instalar Fermium Booter de CurseForge.
+fermiumbooter.distinctdamagedescriptions.info2=Como alternativa, puedes deshabilitar la integración con %s en la configuración de Distinct Damage Descriptions.
+fermiumbooter.distinctdamagedescriptions.info3=Toma en cuenta que si lo haces, estos dos mods podrían no trabajar muy bien juntos!
+fermiumbooter.distinctdamagedescriptions.ignore=Ir al menú principal
+fermiumbooter.distinctdamagedescriptions.close=Cerrar el juego
+
+### DAMAGE BUFF ###
+effect.ddd_slashing.damage.buff=Tajante +
+effect.ddd_piercing.damage.buff=Perforante +
+effect.ddd_bludgeoning.damage.buff=Contuso +
+effect.ddd_acid.damage.buff=Corrosivo +
+effect.ddd_cold.damage.buff=Gelido +
+effect.ddd_fire.damage.buff=Ardiente +
+effect.ddd_force.damage.buff=Presionante +
+effect.ddd_lightning.damage.buff=Voltico +
+effect.ddd_necrotic.damage.buff=Necrotico +
+effect.ddd_poison.damage.buff=Toxico +
+effect.ddd_psychic.damage.buff=Mental +
+effect.ddd_radiant.damage.buff=Radiante +
+effect.ddd_thunder.damage.buff=Resonante +
+
+### DAMAGE DEBUFF ###
+effect.ddd_slashing.damage.debuff=Tajante -
+effect.ddd_piercing.damage.debuff=Perforante -
+effect.ddd_bludgeoning.damage.debuff=Contuso -
+effect.ddd_acid.damage.debuff=Corrosivo -
+effect.ddd_cold.damage.debuff=Gelido -
+effect.ddd_fire.damage.debuff=Ardiente -
+effect.ddd_force.damage.debuff=Presionante -
+effect.ddd_lightning.damage.debuff=Voltico -
+effect.ddd_necrotic.damage.debuff=Necrotico -
+effect.ddd_poison.damage.debuff=Toxico -
+effect.ddd_psychic.damage.debuff=Mental -
+effect.ddd_radiant.damage.debuff=Radiante -
+effect.ddd_thunder.damage.debuff=Resonante -
+
+### RESIST BUFF ###
+effect.ddd_slashing.resist.buff=Res Tajante +
+effect.ddd_piercing.resist.buff=Res Perfor +
+effect.ddd_bludgeoning.resist.buff=Res Contuso +
+effect.ddd_acid.resist.buff=Res Corros +
+effect.ddd_cold.resist.buff=Res Gelido +
+effect.ddd_fire.resist.buff=Res Ardient +
+effect.ddd_force.resist.buff=Res Presion +
+effect.ddd_lightning.resist.buff=Res Voltico +
+effect.ddd_necrotic.resist.buff=Res Necrotic +
+effect.ddd_poison.resist.buff=Res Toxico +
+effect.ddd_psychic.resist.buff=Res Mental +
+effect.ddd_radiant.resist.buff=Res Radiant +
+effect.ddd_thunder.resist.buff=Res Resonant +
+
+### RESIST DEBUFF ###
+effect.ddd_slashing.resist.debuff=Res Tajante -
+effect.ddd_piercing.resist.debuff=Res Perfor -
+effect.ddd_bludgeoning.resist.debuff=Res Contuso -
+effect.ddd_acid.resist.debuff=Res Corros -
+effect.ddd_cold.resist.debuff=Res Gelido -
+effect.ddd_fire.resist.debuff=Res Ardient -
+effect.ddd_force.resist.debuff=Res Presion -
+effect.ddd_lightning.resist.debuff=Res Voltico -
+effect.ddd_necrotic.resist.debuff=Res Necrotic -
+effect.ddd_poison.resist.debuff=Res Toxico -
+effect.ddd_psychic.resist.debuff=Res Mental -
+effect.ddd_radiant.resist.debuff=Res Radiant -
+effect.ddd_thunder.resist.debuff=Res Resonant -
+
+# ---------------------------
+### POTION: SLASHING ###
+# ---------------------------
+potion.effect.ddd_slashing.damage.buff=Pocion de aumento de daño Tajante
+potion.effect.ddd_slashing.damage.buff_extended=Pocion de aumento de daño Tajante
+potion.effect.ddd_slashing.damage.buff_strong=Pocion de aumento de daño Tajante
+potion.effect.ddd_slashing.damage.debuff=Pocion de reduccion de daño Tajante
+potion.effect.ddd_slashing.damage.debuff_extended=Pocion de reduccion de daño Tajante
+potion.effect.ddd_slashing.damage.debuff_strong=Pocion de reduccion de daño Tajante
+
+potion.effect.ddd_slashing.resist.buff=Pocion de aumento de resistencia a Tajante
+potion.effect.ddd_slashing.resist.buff_extended=Pocion de aumento de resistencia a Tajante
+potion.effect.ddd_slashing.resist.buff_strong=Pocion de aumento de resistencia a Tajante
+potion.effect.ddd_slashing.resist.debuff=Pocion de reduccion de resistencia a Tajante
+potion.effect.ddd_slashing.resist.debuff_extended=Pocion de reduccion de resistencia a Tajante
+potion.effect.ddd_slashing.resist.debuff_strong=Pocion de reduccion de resistencia a Tajante
+
+### SPLASH ###
+splash_potion.effect.ddd_slashing.damage.buff=Pocion arrojadiza de aumento de daño Tajante
+splash_potion.effect.ddd_slashing.damage.buff_extended=Pocion arrojadiza de aumento de daño Tajante
+splash_potion.effect.ddd_slashing.damage.buff_strong=Pocion arrojadiza de aumento de daño Tajante
+splash_potion.effect.ddd_slashing.damage.debuff=Pocion arrojadiza de reduccion de daño Tajante
+splash_potion.effect.ddd_slashing.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Tajante
+splash_potion.effect.ddd_slashing.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Tajante
+
+splash_potion.effect.ddd_slashing.resist.buff=Pocion arrojadiza de aumento de resistencia a Tajante
+splash_potion.effect.ddd_slashing.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Tajante
+splash_potion.effect.ddd_slashing.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Tajante
+splash_potion.effect.ddd_slashing.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Tajante
+splash_potion.effect.ddd_slashing.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Tajante
+splash_potion.effect.ddd_slashing.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Tajante
+
+### LINGERING ###
+lingering_potion.effect.ddd_slashing.damage.buff=Pocion persistente de aumento de daño Tajante
+lingering_potion.effect.ddd_slashing.damage.buff_extended=Pocion persistente de aumento de daño Tajante
+lingering_potion.effect.ddd_slashing.damage.buff_strong=Pocion persistente de aumento de daño Tajante
+lingering_potion.effect.ddd_slashing.damage.debuff=Pocion persistente de reduccion de daño Tajante
+lingering_potion.effect.ddd_slashing.damage.debuff_extended=Pocion persistente de reduccion de daño Tajante
+lingering_potion.effect.ddd_slashing.damage.debuff_strong=Pocion persistente de reduccion de daño Tajante
+
+lingering_potion.effect.ddd_slashing.resist.buff=Pocion persistente de aumento de resistencia a Tajante
+lingering_potion.effect.ddd_slashing.resist.buff_extended=Pocion persistente de aumento de resistencia a Tajante
+lingering_potion.effect.ddd_slashing.resist.buff_strong=Pocion persistente de aumento de resistencia a Tajante
+lingering_potion.effect.ddd_slashing.resist.debuff=Pocion persistente de reduccion de resistencia a Tajante
+lingering_potion.effect.ddd_slashing.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Tajante
+lingering_potion.effect.ddd_slashing.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Tajante
+
+### TIPPED ARROW: SLASHING ###
+tipped_arrow.effect.ddd_slashing.damage.buff=Flecha de aumento de daño Tajante
+tipped_arrow.effect.ddd_slashing.damage.buff_extended=Flecha de aumento de daño Tajante
+tipped_arrow.effect.ddd_slashing.damage.buff_strong=Flecha de aumento de daño Tajante
+tipped_arrow.effect.ddd_slashing.damage.debuff=Flecha de reduccion de daño Tajante
+tipped_arrow.effect.ddd_slashing.damage.debuff_extended=Flecha de reduccion de daño Tajante
+tipped_arrow.effect.ddd_slashing.damage.debuff_strong=Flecha de reduccion de daño Tajante
+
+tipped_arrow.effect.ddd_slashing.resist.buff=Flecha de aumento de resistencia a Tajante
+tipped_arrow.effect.ddd_slashing.resist.buff_extended=Flecha de aumento de resistencia a Tajante
+tipped_arrow.effect.ddd_slashing.resist.buff_strong=Flecha de aumento de resistencia a Tajante
+tipped_arrow.effect.ddd_slashing.resist.debuff=Flecha de reduccion de resistencia a Tajante
+tipped_arrow.effect.ddd_slashing.resist.debuff_extended=Flecha de reduccion de resistencia a Tajante
+tipped_arrow.effect.ddd_slashing.resist.debuff_strong=Flecha de reduccion de resistencia a Tajante
+
+# ---------------------------
+### POTION: PIERCING ###
+# ---------------------------
+potion.effect.ddd_piercing.damage.buff=Pocion de aumento de daño Perforante
+potion.effect.ddd_piercing.damage.buff_extended=Pocion de aumento de daño Perforante
+potion.effect.ddd_piercing.damage.buff_strong=Pocion de aumento de daño Perforante
+potion.effect.ddd_piercing.damage.debuff=Pocion de reduccion de daño Perforante
+potion.effect.ddd_piercing.damage.debuff_extended=Pocion de reduccion de daño Perforante
+potion.effect.ddd_piercing.damage.debuff_strong=Pocion de reduccion de daño Perforante
+
+potion.effect.ddd_piercing.resist.buff=Pocion de aumento de resistencia a Perforante
+potion.effect.ddd_piercing.resist.buff_extended=Pocion de aumento de resistencia a Perforante
+potion.effect.ddd_piercing.resist.buff_strong=Pocion de aumento de resistencia a Perforante
+potion.effect.ddd_piercing.resist.debuff=Pocion de reduccion de resistencia a Perforante
+potion.effect.ddd_piercing.resist.debuff_extended=Pocion de reduccion de resistencia a Perforante
+potion.effect.ddd_piercing.resist.debuff_strong=Pocion de reduccion de resistencia a Perforante
+
+### SPLASH ###
+splash_potion.effect.ddd_piercing.damage.buff=Pocion arrojadiza de aumento de daño Perforante
+splash_potion.effect.ddd_piercing.damage.buff_extended=Pocion arrojadiza de aumento de daño Perforante
+splash_potion.effect.ddd_piercing.damage.buff_strong=Pocion arrojadiza de aumento de daño Perforante
+splash_potion.effect.ddd_piercing.damage.debuff=Pocion arrojadiza de reduccion de daño Perforante
+splash_potion.effect.ddd_piercing.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Perforante
+splash_potion.effect.ddd_piercing.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Perforante
+
+splash_potion.effect.ddd_piercing.resist.buff=Pocion arrojadiza de aumento de resistencia a Perforante
+splash_potion.effect.ddd_piercing.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Perforante
+splash_potion.effect.ddd_piercing.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Perforante
+splash_potion.effect.ddd_piercing.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Perforante
+splash_potion.effect.ddd_piercing.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Perforante
+splash_potion.effect.ddd_piercing.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Perforante
+
+### LINGERING ###
+lingering_potion.effect.ddd_piercing.damage.buff=Pocion persistente de aumento de daño Perforante
+lingering_potion.effect.ddd_piercing.damage.buff_extended=Pocion persistente de aumento de daño Perforante
+lingering_potion.effect.ddd_piercing.damage.buff_strong=Pocion persistente de aumento de daño Perforante
+lingering_potion.effect.ddd_piercing.damage.debuff=Pocion persistente de reduccion de daño Perforante
+lingering_potion.effect.ddd_piercing.damage.debuff_extended=Pocion persistente de reduccion de daño Perforante
+lingering_potion.effect.ddd_piercing.damage.debuff_strong=Pocion persistente de reduccion de daño Perforante
+
+lingering_potion.effect.ddd_piercing.resist.buff=Pocion persistente de aumento de resistencia a Perforante
+lingering_potion.effect.ddd_piercing.resist.buff_extended=Pocion persistente de aumento de resistencia a Perforante
+lingering_potion.effect.ddd_piercing.resist.buff_strong=Pocion persistente de aumento de resistencia a Perforante
+lingering_potion.effect.ddd_piercing.resist.debuff=Pocion persistente de reduccion de resistencia a Perforante
+lingering_potion.effect.ddd_piercing.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Perforante
+lingering_potion.effect.ddd_piercing.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Perforante
+
+### TIPPED ARROW: PIERCING ###
+tipped_arrow.effect.ddd_piercing.damage.buff=Flecha de aumento de daño Perforante
+tipped_arrow.effect.ddd_piercing.damage.buff_extended=Flecha de aumento de daño Perforante
+tipped_arrow.effect.ddd_piercing.damage.buff_strong=Flecha de aumento de daño Perforante
+tipped_arrow.effect.ddd_piercing.damage.debuff=Flecha de reduccion de daño Perforante
+tipped_arrow.effect.ddd_piercing.damage.debuff_extended=Flecha de reduccion de daño Perforante
+tipped_arrow.effect.ddd_piercing.damage.debuff_strong=Flecha de reduccion de daño Perforante
+
+tipped_arrow.effect.ddd_piercing.resist.buff=Flecha de aumento de resistencia a Perforante
+tipped_arrow.effect.ddd_piercing.resist.buff_extended=Flecha de aumento de resistencia a Perforante
+tipped_arrow.effect.ddd_piercing.resist.buff_strong=Flecha de aumento de resistencia a Perforante
+tipped_arrow.effect.ddd_piercing.resist.debuff=Flecha de reduccion de resistencia a Perforante
+tipped_arrow.effect.ddd_piercing.resist.debuff_extended=Flecha de reduccion de resistencia a Perforante
+tipped_arrow.effect.ddd_piercing.resist.debuff_strong=Flecha de reduccion de resistencia a Perforante
+
+# ---------------------------
+### POTION: BLUDGEONING ###
+# ---------------------------
+potion.effect.ddd_bludgeoning.damage.buff=Pocion de aumento de daño Contuso
+potion.effect.ddd_bludgeoning.damage.buff_extended=Pocion de aumento de daño Contuso
+potion.effect.ddd_bludgeoning.damage.buff_strong=Pocion de aumento de daño Contuso
+potion.effect.ddd_bludgeoning.damage.debuff=Pocion de reduccion de daño Contuso
+potion.effect.ddd_bludgeoning.damage.debuff_extended=Pocion de reduccion de daño Contuso
+potion.effect.ddd_bludgeoning.damage.debuff_strong=Pocion de reduccion de daño Contuso
+
+potion.effect.ddd_bludgeoning.resist.buff=Pocion de aumento de resistencia a Contuso
+potion.effect.ddd_bludgeoning.resist.buff_extended=Pocion de aumento de resistencia a Contuso
+potion.effect.ddd_bludgeoning.resist.buff_strong=Pocion de aumento de resistencia a Contuso
+potion.effect.ddd_bludgeoning.resist.debuff=Pocion de reduccion de resistencia a Contuso
+potion.effect.ddd_bludgeoning.resist.debuff_extended=Pocion de reduccion de resistencia a Contuso
+potion.effect.ddd_bludgeoning.resist.debuff_strong=Pocion de reduccion de resistencia a Contuso
+
+### SPLASH ###
+splash_potion.effect.ddd_bludgeoning.damage.buff=Pocion arrojadiza de aumento de daño Contuso
+splash_potion.effect.ddd_bludgeoning.damage.buff_extended=Pocion arrojadiza de aumento de daño Contuso
+splash_potion.effect.ddd_bludgeoning.damage.buff_strong=Pocion arrojadiza de aumento de daño Contuso
+splash_potion.effect.ddd_bludgeoning.damage.debuff=Pocion arrojadiza de reduccion de daño Contuso
+splash_potion.effect.ddd_bludgeoning.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Contuso
+splash_potion.effect.ddd_bludgeoning.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Contuso
+
+splash_potion.effect.ddd_bludgeoning.resist.buff=Pocion arrojadiza de aumento de resistencia a Contuso
+splash_potion.effect.ddd_bludgeoning.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Contuso
+splash_potion.effect.ddd_bludgeoning.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Contuso
+splash_potion.effect.ddd_bludgeoning.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Contuso
+splash_potion.effect.ddd_bludgeoning.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Contuso
+splash_potion.effect.ddd_bludgeoning.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Contuso
+
+### LINGERING ###
+lingering_potion.effect.ddd_bludgeoning.damage.buff=Pocion persistente de aumento de daño Contuso
+lingering_potion.effect.ddd_bludgeoning.damage.buff_extended=Pocion persistente de aumento de daño Contuso
+lingering_potion.effect.ddd_bludgeoning.damage.buff_strong=Pocion persistente de aumento de daño Contuso
+lingering_potion.effect.ddd_bludgeoning.damage.debuff=Pocion persistente de reduccion de daño Contuso
+lingering_potion.effect.ddd_bludgeoning.damage.debuff_extended=Pocion persistente de reduccion de daño Contuso
+lingering_potion.effect.ddd_bludgeoning.damage.debuff_strong=Pocion persistente de reduccion de daño Contuso
+
+lingering_potion.effect.ddd_bludgeoning.resist.buff=Pocion persistente de aumento de resistencia a Contuso
+lingering_potion.effect.ddd_bludgeoning.resist.buff_extended=Pocion persistente de aumento de resistencia a Contuso
+lingering_potion.effect.ddd_bludgeoning.resist.buff_strong=Pocion persistente de aumento de resistencia a Contuso
+lingering_potion.effect.ddd_bludgeoning.resist.debuff=Pocion persistente de reduccion de resistencia a Contuso
+lingering_potion.effect.ddd_bludgeoning.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Contuso
+lingering_potion.effect.ddd_bludgeoning.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Contuso
+
+### TIPPED ARROW: BLUDGEONING ###
+tipped_arrow.effect.ddd_bludgeoning.damage.buff=Flecha de aumento de daño Contuso
+tipped_arrow.effect.ddd_bludgeoning.damage.buff_extended=Flecha de aumento de daño Contuso
+tipped_arrow.effect.ddd_bludgeoning.damage.buff_strong=Flecha de aumento de daño Contuso
+tipped_arrow.effect.ddd_bludgeoning.damage.debuff=Flecha de reduccion de daño Contuso
+tipped_arrow.effect.ddd_bludgeoning.damage.debuff_extended=Flecha de reduccion de daño Contuso
+tipped_arrow.effect.ddd_bludgeoning.damage.debuff_strong=Flecha de reduccion de daño Contuso
+
+tipped_arrow.effect.ddd_bludgeoning.resist.buff=Flecha de aumento de resistencia a Contuso
+tipped_arrow.effect.ddd_bludgeoning.resist.buff_extended=Flecha de aumento de resistencia a Contuso
+tipped_arrow.effect.ddd_bludgeoning.resist.buff_strong=Flecha de aumento de resistencia a Contuso
+tipped_arrow.effect.ddd_bludgeoning.resist.debuff=Flecha de reduccion de resistencia a Contuso
+tipped_arrow.effect.ddd_bludgeoning.resist.debuff_extended=Flecha de reduccion de resistencia a Contuso
+tipped_arrow.effect.ddd_bludgeoning.resist.debuff_strong=Flecha de reduccion de resistencia a Contuso
+
+# ---------------------------
+### POTION: ACID ###
+# ---------------------------
+potion.effect.ddd_acid.damage.buff=Pocion de aumento de daño Corrosivo
+potion.effect.ddd_acid.damage.buff_extended=Pocion de aumento de daño Corrosivo
+potion.effect.ddd_acid.damage.buff_strong=Pocion de aumento de daño Corrosivo
+potion.effect.ddd_acid.damage.debuff=Pocion de reduccion de daño Corrosivo
+potion.effect.ddd_acid.damage.debuff_extended=Pocion de reduccion de daño Corrosivo
+potion.effect.ddd_acid.damage.debuff_strong=Pocion de reduccion de daño Corrosivo
+
+potion.effect.ddd_acid.resist.buff=Pocion de aumento de resistencia a Corrosivo
+potion.effect.ddd_acid.resist.buff_extended=Pocion de aumento de resistencia a Corrosivo
+potion.effect.ddd_acid.resist.buff_strong=Pocion de aumento de resistencia a Corrosivo
+potion.effect.ddd_acid.resist.debuff=Pocion de reduccion de resistencia a Corrosivo
+potion.effect.ddd_acid.resist.debuff_extended=Pocion de reduccion de resistencia a Corrosivo
+potion.effect.ddd_acid.resist.debuff_strong=Pocion de reduccion de resistencia a Corrosivo
+
+### SPLASH ###
+splash_potion.effect.ddd_acid.damage.buff=Pocion arrojadiza de aumento de daño Corrosivo
+splash_potion.effect.ddd_acid.damage.buff_extended=Pocion arrojadiza de aumento de daño Corrosivo
+splash_potion.effect.ddd_acid.damage.buff_strong=Pocion arrojadiza de aumento de daño Corrosivo
+splash_potion.effect.ddd_acid.damage.debuff=Pocion arrojadiza de reduccion de daño Corrosivo
+splash_potion.effect.ddd_acid.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Corrosivo
+splash_potion.effect.ddd_acid.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Corrosivo
+
+splash_potion.effect.ddd_acid.resist.buff=Pocion arrojadiza de aumento de resistencia a Corrosivo
+splash_potion.effect.ddd_acid.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Corrosivo
+splash_potion.effect.ddd_acid.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Corrosivo
+splash_potion.effect.ddd_acid.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Corrosivo
+splash_potion.effect.ddd_acid.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Corrosivo
+splash_potion.effect.ddd_acid.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Corrosivo
+
+### LINGERING ###
+lingering_potion.effect.ddd_acid.damage.buff=Pocion persistente de aumento de daño Corrosivo
+lingering_potion.effect.ddd_acid.damage.buff_extended=Pocion persistente de aumento de daño Corrosivo
+lingering_potion.effect.ddd_acid.damage.buff_strong=Pocion persistente de aumento de daño Corrosivo
+lingering_potion.effect.ddd_acid.damage.debuff=Pocion persistente de reduccion de daño Corrosivo
+lingering_potion.effect.ddd_acid.damage.debuff_extended=Pocion persistente de reduccion de daño Corrosivo
+lingering_potion.effect.ddd_acid.damage.debuff_strong=Pocion persistente de reduccion de daño Corrosivo
+
+lingering_potion.effect.ddd_acid.resist.buff=Pocion persistente de aumento de resistencia a Corrosivo
+lingering_potion.effect.ddd_acid.resist.buff_extended=Pocion persistente de aumento de resistencia a Corrosivo
+lingering_potion.effect.ddd_acid.resist.buff_strong=Pocion persistente de aumento de resistencia a Corrosivo
+lingering_potion.effect.ddd_acid.resist.debuff=Pocion persistente de reduccion de resistencia a Corrosivo
+lingering_potion.effect.ddd_acid.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Corrosivo
+lingering_potion.effect.ddd_acid.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Corrosivo
+
+### TIPPED ARROW: ACID ###
+tipped_arrow.effect.ddd_acid.damage.buff=Flecha de aumento de daño Corrosivo
+tipped_arrow.effect.ddd_acid.damage.buff_extended=Flecha de aumento de daño Corrosivo
+tipped_arrow.effect.ddd_acid.damage.buff_strong=Flecha de aumento de daño Corrosivo
+tipped_arrow.effect.ddd_acid.damage.debuff=Flecha de reduccion de daño Corrosivo
+tipped_arrow.effect.ddd_acid.damage.debuff_extended=Flecha de reduccion de daño Corrosivo
+tipped_arrow.effect.ddd_acid.damage.debuff_strong=Flecha de reduccion de daño Corrosivo
+
+tipped_arrow.effect.ddd_acid.resist.buff=Flecha de aumento de resistencia a Corrosivo
+tipped_arrow.effect.ddd_acid.resist.buff_extended=Flecha de aumento de resistencia a Corrosivo
+tipped_arrow.effect.ddd_acid.resist.buff_strong=Flecha de aumento de resistencia a Corrosivo
+tipped_arrow.effect.ddd_acid.resist.debuff=Flecha de reduccion de resistencia a Corrosivo
+tipped_arrow.effect.ddd_acid.resist.debuff_extended=Flecha de reduccion de resistencia a Corrosivo
+tipped_arrow.effect.ddd_acid.resist.debuff_strong=Flecha de reduccion de resistencia a Corrosivo
+
+# ---------------------------
+### POTION: COLD ###
+# ---------------------------
+potion.effect.ddd_cold.damage.buff=Pocion de aumento de daño Gelido
+potion.effect.ddd_cold.damage.buff_extended=Pocion de aumento de daño Gelido
+potion.effect.ddd_cold.damage.buff_strong=Pocion de aumento de daño Gelido
+potion.effect.ddd_cold.damage.debuff=Pocion de reduccion de daño Gelido
+potion.effect.ddd_cold.damage.debuff_extended=Pocion de reduccion de daño Gelido
+potion.effect.ddd_cold.damage.debuff_strong=Pocion de reduccion de daño Gelido
+
+potion.effect.ddd_cold.resist.buff=Pocion de aumento de resistencia a Gelido
+potion.effect.ddd_cold.resist.buff_extended=Pocion de aumento de resistencia a Gelido
+potion.effect.ddd_cold.resist.buff_strong=Pocion de aumento de resistencia a Gelido
+potion.effect.ddd_cold.resist.debuff=Pocion de reduccion de resistencia a Gelido
+potion.effect.ddd_cold.resist.debuff_extended=Pocion de reduccion de resistencia a Gelido
+potion.effect.ddd_cold.resist.debuff_strong=Pocion de reduccion de resistencia a Gelido
+
+### SPLASH ###
+splash_potion.effect.ddd_cold.damage.buff=Pocion arrojadiza de aumento de daño Gelido
+splash_potion.effect.ddd_cold.damage.buff_extended=Pocion arrojadiza de aumento de daño Gelido
+splash_potion.effect.ddd_cold.damage.buff_strong=Pocion arrojadiza de aumento de daño Gelido
+splash_potion.effect.ddd_cold.damage.debuff=Pocion arrojadiza de reduccion de daño Gelido
+splash_potion.effect.ddd_cold.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Gelido
+splash_potion.effect.ddd_cold.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Gelido
+
+splash_potion.effect.ddd_cold.resist.buff=Pocion arrojadiza de aumento de resistencia a Gelido
+splash_potion.effect.ddd_cold.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Gelido
+splash_potion.effect.ddd_cold.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Gelido
+splash_potion.effect.ddd_cold.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Gelido
+splash_potion.effect.ddd_cold.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Gelido
+splash_potion.effect.ddd_cold.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Gelido
+
+### LINGERING ###
+lingering_potion.effect.ddd_cold.damage.buff=Pocion persistente de aumento de daño Gelido
+lingering_potion.effect.ddd_cold.damage.buff_extended=Pocion persistente de aumento de daño Gelido
+lingering_potion.effect.ddd_cold.damage.buff_strong=Pocion persistente de aumento de daño Gelido
+lingering_potion.effect.ddd_cold.damage.debuff=Pocion persistente de reduccion de daño Gelido
+lingering_potion.effect.ddd_cold.damage.debuff_extended=Pocion persistente de reduccion de daño Gelido
+lingering_potion.effect.ddd_cold.damage.debuff_strong=Pocion persistente de reduccion de daño Gelido
+
+lingering_potion.effect.ddd_cold.resist.buff=Pocion persistente de aumento de resistencia a Gelido
+lingering_potion.effect.ddd_cold.resist.buff_extended=Pocion persistente de aumento de resistencia a Gelido
+lingering_potion.effect.ddd_cold.resist.buff_strong=Pocion persistente de aumento de resistencia a Gelido
+lingering_potion.effect.ddd_cold.resist.debuff=Pocion persistente de reduccion de resistencia a Gelido
+lingering_potion.effect.ddd_cold.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Gelido
+lingering_potion.effect.ddd_cold.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Gelido
+
+### TIPPED ARROW: COLD ###
+tipped_arrow.effect.ddd_cold.damage.buff=Flecha de aumento de daño Gelido
+tipped_arrow.effect.ddd_cold.damage.buff_extended=Flecha de aumento de daño Gelido
+tipped_arrow.effect.ddd_cold.damage.buff_strong=Flecha de aumento de daño Gelido
+tipped_arrow.effect.ddd_cold.damage.debuff=Flecha de reduccion de daño Gelido
+tipped_arrow.effect.ddd_cold.damage.debuff_extended=Flecha de reduccion de daño Gelido
+tipped_arrow.effect.ddd_cold.damage.debuff_strong=Flecha de reduccion de daño Gelido
+
+tipped_arrow.effect.ddd_cold.resist.buff=Flecha de aumento de resistencia a Gelido
+tipped_arrow.effect.ddd_cold.resist.buff_extended=Flecha de aumento de resistencia a Gelido
+tipped_arrow.effect.ddd_cold.resist.buff_strong=Flecha de aumento de resistencia a Gelido
+tipped_arrow.effect.ddd_cold.resist.debuff=Flecha de reduccion de resistencia a Gelido
+tipped_arrow.effect.ddd_cold.resist.debuff_extended=Flecha de reduccion de resistencia a Gelido
+tipped_arrow.effect.ddd_cold.resist.debuff_strong=Flecha de reduccion de resistencia a Gelido
+
+# ---------------------------
+### POTION: FIRE ###
+# ---------------------------
+potion.effect.ddd_fire.damage.buff=Pocion de aumento de daño Ardiente
+potion.effect.ddd_fire.damage.buff_extended=Pocion de aumento de daño Ardiente
+potion.effect.ddd_fire.damage.buff_strong=Pocion de aumento de daño Ardiente
+potion.effect.ddd_fire.damage.debuff=Pocion de reduccion de daño Ardiente
+potion.effect.ddd_fire.damage.debuff_extended=Pocion de reduccion de daño Ardiente
+potion.effect.ddd_fire.damage.debuff_strong=Pocion de reduccion de daño Ardiente
+
+potion.effect.ddd_fire.resist.buff=Pocion de aumento de resistencia a Ardiente
+potion.effect.ddd_fire.resist.buff_extended=Pocion de aumento de resistencia a Ardiente
+potion.effect.ddd_fire.resist.buff_strong=Pocion de aumento de resistencia a Ardiente
+potion.effect.ddd_fire.resist.debuff=Pocion de reduccion de resistencia a Ardiente
+potion.effect.ddd_fire.resist.debuff_extended=Pocion de reduccion de resistencia a Ardiente
+potion.effect.ddd_fire.resist.debuff_strong=Pocion de reduccion de resistencia a Ardiente
+
+### SPLASH ###
+splash_potion.effect.ddd_fire.damage.buff=Pocion arrojadiza de aumento de daño Ardiente
+splash_potion.effect.ddd_fire.damage.buff_extended=Pocion arrojadiza de aumento de daño Ardiente
+splash_potion.effect.ddd_fire.damage.buff_strong=Pocion arrojadiza de aumento de daño Ardiente
+splash_potion.effect.ddd_fire.damage.debuff=Pocion arrojadiza de reduccion de daño Ardiente
+splash_potion.effect.ddd_fire.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Ardiente
+splash_potion.effect.ddd_fire.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Ardiente
+
+splash_potion.effect.ddd_fire.resist.buff=Pocion arrojadiza de aumento de resistencia a Ardiente
+splash_potion.effect.ddd_fire.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Ardiente
+splash_potion.effect.ddd_fire.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Ardiente
+splash_potion.effect.ddd_fire.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Ardiente
+splash_potion.effect.ddd_fire.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Ardiente
+splash_potion.effect.ddd_fire.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Ardiente
+
+### LINGERING ###
+lingering_potion.effect.ddd_fire.damage.buff=Pocion persistente de aumento de daño Ardiente
+lingering_potion.effect.ddd_fire.damage.buff_extended=Pocion persistente de aumento de daño Ardiente
+lingering_potion.effect.ddd_fire.damage.buff_strong=Pocion persistente de aumento de daño Ardiente
+lingering_potion.effect.ddd_fire.damage.debuff=Pocion persistente de reduccion de daño Ardiente
+lingering_potion.effect.ddd_fire.damage.debuff_extended=Pocion persistente de reduccion de daño Ardiente
+lingering_potion.effect.ddd_fire.damage.debuff_strong=Pocion persistente de reduccion de daño Ardiente
+
+lingering_potion.effect.ddd_fire.resist.buff=Pocion persistente de aumento de resistencia a Ardiente
+lingering_potion.effect.ddd_fire.resist.buff_extended=Pocion persistente de aumento de resistencia a Ardiente
+lingering_potion.effect.ddd_fire.resist.buff_strong=Pocion persistente de aumento de resistencia a Ardiente
+lingering_potion.effect.ddd_fire.resist.debuff=Pocion persistente de reduccion de resistencia a Ardiente
+lingering_potion.effect.ddd_fire.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Ardiente
+lingering_potion.effect.ddd_fire.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Ardiente
+
+### TIPPED ARROW: FIRE ###
+tipped_arrow.effect.ddd_fire.damage.buff=Flecha de aumento de daño Ardiente
+tipped_arrow.effect.ddd_fire.damage.buff_extended=Flecha de aumento de daño Ardiente
+tipped_arrow.effect.ddd_fire.damage.buff_strong=Flecha de aumento de daño Ardiente
+tipped_arrow.effect.ddd_fire.damage.debuff=Flecha de reduccion de daño Ardiente
+tipped_arrow.effect.ddd_fire.damage.debuff_extended=Flecha de reduccion de daño Ardiente
+tipped_arrow.effect.ddd_fire.damage.debuff_strong=Flecha de reduccion de daño Ardiente
+
+tipped_arrow.effect.ddd_fire.resist.buff=Flecha de aumento de resistencia a Ardiente
+tipped_arrow.effect.ddd_fire.resist.buff_extended=Flecha de aumento de resistencia a Ardiente
+tipped_arrow.effect.ddd_fire.resist.buff_strong=Flecha de aumento de resistencia a Ardiente
+tipped_arrow.effect.ddd_fire.resist.debuff=Flecha de reduccion de resistencia a Ardiente
+tipped_arrow.effect.ddd_fire.resist.debuff_extended=Flecha de reduccion de resistencia a Ardiente
+tipped_arrow.effect.ddd_fire.resist.debuff_strong=Flecha de reduccion de resistencia a Ardiente
+
+# ---------------------------
+### POTION: FORCE ###
+# ---------------------------
+potion.effect.ddd_force.damage.buff=Pocion de aumento de daño Presionante
+potion.effect.ddd_force.damage.buff_extended=Pocion de aumento de daño Presionante
+potion.effect.ddd_force.damage.buff_strong=Pocion de aumento de daño Presionante
+potion.effect.ddd_force.damage.debuff=Pocion de reduccion de daño Presionante
+potion.effect.ddd_force.damage.debuff_extended=Pocion de reduccion de daño Presionante
+potion.effect.ddd_force.damage.debuff_strong=Pocion de reduccion de daño Presionante
+
+potion.effect.ddd_force.resist.buff=Pocion de aumento de resistencia a Presionante
+potion.effect.ddd_force.resist.buff_extended=Pocion de aumento de resistencia a Presionante
+potion.effect.ddd_force.resist.buff_strong=Pocion de aumento de resistencia a Presionante
+potion.effect.ddd_force.resist.debuff=Pocion de reduccion de resistencia a Presionante
+potion.effect.ddd_force.resist.debuff_extended=Pocion de reduccion de resistencia a Presionante
+potion.effect.ddd_force.resist.debuff_strong=Pocion de reduccion de resistencia a Presionante
+
+### SPLASH ###
+splash_potion.effect.ddd_force.damage.buff=Pocion arrojadiza de aumento de daño Presionante
+splash_potion.effect.ddd_force.damage.buff_extended=Pocion arrojadiza de aumento de daño Presionante
+splash_potion.effect.ddd_force.damage.buff_strong=Pocion arrojadiza de aumento de daño Presionante
+splash_potion.effect.ddd_force.damage.debuff=Pocion arrojadiza de reduccion de daño Presionante
+splash_potion.effect.ddd_force.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Presionante
+splash_potion.effect.ddd_force.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Presionante
+
+splash_potion.effect.ddd_force.resist.buff=Pocion arrojadiza de aumento de resistencia a Presionante
+splash_potion.effect.ddd_force.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Presionante
+splash_potion.effect.ddd_force.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Presionante
+splash_potion.effect.ddd_force.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Presionante
+splash_potion.effect.ddd_force.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Presionante
+splash_potion.effect.ddd_force.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Presionante
+
+### LINGERING ###
+lingering_potion.effect.ddd_force.damage.buff=Pocion persistente de aumento de daño Presionante
+lingering_potion.effect.ddd_force.damage.buff_extended=Pocion persistente de aumento de daño Presionante
+lingering_potion.effect.ddd_force.damage.buff_strong=Pocion persistente de aumento de daño Presionante
+lingering_potion.effect.ddd_force.damage.debuff=Pocion persistente de reduccion de daño Presionante
+lingering_potion.effect.ddd_force.damage.debuff_extended=Pocion persistente de reduccion de daño Presionante
+lingering_potion.effect.ddd_force.damage.debuff_strong=Pocion persistente de reduccion de daño Presionante
+
+lingering_potion.effect.ddd_force.resist.buff=Pocion persistente de aumento de resistencia a Presionante
+lingering_potion.effect.ddd_force.resist.buff_extended=Pocion persistente de aumento de resistencia a Presionante
+lingering_potion.effect.ddd_force.resist.buff_strong=Pocion persistente de aumento de resistencia a Presionante
+lingering_potion.effect.ddd_force.resist.debuff=Pocion persistente de reduccion de resistencia a Presionante
+lingering_potion.effect.ddd_force.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Presionante
+lingering_potion.effect.ddd_force.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Presionante
+
+### TIPPED ARROW: FORCE ###
+tipped_arrow.effect.ddd_force.damage.buff=Flecha de aumento de daño Presionante
+tipped_arrow.effect.ddd_force.damage.buff_extended=Flecha de aumento de daño Presionante
+tipped_arrow.effect.ddd_force.damage.buff_strong=Flecha de aumento de daño Presionante
+tipped_arrow.effect.ddd_force.damage.debuff=Flecha de reduccion de daño Presionante
+tipped_arrow.effect.ddd_force.damage.debuff_extended=Flecha de reduccion de daño Presionante
+tipped_arrow.effect.ddd_force.damage.debuff_strong=Flecha de reduccion de daño Presionante
+
+tipped_arrow.effect.ddd_force.resist.buff=Flecha de aumento de resistencia a Presionante
+tipped_arrow.effect.ddd_force.resist.buff_extended=Flecha de aumento de resistencia a Presionante
+tipped_arrow.effect.ddd_force.resist.buff_strong=Flecha de aumento de resistencia a Presionante
+tipped_arrow.effect.ddd_force.resist.debuff=Flecha de reduccion de resistencia a Presionante
+tipped_arrow.effect.ddd_force.resist.debuff_extended=Flecha de reduccion de resistencia a Presionante
+tipped_arrow.effect.ddd_force.resist.debuff_strong=Flecha de reduccion de resistencia a Presionante
+
+# ---------------------------
+### POTION: LIGHTNING ###
+# ---------------------------
+potion.effect.ddd_lightning.damage.buff=Pocion de aumento de daño Voltico
+potion.effect.ddd_lightning.damage.buff_extended=Pocion de aumento de daño Voltico
+potion.effect.ddd_lightning.damage.buff_strong=Pocion de aumento de daño Voltico
+potion.effect.ddd_lightning.damage.debuff=Pocion de reduccion de daño Voltico
+potion.effect.ddd_lightning.damage.debuff_extended=Pocion de reduccion de daño Voltico
+potion.effect.ddd_lightning.damage.debuff_strong=Pocion de reduccion de daño Voltico
+
+potion.effect.ddd_lightning.resist.buff=Pocion de aumento de resistencia a Voltico
+potion.effect.ddd_lightning.resist.buff_extended=Pocion de aumento de resistencia a Voltico
+potion.effect.ddd_lightning.resist.buff_strong=Pocion de aumento de resistencia a Voltico
+potion.effect.ddd_lightning.resist.debuff=Pocion de reduccion de resistencia a Voltico
+potion.effect.ddd_lightning.resist.debuff_extended=Pocion de reduccion de resistencia a Voltico
+potion.effect.ddd_lightning.resist.debuff_strong=Pocion de reduccion de resistencia a Voltico
+
+### SPLASH ###
+splash_potion.effect.ddd_lightning.damage.buff=Pocion arrojadiza de aumento de daño Voltico
+splash_potion.effect.ddd_lightning.damage.buff_extended=Pocion arrojadiza de aumento de daño Voltico
+splash_potion.effect.ddd_lightning.damage.buff_strong=Pocion arrojadiza de aumento de daño Voltico
+splash_potion.effect.ddd_lightning.damage.debuff=Pocion arrojadiza de reduccion de daño Voltico
+splash_potion.effect.ddd_lightning.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Voltico
+splash_potion.effect.ddd_lightning.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Voltico
+
+splash_potion.effect.ddd_lightning.resist.buff=Pocion arrojadiza de aumento de resistencia a Voltico
+splash_potion.effect.ddd_lightning.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Voltico
+splash_potion.effect.ddd_lightning.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Voltico
+splash_potion.effect.ddd_lightning.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Voltico
+splash_potion.effect.ddd_lightning.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Voltico
+splash_potion.effect.ddd_lightning.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Voltico
+
+### LINGERING ###
+lingering_potion.effect.ddd_lightning.damage.buff=Pocion persistente de aumento de daño Voltico
+lingering_potion.effect.ddd_lightning.damage.buff_extended=Pocion persistente de aumento de daño Voltico
+lingering_potion.effect.ddd_lightning.damage.buff_strong=Pocion persistente de aumento de daño Voltico
+lingering_potion.effect.ddd_lightning.damage.debuff=Pocion persistente de reduccion de daño Voltico
+lingering_potion.effect.ddd_lightning.damage.debuff_extended=Pocion persistente de reduccion de daño Voltico
+lingering_potion.effect.ddd_lightning.damage.debuff_strong=Pocion persistente de reduccion de daño Voltico
+
+lingering_potion.effect.ddd_lightning.resist.buff=Pocion persistente de aumento de resistencia a Voltico
+lingering_potion.effect.ddd_lightning.resist.buff_extended=Pocion persistente de aumento de resistencia a Voltico
+lingering_potion.effect.ddd_lightning.resist.buff_strong=Pocion persistente de aumento de resistencia a Voltico
+lingering_potion.effect.ddd_lightning.resist.debuff=Pocion persistente de reduccion de resistencia a Voltico
+lingering_potion.effect.ddd_lightning.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Voltico
+lingering_potion.effect.ddd_lightning.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Voltico
+
+### TIPPED ARROW: LIGHTNING ###
+tipped_arrow.effect.ddd_lightning.damage.buff=Flecha de aumento de daño Voltico
+tipped_arrow.effect.ddd_lightning.damage.buff_extended=Flecha de aumento de daño Voltico
+tipped_arrow.effect.ddd_lightning.damage.buff_strong=Flecha de aumento de daño Voltico
+tipped_arrow.effect.ddd_lightning.damage.debuff=Flecha de reduccion de daño Voltico
+tipped_arrow.effect.ddd_lightning.damage.debuff_extended=Flecha de reduccion de daño Voltico
+tipped_arrow.effect.ddd_lightning.damage.debuff_strong=Flecha de reduccion de daño Voltico
+
+tipped_arrow.effect.ddd_lightning.resist.buff=Flecha de aumento de resistencia a Voltico
+tipped_arrow.effect.ddd_lightning.resist.buff_extended=Flecha de aumento de resistencia a Voltico
+tipped_arrow.effect.ddd_lightning.resist.buff_strong=Flecha de aumento de resistencia a Voltico
+tipped_arrow.effect.ddd_lightning.resist.debuff=Flecha de reduccion de resistencia a Voltico
+tipped_arrow.effect.ddd_lightning.resist.debuff_extended=Flecha de reduccion de resistencia a Voltico
+tipped_arrow.effect.ddd_lightning.resist.debuff_strong=Flecha de reduccion de resistencia a Voltico
+
+# ---------------------------
+### POTION: NECROTIC ###
+# ---------------------------
+potion.effect.ddd_necrotic.damage.buff=Pocion de aumento de daño Necrotico
+potion.effect.ddd_necrotic.damage.buff_extended=Pocion de aumento de daño Necrotico
+potion.effect.ddd_necrotic.damage.buff_strong=Pocion de aumento de daño Necrotico
+potion.effect.ddd_necrotic.damage.debuff=Pocion de reduccion de daño Necrotico
+potion.effect.ddd_necrotic.damage.debuff_extended=Pocion de reduccion de daño Necrotico
+potion.effect.ddd_necrotic.damage.debuff_strong=Pocion de reduccion de daño Necrotico
+
+potion.effect.ddd_necrotic.resist.buff=Pocion de aumento de resistencia a Necrotico
+potion.effect.ddd_necrotic.resist.buff_extended=Pocion de aumento de resistencia a Necrotico
+potion.effect.ddd_necrotic.resist.buff_strong=Pocion de aumento de resistencia a Necrotico
+potion.effect.ddd_necrotic.resist.debuff=Pocion de reduccion de resistencia a Necrotico
+potion.effect.ddd_necrotic.resist.debuff_extended=Pocion de reduccion de resistencia a Necrotico
+potion.effect.ddd_necrotic.resist.debuff_strong=Pocion de reduccion de resistencia a Necrotico
+
+### SPLASH ###
+splash_potion.effect.ddd_necrotic.damage.buff=Pocion arrojadiza de aumento de daño Necrotico
+splash_potion.effect.ddd_necrotic.damage.buff_extended=Pocion arrojadiza de aumento de daño Necrotico
+splash_potion.effect.ddd_necrotic.damage.buff_strong=Pocion arrojadiza de aumento de daño Necrotico
+splash_potion.effect.ddd_necrotic.damage.debuff=Pocion arrojadiza de reduccion de daño Necrotico
+splash_potion.effect.ddd_necrotic.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Necrotico
+splash_potion.effect.ddd_necrotic.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Necrotico
+
+splash_potion.effect.ddd_necrotic.resist.buff=Pocion arrojadiza de aumento de resistencia a Necrotico
+splash_potion.effect.ddd_necrotic.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Necrotico
+splash_potion.effect.ddd_necrotic.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Necrotico
+splash_potion.effect.ddd_necrotic.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Necrotico
+splash_potion.effect.ddd_necrotic.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Necrotico
+splash_potion.effect.ddd_necrotic.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Necrotico
+
+### LINGERING ###
+lingering_potion.effect.ddd_necrotic.damage.buff=Pocion persistente de aumento de daño Necrotico
+lingering_potion.effect.ddd_necrotic.damage.buff_extended=Pocion persistente de aumento de daño Necrotico
+lingering_potion.effect.ddd_necrotic.damage.buff_strong=Pocion persistente de aumento de daño Necrotico
+lingering_potion.effect.ddd_necrotic.damage.debuff=Pocion persistente de reduccion de daño Necrotico
+lingering_potion.effect.ddd_necrotic.damage.debuff_extended=Pocion persistente de reduccion de daño Necrotico
+lingering_potion.effect.ddd_necrotic.damage.debuff_strong=Pocion persistente de reduccion de daño Necrotico
+
+lingering_potion.effect.ddd_necrotic.resist.buff=Pocion persistente de aumento de resistencia a Necrotico
+lingering_potion.effect.ddd_necrotic.resist.buff_extended=Pocion persistente de aumento de resistencia a Necrotico
+lingering_potion.effect.ddd_necrotic.resist.buff_strong=Pocion persistente de aumento de resistencia a Necrotico
+lingering_potion.effect.ddd_necrotic.resist.debuff=Pocion persistente de reduccion de resistencia a Necrotico
+lingering_potion.effect.ddd_necrotic.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Necrotico
+lingering_potion.effect.ddd_necrotic.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Necrotico
+
+### TIPPED ARROW: NECROTIC ###
+tipped_arrow.effect.ddd_necrotic.damage.buff=Flecha de aumento de daño Necrotico
+tipped_arrow.effect.ddd_necrotic.damage.buff_extended=Flecha de aumento de daño Necrotico
+tipped_arrow.effect.ddd_necrotic.damage.buff_strong=Flecha de aumento de daño Necrotico
+tipped_arrow.effect.ddd_necrotic.damage.debuff=Flecha de reduccion de daño Necrotico
+tipped_arrow.effect.ddd_necrotic.damage.debuff_extended=Flecha de reduccion de daño Necrotico
+tipped_arrow.effect.ddd_necrotic.damage.debuff_strong=Flecha de reduccion de daño Necrotico
+
+tipped_arrow.effect.ddd_necrotic.resist.buff=Flecha de aumento de resistencia a Necrotico
+tipped_arrow.effect.ddd_necrotic.resist.buff_extended=Flecha de aumento de resistencia a Necrotico
+tipped_arrow.effect.ddd_necrotic.resist.buff_strong=Flecha de aumento de resistencia a Necrotico
+tipped_arrow.effect.ddd_necrotic.resist.debuff=Flecha de reduccion de resistencia a Necrotico
+tipped_arrow.effect.ddd_necrotic.resist.debuff_extended=Flecha de reduccion de resistencia a Necrotico
+tipped_arrow.effect.ddd_necrotic.resist.debuff_strong=Flecha de reduccion de resistencia a Necrotico
+
+# ---------------------------
+### POTION: POISON ###
+# ---------------------------
+potion.effect.ddd_poison.damage.buff=Pocion de aumento de daño Toxico
+potion.effect.ddd_poison.damage.buff_extended=Pocion de aumento de daño Toxico
+potion.effect.ddd_poison.damage.buff_strong=Pocion de aumento de daño Toxico
+potion.effect.ddd_poison.damage.debuff=Pocion de reduccion de daño Toxico
+potion.effect.ddd_poison.damage.debuff_extended=Pocion de reduccion de daño Toxico
+potion.effect.ddd_poison.damage.debuff_strong=Pocion de reduccion de daño Toxico
+
+potion.effect.ddd_poison.resist.buff=Pocion de aumento de resistencia a Toxico
+potion.effect.ddd_poison.resist.buff_extended=Pocion de aumento de resistencia a Toxico
+potion.effect.ddd_poison.resist.buff_strong=Pocion de aumento de resistencia a Toxico
+potion.effect.ddd_poison.resist.debuff=Pocion de reduccion de resistencia a Toxico
+potion.effect.ddd_poison.resist.debuff_extended=Pocion de reduccion de resistencia a Toxico
+potion.effect.ddd_poison.resist.debuff_strong=Pocion de reduccion de resistencia a Toxico
+
+### SPLASH ###
+splash_potion.effect.ddd_poison.damage.buff=Pocion arrojadiza de aumento de daño Toxico
+splash_potion.effect.ddd_poison.damage.buff_extended=Pocion arrojadiza de aumento de daño Toxico
+splash_potion.effect.ddd_poison.damage.buff_strong=Pocion arrojadiza de aumento de daño Toxico
+splash_potion.effect.ddd_poison.damage.debuff=Pocion arrojadiza de reduccion de daño Toxico
+splash_potion.effect.ddd_poison.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Toxico
+splash_potion.effect.ddd_poison.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Toxico
+
+splash_potion.effect.ddd_poison.resist.buff=Pocion arrojadiza de aumento de resistencia a Toxico
+splash_potion.effect.ddd_poison.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Toxico
+splash_potion.effect.ddd_poison.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Toxico
+splash_potion.effect.ddd_poison.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Toxico
+splash_potion.effect.ddd_poison.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Toxico
+splash_potion.effect.ddd_poison.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Toxico
+
+### LINGERING ###
+lingering_potion.effect.ddd_poison.damage.buff=Pocion persistente de aumento de daño Toxico
+lingering_potion.effect.ddd_poison.damage.buff_extended=Pocion persistente de aumento de daño Toxico
+lingering_potion.effect.ddd_poison.damage.buff_strong=Pocion persistente de aumento de daño Toxico
+lingering_potion.effect.ddd_poison.damage.debuff=Pocion persistente de reduccion de daño Toxico
+lingering_potion.effect.ddd_poison.damage.debuff_extended=Pocion persistente de reduccion de daño Toxico
+lingering_potion.effect.ddd_poison.damage.debuff_strong=Pocion persistente de reduccion de daño Toxico
+
+lingering_potion.effect.ddd_poison.resist.buff=Pocion persistente de aumento de resistencia a Toxico
+lingering_potion.effect.ddd_poison.resist.buff_extended=Pocion persistente de aumento de resistencia a Toxico
+lingering_potion.effect.ddd_poison.resist.buff_strong=Pocion persistente de aumento de resistencia a Toxico
+lingering_potion.effect.ddd_poison.resist.debuff=Pocion persistente de reduccion de resistencia a Toxico
+lingering_potion.effect.ddd_poison.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Toxico
+lingering_potion.effect.ddd_poison.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Toxico
+
+### TIPPED ARROW: POISON ###
+tipped_arrow.effect.ddd_poison.damage.buff=Flecha de aumento de daño Toxico
+tipped_arrow.effect.ddd_poison.damage.buff_extended=Flecha de aumento de daño Toxico
+tipped_arrow.effect.ddd_poison.damage.buff_strong=Flecha de aumento de daño Toxico
+tipped_arrow.effect.ddd_poison.damage.debuff=Flecha de reduccion de daño Toxico
+tipped_arrow.effect.ddd_poison.damage.debuff_extended=Flecha de reduccion de daño Toxico
+tipped_arrow.effect.ddd_poison.damage.debuff_strong=Flecha de reduccion de daño Toxico
+
+tipped_arrow.effect.ddd_poison.resist.buff=Flecha de aumento de resistencia a Toxico
+tipped_arrow.effect.ddd_poison.resist.buff_extended=Flecha de aumento de resistencia a Toxico
+tipped_arrow.effect.ddd_poison.resist.buff_strong=Flecha de aumento de resistencia a Toxico
+tipped_arrow.effect.ddd_poison.resist.debuff=Flecha de reduccion de resistencia a Toxico
+tipped_arrow.effect.ddd_poison.resist.debuff_extended=Flecha de reduccion de resistencia a Toxico
+tipped_arrow.effect.ddd_poison.resist.debuff_strong=Flecha de reduccion de resistencia a Toxico
+
+# ---------------------------
+### POTION: PSYCHIC ###
+# ---------------------------
+potion.effect.ddd_psychic.damage.buff=Pocion de aumento de daño Mental
+potion.effect.ddd_psychic.damage.buff_extended=Pocion de aumento de daño Mental
+potion.effect.ddd_psychic.damage.buff_strong=Pocion de aumento de daño Mental
+potion.effect.ddd_psychic.damage.debuff=Pocion de reduccion de daño Mental
+potion.effect.ddd_psychic.damage.debuff_extended=Pocion de reduccion de daño Mental
+potion.effect.ddd_psychic.damage.debuff_strong=Pocion de reduccion de daño Mental
+
+potion.effect.ddd_psychic.resist.buff=Pocion de aumento de resistencia a Mental
+potion.effect.ddd_psychic.resist.buff_extended=Pocion de aumento de resistencia a Mental
+potion.effect.ddd_psychic.resist.buff_strong=Pocion de aumento de resistencia a Mental
+potion.effect.ddd_psychic.resist.debuff=Pocion de reduccion de resistencia a Mental
+potion.effect.ddd_psychic.resist.debuff_extended=Pocion de reduccion de resistencia a Mental
+potion.effect.ddd_psychic.resist.debuff_strong=Pocion de reduccion de resistencia a Mental
+
+### SPLASH ###
+splash_potion.effect.ddd_psychic.damage.buff=Pocion arrojadiza de aumento de daño Mental
+splash_potion.effect.ddd_psychic.damage.buff_extended=Pocion arrojadiza de aumento de daño Mental
+splash_potion.effect.ddd_psychic.damage.buff_strong=Pocion arrojadiza de aumento de daño Mental
+splash_potion.effect.ddd_psychic.damage.debuff=Pocion arrojadiza de reduccion de daño Mental
+splash_potion.effect.ddd_psychic.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Mental
+splash_potion.effect.ddd_psychic.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Mental
+
+splash_potion.effect.ddd_psychic.resist.buff=Pocion arrojadiza de aumento de resistencia a Mental
+splash_potion.effect.ddd_psychic.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Mental
+splash_potion.effect.ddd_psychic.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Mental
+splash_potion.effect.ddd_psychic.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Mental
+splash_potion.effect.ddd_psychic.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Mental
+splash_potion.effect.ddd_psychic.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Mental
+
+### LINGERING ###
+lingering_potion.effect.ddd_psychic.damage.buff=Pocion persistente de aumento de daño Mental
+lingering_potion.effect.ddd_psychic.damage.buff_extended=Pocion persistente de aumento de daño Mental
+lingering_potion.effect.ddd_psychic.damage.buff_strong=Pocion persistente de aumento de daño Mental
+lingering_potion.effect.ddd_psychic.damage.debuff=Pocion persistente de reduccion de daño Mental
+lingering_potion.effect.ddd_psychic.damage.debuff_extended=Pocion persistente de reduccion de daño Mental
+lingering_potion.effect.ddd_psychic.damage.debuff_strong=Pocion persistente de reduccion de daño Mental
+
+lingering_potion.effect.ddd_psychic.resist.buff=Pocion persistente de aumento de resistencia a Mental
+lingering_potion.effect.ddd_psychic.resist.buff_extended=Pocion persistente de aumento de resistencia a Mental
+lingering_potion.effect.ddd_psychic.resist.buff_strong=Pocion persistente de aumento de resistencia a Mental
+lingering_potion.effect.ddd_psychic.resist.debuff=Pocion persistente de reduccion de resistencia a Mental
+lingering_potion.effect.ddd_psychic.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Mental
+lingering_potion.effect.ddd_psychic.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Mental
+
+### TIPPED ARROW: PSYCHIC ###
+tipped_arrow.effect.ddd_psychic.damage.buff=Flecha de aumento de daño Mental
+tipped_arrow.effect.ddd_psychic.damage.buff_extended=Flecha de aumento de daño Mental
+tipped_arrow.effect.ddd_psychic.damage.buff_strong=Flecha de aumento de daño Mental
+tipped_arrow.effect.ddd_psychic.damage.debuff=Flecha de reduccion de daño Mental
+tipped_arrow.effect.ddd_psychic.damage.debuff_extended=Flecha de reduccion de daño Mental
+tipped_arrow.effect.ddd_psychic.damage.debuff_strong=Flecha de reduccion de daño Mental
+
+tipped_arrow.effect.ddd_psychic.resist.buff=Flecha de aumento de resistencia a Mental
+tipped_arrow.effect.ddd_psychic.resist.buff_extended=Flecha de aumento de resistencia a Mental
+tipped_arrow.effect.ddd_psychic.resist.buff_strong=Flecha de aumento de resistencia a Mental
+tipped_arrow.effect.ddd_psychic.resist.debuff=Flecha de reduccion de resistencia a Mental
+tipped_arrow.effect.ddd_psychic.resist.debuff_extended=Flecha de reduccion de resistencia a Mental
+tipped_arrow.effect.ddd_psychic.resist.debuff_strong=Flecha de reduccion de resistencia a Mental
+
+# ---------------------------
+### POTION: RADIANT ###
+# ---------------------------
+potion.effect.ddd_radiant.damage.buff=Pocion de aumento de daño Radiante
+potion.effect.ddd_radiant.damage.buff_extended=Pocion de aumento de daño Radiante
+potion.effect.ddd_radiant.damage.buff_strong=Pocion de aumento de daño Radiante
+potion.effect.ddd_radiant.damage.debuff=Pocion de reduccion de daño Radiante
+potion.effect.ddd_radiant.damage.debuff_extended=Pocion de reduccion de daño Radiante
+potion.effect.ddd_radiant.damage.debuff_strong=Pocion de reduccion de daño Radiante
+
+potion.effect.ddd_radiant.resist.buff=Pocion de aumento de resistencia a Radiante
+potion.effect.ddd_radiant.resist.buff_extended=Pocion de aumento de resistencia a Radiante
+potion.effect.ddd_radiant.resist.buff_strong=Pocion de aumento de resistencia a Radiante
+potion.effect.ddd_radiant.resist.debuff=Pocion de reduccion de resistencia a Radiante
+potion.effect.ddd_radiant.resist.debuff_extended=Pocion de reduccion de resistencia a Radiante
+potion.effect.ddd_radiant.resist.debuff_strong=Pocion de reduccion de resistencia a Radiante
+
+### SPLASH ###
+splash_potion.effect.ddd_radiant.damage.buff=Pocion arrojadiza de aumento de daño Radiante
+splash_potion.effect.ddd_radiant.damage.buff_extended=Pocion arrojadiza de aumento de daño Radiante
+splash_potion.effect.ddd_radiant.damage.buff_strong=Pocion arrojadiza de aumento de daño Radiante
+splash_potion.effect.ddd_radiant.damage.debuff=Pocion arrojadiza de reduccion de daño Radiante
+splash_potion.effect.ddd_radiant.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Radiante
+splash_potion.effect.ddd_radiant.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Radiante
+
+splash_potion.effect.ddd_radiant.resist.buff=Pocion arrojadiza de aumento de resistencia a Radiante
+splash_potion.effect.ddd_radiant.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Radiante
+splash_potion.effect.ddd_radiant.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Radiante
+splash_potion.effect.ddd_radiant.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Radiante
+splash_potion.effect.ddd_radiant.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Radiante
+splash_potion.effect.ddd_radiant.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Radiante
+
+### LINGERING ###
+lingering_potion.effect.ddd_radiant.damage.buff=Pocion persistente de aumento de daño Radiante
+lingering_potion.effect.ddd_radiant.damage.buff_extended=Pocion persistente de aumento de daño Radiante
+lingering_potion.effect.ddd_radiant.damage.buff_strong=Pocion persistente de aumento de daño Radiante
+lingering_potion.effect.ddd_radiant.damage.debuff=Pocion persistente de reduccion de daño Radiante
+lingering_potion.effect.ddd_radiant.damage.debuff_extended=Pocion persistente de reduccion de daño Radiante
+lingering_potion.effect.ddd_radiant.damage.debuff_strong=Pocion persistente de reduccion de daño Radiante
+
+lingering_potion.effect.ddd_radiant.resist.buff=Pocion persistente de aumento de resistencia a Radiante
+lingering_potion.effect.ddd_radiant.resist.buff_extended=Pocion persistente de aumento de resistencia a Radiante
+lingering_potion.effect.ddd_radiant.resist.buff_strong=Pocion persistente de aumento de resistencia a Radiante
+lingering_potion.effect.ddd_radiant.resist.debuff=Pocion persistente de reduccion de resistencia a Radiante
+lingering_potion.effect.ddd_radiant.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Radiante
+lingering_potion.effect.ddd_radiant.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Radiante
+
+### TIPPED ARROW: RADIANT ###
+tipped_arrow.effect.ddd_radiant.damage.buff=Flecha de aumento de daño Radiante
+tipped_arrow.effect.ddd_radiant.damage.buff_extended=Flecha de aumento de daño Radiante
+tipped_arrow.effect.ddd_radiant.damage.buff_strong=Flecha de aumento de daño Radiante
+tipped_arrow.effect.ddd_radiant.damage.debuff=Flecha de reduccion de daño Radiante
+tipped_arrow.effect.ddd_radiant.damage.debuff_extended=Flecha de reduccion de daño Radiante
+tipped_arrow.effect.ddd_radiant.damage.debuff_strong=Flecha de reduccion de daño Radiante
+
+tipped_arrow.effect.ddd_radiant.resist.buff=Flecha de aumento de resistencia a Radiante
+tipped_arrow.effect.ddd_radiant.resist.buff_extended=Flecha de aumento de resistencia a Radiante
+tipped_arrow.effect.ddd_radiant.resist.buff_strong=Flecha de aumento de resistencia a Radiante
+tipped_arrow.effect.ddd_radiant.resist.debuff=Flecha de reduccion de resistencia a Radiante
+tipped_arrow.effect.ddd_radiant.resist.debuff_extended=Flecha de reduccion de resistencia a Radiante
+tipped_arrow.effect.ddd_radiant.resist.debuff_strong=Flecha de reduccion de resistencia a Radiante
+
+# ---------------------------
+### POTION: THUNDER ###
+# ---------------------------
+potion.effect.ddd_thunder.damage.buff=Pocion de aumento de daño Resonante
+potion.effect.ddd_thunder.damage.buff_extended=Pocion de aumento de daño Resonante
+potion.effect.ddd_thunder.damage.buff_strong=Pocion de aumento de daño Resonante
+potion.effect.ddd_thunder.damage.debuff=Pocion de reduccion de daño Resonante
+potion.effect.ddd_thunder.damage.debuff_extended=Pocion de reduccion de daño Resonante
+potion.effect.ddd_thunder.damage.debuff_strong=Pocion de reduccion de daño Resonante
+
+potion.effect.ddd_thunder.resist.buff=Pocion de aumento de resistencia a Resonante
+potion.effect.ddd_thunder.resist.buff_extended=Pocion de aumento de resistencia a Resonante
+potion.effect.ddd_thunder.resist.buff_strong=Pocion de aumento de resistencia a Resonante
+potion.effect.ddd_thunder.resist.debuff=Pocion de reduccion de resistencia a Resonante
+potion.effect.ddd_thunder.resist.debuff_extended=Pocion de reduccion de resistencia a Resonante
+potion.effect.ddd_thunder.resist.debuff_strong=Pocion de reduccion de resistencia a Resonante
+
+### SPLASH ###
+splash_potion.effect.ddd_thunder.damage.buff=Pocion arrojadiza de aumento de daño Resonante
+splash_potion.effect.ddd_thunder.damage.buff_extended=Pocion arrojadiza de aumento de daño Resonante
+splash_potion.effect.ddd_thunder.damage.buff_strong=Pocion arrojadiza de aumento de daño Resonante
+splash_potion.effect.ddd_thunder.damage.debuff=Pocion arrojadiza de reduccion de daño Resonante
+splash_potion.effect.ddd_thunder.damage.debuff_extended=Pocion arrojadiza de reduccion de daño Resonante
+splash_potion.effect.ddd_thunder.damage.debuff_strong=Pocion arrojadiza de reduccion de daño Resonante
+
+splash_potion.effect.ddd_thunder.resist.buff=Pocion arrojadiza de aumento de resistencia a Resonante
+splash_potion.effect.ddd_thunder.resist.buff_extended=Pocion arrojadiza de aumento de resistencia a Resonante
+splash_potion.effect.ddd_thunder.resist.buff_strong=Pocion arrojadiza de aumento de resistencia a Resonante
+splash_potion.effect.ddd_thunder.resist.debuff=Pocion arrojadiza de reduccion de resistencia a Resonante
+splash_potion.effect.ddd_thunder.resist.debuff_extended=Pocion arrojadiza de reduccion de resistencia a Resonante
+splash_potion.effect.ddd_thunder.resist.debuff_strong=Pocion arrojadiza de reduccion de resistencia a Resonante
+
+### LINGERING ###
+lingering_potion.effect.ddd_thunder.damage.buff=Pocion persistente de aumento de daño Resonante
+lingering_potion.effect.ddd_thunder.damage.buff_extended=Pocion persistente de aumento de daño Resonante
+lingering_potion.effect.ddd_thunder.damage.buff_strong=Pocion persistente de aumento de daño Resonante
+lingering_potion.effect.ddd_thunder.damage.debuff=Pocion persistente de reduccion de daño Resonante
+lingering_potion.effect.ddd_thunder.damage.debuff_extended=Pocion persistente de reduccion de daño Resonante
+lingering_potion.effect.ddd_thunder.damage.debuff_strong=Pocion persistente de reduccion de daño Resonante
+
+lingering_potion.effect.ddd_thunder.resist.buff=Pocion persistente de aumento de resistencia a Resonante
+lingering_potion.effect.ddd_thunder.resist.buff_extended=Pocion persistente de aumento de resistencia a Resonante
+lingering_potion.effect.ddd_thunder.resist.buff_strong=Pocion persistente de aumento de resistencia a Resonante
+lingering_potion.effect.ddd_thunder.resist.debuff=Pocion persistente de reduccion de resistencia a Resonante
+lingering_potion.effect.ddd_thunder.resist.debuff_extended=Pocion persistente de reduccion de resistencia a Resonante
+lingering_potion.effect.ddd_thunder.resist.debuff_strong=Pocion persistente de reduccion de resistencia a Resonante
+
+### TIPPED ARROW: THUNDER ###
+tipped_arrow.effect.ddd_thunder.damage.buff=Flecha de aumento de daño Resonante
+tipped_arrow.effect.ddd_thunder.damage.buff_extended=Flecha de aumento de daño Resonante
+tipped_arrow.effect.ddd_thunder.damage.buff_strong=Flecha de aumento de daño Resonante
+tipped_arrow.effect.ddd_thunder.damage.debuff=Flecha de reduccion de daño Resonante
+tipped_arrow.effect.ddd_thunder.damage.debuff_extended=Flecha de reduccion de daño Resonante
+tipped_arrow.effect.ddd_thunder.damage.debuff_strong=Flecha de reduccion de daño Resonante
+
+tipped_arrow.effect.ddd_thunder.resist.buff=Flecha de aumento de resistencia a Resonante
+tipped_arrow.effect.ddd_thunder.resist.buff_extended=Flecha de aumento de resistencia a Resonante
+tipped_arrow.effect.ddd_thunder.resist.buff_strong=Flecha de aumento de resistencia a Resonante
+tipped_arrow.effect.ddd_thunder.resist.debuff=Flecha de reduccion de resistencia a Resonante
+tipped_arrow.effect.ddd_thunder.resist.debuff_extended=Flecha de reduccion de resistencia a Resonante
+tipped_arrow.effect.ddd_thunder.resist.debuff_strong=Flecha de reduccion de resistencia a Resonante
