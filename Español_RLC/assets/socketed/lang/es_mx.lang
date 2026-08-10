@@ -1,0 +1,232 @@
+tile.socketed.socket_bench.name=Mesa de engarce
+
+item.socketed.socket_tool.tooltip=Agrega o remueve gemas engarzadas en herramientas y armaduras
+item.socketed.socket_tool.name=Herramienta de engarce
+
+item.socketed.socket.socket_generic.tooltip=Agrega una nueva ranura Genérica a un objeto
+item.socketed.socket.socket_tier_0.tooltip=Agrega una nueva ranura Común a un objeto
+item.socketed.socket.socket_tier_1.tooltip=Agrega una nueva ranura Poco común a un objeto
+item.socketed.socket.socket_tier_2.tooltip=Agrega una nueva ranura Rara a un objeto
+item.socketed.socket.socket_tier_3.tooltip=Agrega una nueva ranura Épica a un objeto
+item.socketed.socket.socket_tier_4.tooltip=Agrega una nueva ranura Legendaria a un objeto
+item.socketed.socket.socket_tier_5.tooltip=Agrega una nueva ranura Definitiva a un objeto
+
+
+item.socketed.socket_generic.name=§6Ranura Generica
+item.socketed.socket_tier_0.name=§7Ranura Comun
+item.socketed.socket_tier_1.name=§fRanura Poco comun
+item.socketed.socket_tier_2.name=§eRanura Rara
+item.socketed.socket_tier_3.name=§bRanura Epica
+item.socketed.socket_tier_4.name=§5Ranura Legendaria
+item.socketed.socket_tier_5.name=§4Ranura Definitiva
+
+socketed.socketinggui.displayname=Engarce
+
+attribute.name.socketed.durability=Durabilidad
+attribute.name.socketed.experience=XP
+attribute.name.socketed.tradecost=Costos de intercambio
+
+socketed.tooltip.socket=Ranuras (%d/%d):
+socketed.tooltip.empty=Vacía
+socketed.tooltip.holdshift=Presiona <Shift> para más información
+
+socketed.tooltip.gem=En ranura:
+
+socketed.tooltip.generic=§6(Genérica)
+socketed.tooltip.tier_0=§7(Común)
+socketed.tooltip.tier_1=§f(Poco común)
+socketed.tooltip.tier_2=§e(Rara)
+socketed.tooltip.tier_3=§b(Épica)
+socketed.tooltip.tier_4=§5(Legendaria)
+socketed.tooltip.tier_5=§4(Definitiva)
+
+socketed.tooltip.slottype.all=
+socketed.tooltip.slottype.none=()
+socketed.tooltip.slottype.body=(En cuerpo)
+socketed.tooltip.slottype.head=(En cabeza)
+socketed.tooltip.slottype.chest=(En pecho)
+socketed.tooltip.slottype.legs=(En piernas)
+socketed.tooltip.slottype.feet=(En pies)
+socketed.tooltip.slottype.hand=(En mano)
+socketed.tooltip.slottype.mainhand=(En mano principal)
+socketed.tooltip.slottype.offhand=(En mano secundaria)
+
+socketed.tooltip.effect.bypassiframe=Ignorar IFrame
+socketed.tooltip.effect.cancelevent=Cancelar evento
+socketed.tooltip.effect.explosion=Explosión
+socketed.tooltip.effect.extraiframe=IFrame extra %d
+socketed.tooltip.effect.ignite=Encender %d
+socketed.tooltip.effect.knockback=Empuje
+socketed.tooltip.effect.knockback.inverted=Atracción
+socketed.tooltip.effect.removetarget=Eliminar objetivo
+socketed.tooltip.effect.undyingtotem=Tótem de inmortalidad
+socketed.tooltip.effect.executecommand=Ejecutar comando: %s
+
+socketed.tooltip.effect.plusenchantment=+%d %s
+
+socketed.modifier.plus.plus.0=+%s a +%s %s
+socketed.modifier.take.plus.0=-%s a +%s %s
+socketed.modifier.take.take.0=-%s a -%s %s
+socketed.modifier.plus.plus.1=+%s%% a +%s%% %s
+socketed.modifier.take.plus.1=-%s%% a +%s%% %s
+socketed.modifier.take.take.1=-%s%% a -%s%% %s
+socketed.modifier.plus.plus.2=+%s%% a +%s%% %s
+socketed.modifier.take.plus.2=+%s%% a -%s%% %s
+socketed.modifier.take.take.2=-%s%% a -%s%% %s
+
+socketed.tooltip.activator.attacked=Atacado
+socketed.tooltip.activator.attacking=Atacando
+socketed.tooltip.activator.deathtotemcheck=Death Totem Check*
+socketed.tooltip.activator.passive=Cada %d ticks
+socketed.tooltip.activator.targeted=Targeted*
+
+socketed.tooltip.target.otheraoe=AOE a otros
+socketed.tooltip.target.other=a otros
+socketed.tooltip.target.selfaoe=AOE propia
+socketed.tooltip.target.self=Propia
+
+# Tier 0
+socketed.tooltip.default.poison_potato=Brebaje morado
+socketed.tooltip.default.poison_potato.desc=Irradia Veneno I
+
+socketed.tooltip.default.spider_eye=Sintiéndose débil
+socketed.tooltip.default.spider_eye.desc=Irradia Debilidad I
+
+socketed.tooltip.default.slimeball=Situación pegajosa
+socketed.tooltip.default.slimeball.desc=Irradia Lentitud I
+
+socketed.tooltip.default.sugar=Speedy Gonzalez
+socketed.tooltip.default.sugar.desc=Irradia Velocidad I
+
+socketed.tooltip.default.dead_bush=Espinoso
+
+socketed.tooltip.default.iron=Chapado en hierro
+
+socketed.tooltip.default.coal=Incendiado
+socketed.tooltip.default.coal.desc=Ataques pueden incendiar
+
+socketed.tooltip.default.gunpowder=¡Ekusupurooshon!
+socketed.tooltip.default.gunpowder.desc=Ataques pueden crear explosiones
+
+# Tier 1
+socketed.tooltip.default.blazerod=Incendiado
+socketed.tooltip.default.blazerod.desc=Ataques pueden incendiar
+
+socketed.tooltip.default.glowstone=Radio de luz +4
+socketed.tooltip.default.glowstone.desc=Luminiscencia a mobs cercanos
+
+socketed.tooltip.default.glowstone_block=Radio de luz +12
+socketed.tooltip.default.glowstone_block.desc=Luminiscencia a mobs en un área
+
+socketed.tooltip.default.redstone=Apresurado
+socketed.tooltip.default.redstone.desc=Prisa minera I pasiva
+
+socketed.tooltip.default.cobweb=¡Sosieguense!
+socketed.tooltip.default.cobweb.desc=Al ser golpeado, puedes irradiar Lentitud I
+
+socketed.tooltip.default.emerald=Suertudote
+socketed.tooltip.default.emerald.desc=Prisa minera I pasiva
+
+socketed.tooltip.default.gold_carrot=¡Las zanahorias son buenas para la vista!
+socketed.tooltip.default.gold_carrot.desc=Visión nocturna pasiva bajo tierra
+
+socketed.tooltip.default.piston=Uchale!
+socketed.tooltip.default.piston.desc=Atacar empuja a los mobs
+
+socketed.tooltip.default.sticky_piston=Vengache!
+socketed.tooltip.default.sticky_piston.desc=Atacar atrae a los mobs a ti
+
+socketed.tooltip.default.diamond=Refuerzo de diamante
+
+socketed.tooltip.default.flint=Piu piu
+
+# Tier 2
+socketed.tooltip.default.rabbitfoot=Brinco brinco brinco
+socketed.tooltip.default.rabbitfoot.desc=Supersalto I pasivo
+
+socketed.tooltip.default.gapple=Es la manzana de Maradonna
+socketed.tooltip.default.gapple.desc=Probabilidad pasiva de Absorción I
+
+socketed.tooltip.default.sponge=Esponja de Menger
+socketed.tooltip.default.sponge.desc=Respiración acuática pasiva
+
+socketed.tooltip.default.witherskull=¡Marchítalos!
+socketed.tooltip.default.witherskull.desc=Al ser golpeado con poca vida, irradia Descomposición I
+
+socketed.tooltip.default.anvil=Yunque en la cara
+socketed.tooltip.default.anvil.desc=Fuerte empuje al golpear
+
+socketed.tooltip.default.pufferfish=¡Envenénalos!
+socketed.tooltip.default.pufferfish.desc=Al ser golpeado con poca vida, irradia Veneno I
+
+socketed.tooltip.default.sealantern=¡Cégalos!
+socketed.tooltip.default.sealantern.desc=Al ser golpeado con poca vida, irradia Ceguera I
+
+socketed.tooltip.default.tropicalfish=No te golpees la cabeza
+
+socketed.tooltip.default.obsidian=Punta de obsidiana
+socketed.tooltip.default.obsidian.desc=Atacar puede otorgarte Fuerza I
+
+socketed.tooltip.default.tnt=¡Ekusupurooshon!
+socketed.tooltip.default.tnt.desc=Ataques pueden crear explosiones
+
+socketed.tooltip.default.quartz=Granja de XP
+socketed.tooltip.default.emeraldblock=¡Qué barato!
+
+# Tier 3
+socketed.tooltip.default.ghasttear=Muy saludable para ser un Ghast
+socketed.tooltip.default.ghasttear.desc.1=Regeneración I pasiva
+socketed.tooltip.default.ghasttear.desc.2=Salud mejorada I pasiva
+
+socketed.tooltip.default.totem=Sólo no te dejes golpear
+socketed.tooltip.default.totem.desc=Probabilidad de sobrevivir a golpes mortales
+
+socketed.tooltip.default.endcrystal=PvP de cristal
+socketed.tooltip.default.endcrystal.desc=Baja probabilidad de dejar a no-jefes a medio corazón
+
+socketed.tooltip.default.beacon=Luces cegadoras
+socketed.tooltip.default.beacon.desc.1=Bajo la luz solar, otorga Luminiscencia
+socketed.tooltip.default.beacon.desc.2=En áreas oscuras, otorga Invisibilidad
+
+socketed.tooltip.default.godapple=Le llamaban Notch
+socketed.tooltip.default.godapple.desc.1=Absorción I la mitad del tiempo
+socketed.tooltip.default.godapple.desc.2=Resistencia al fuego con poca vida
+
+socketed.tooltip.default.netherstar=¡Marchítalos más!
+socketed.tooltip.default.netherstar.desc=Al ser golpeado, irradia Descomposición
+
+socketed.tooltip.default.skullzombie=¡Zombi malo!
+socketed.tooltip.default.skullzombie.desc=Los zombies no te atacarán
+
+socketed.tooltip.default.skullcreeper=¡Creeper malo!
+socketed.tooltip.default.skullcreeper.desc=Los Creepers no te atacarán
+
+socketed.tooltip.default.skullskeleton=¡Esqueleto malo!
+socketed.tooltip.default.skullskeleton.desc=Los esqueletos no te atacarán
+
+# Combination
+socketed.tooltip.default.combination0=Gaming común
+socketed.tooltip.default.combination0.desc=¡Veneno! ¡Debilidad! ¡Lentitud! ¡Velocidad!
+
+socketed.tooltip.default.combination2=Gaming raro
+socketed.tooltip.default.combination2.desc=¡Veneno! ¡Descomposición! ¡Ceguera!
+
+# Added by KameiB
+socketed.tooltip.default.amethyst_gem=Gema de Amatista
+socketed.tooltip.default.diamond_gem=Gema de Diamante
+socketed.tooltip.default.diamond_heart=Reforzado
+socketed.tooltip.default.emerald_gem=Gema de Esmeralda
+socketed.tooltip.default.ender_gem=Gema de Ender
+socketed.tooltip.default.ender_gem.desc=Teletransporta a los enemigos cercanos al esquivar
+socketed.tooltip.default.heat_gem=Gema del Calor
+socketed.tooltip.default.heat_gem.desc1=Pone a los enemigos bien prendidos
+socketed.tooltip.default.heat_gem.desc2=Esquivar hace que los objetivos cercanos se prendan fuego
+socketed.tooltip.default.shock_gem=Gema de choque
+socketed.tooltip.default.shock_gem.desc=Explota al esquivar
+socketed.tooltip.default.water_gem=Gema del Agua
+socketed.tooltip.default.wind_gem=Gema del Viento
+socketed.tooltip.default.wind_gem.desc1=Poder de esquivado muy aumentado
+socketed.tooltip.default.wind_gem.desc2=Otorga Caida lenta al esquivar
+socketed.tooltip.default.wind_gem.desc3=Lanza a los enemigos al golpearlos
+socketed.tooltip.default.ruby_gem=Gema de Rubi
+socketed.tooltip.default.sapphire_gem=Gema de Safiro
