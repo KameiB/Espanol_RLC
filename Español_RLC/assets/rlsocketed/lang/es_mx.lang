@@ -1,0 +1,15 @@
+rlsocketed.tooltip.activator.dodge=Al esquivar
+rlsocketed.tooltip.effect.dodgeforce=Fuerza de esquivado %s
+rlsocketed.tooltip.effect.temperature.pos=§4CALOR§7 +%d
+rlsocketed.tooltip.effect.temperature.neg=§3FRIO§7 +%d
+rlsocketed.tooltip.effect.thirst.pos=Recupera %d de sed
+rlsocketed.tooltip.effect.thirst.neg=Drena %d de sed
+
+rlsocketed.tooltip.default.sugar=¡Quítate de mi esquivo!
+rlsocketed.tooltip.default.blaze_powder=Pedorreándote en una dirección
+rlsocketed.tooltip.default.wool=Pachonsito
+rlsocketed.tooltip.default.ice=Con la cabeza fresca
+rlsocketed.tooltip.default.water=¡Prácticamente infinito!
+
+rlsocketed.tooltip.default.water.tooltip=Recupera lentamente la sed
+rlsocketed.tooltip.default.water.tooltip.2=No está del todo limpia...
