@@ -1,0 +1,6 @@
+item.horseshoes_diamond.name=Herraduras de diamante
+item.horseshoes_gold.name=Herraduras de oro
+item.horseshoes_iron.name=Herraduras de hierro
+
+enchantment.trampling=Pisotear
+enchantment.wornhorseshoes.trampling.desc=Empuja y daña a los mobs cuando pasas a través de ellos
