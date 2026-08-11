@@ -76,14 +76,23 @@ tile.iceandfire.crackledCobblestone.name=Piedra labrada agrietada
 tile.iceandfire.crackledGravel.name=Grava agrietada
 tile.iceandfire.crackledGrassPath.name=Sendero de pasto agrietado
 tile.iceandfire.lightning_stone.name=Piedra rayo
+tile.iceandfire.fulgurite.name=Fulgurita
 
-tile.iceandfire.dragonscale_block.name=Bloque de escamas de dragon
+tile.iceandfire.rubyOre.name=Mineral de rubi
+tile.iceandfire.rubyBlock.name=Bloque de rubi
+
+tile.iceandfire.charedRubyOre.name=Mineral de rubi quemado
+tile.iceandfire.crackledAmethystOre.name=Mineral de amatista agrietado
+tile.iceandfire.frozenSapphireOre.name=Mineral de zafiro congelado
+
 tile.iceandfire.ancient_dragon_bone_block.name=Bloque de huesos de dragon ancestrales
 tile.iceandfire.ancient_dragon_bone_wall.name=Pared de huesos de dragon ancestrales
 tile.iceandfire.dragon_bone_block.name=Bloque de huesos de dragon
 tile.iceandfire.dragon_bone_wall.name=Pared de hueso de dragon
-tile.iceandfire.sea_serpent_scale_block.name=Bloque de escamas de serpiente marina
 tile.iceandfire.ghost_chest.name=Cofre maldito
+
+tile.iceandfire.dragonscales_pile.name=Pila de escamas de dragon
+tile.iceandfire.sea_serpent_scales_pile.name=Pila de escamas de serpiente marina
 
 tile.iceandfire.dread_stone.name=Piedra del horror
 tile.iceandfire.dread_stone_bricks.name=Ladrillos de piedra del horror
@@ -96,6 +105,8 @@ tile.iceandfire.dread_torch.name=Antorcha de piedra del horror
 tile.iceandfire.burnt_torch.name=Antorcha quemada
 tile.iceandfire.dread_stone_slab.name=Losa de ladrillos de piedra del horror
 tile.iceandfire.dread_stone_stairs.name=Escaleras de ladrillos de piedra del horror
+tile.iceandfire.dreadwood_planks.name=Madera aterradora
+tile.iceandfire.dreadwood_planks_lock.name=Cerradura aterradora
 tile.iceandfire.dread_spawner.name=Generador de criaturas de piedra del horror
 tile.iceandfire.monster_spawner.name=Generador de criaturas
 
@@ -125,6 +136,18 @@ item.iceandfire.dragonHelmet.name=Casco de escama de Dragon
 item.iceandfire.dragonChestplate.name=Pechera de escama de Dragon
 item.iceandfire.dragonLeggings.name=Pantalones de escama de Dragon
 item.iceandfire.dragonBoots.name=Botas de escama de Dragon
+item.iceandfire.dragonHelmet.flamed.name=Casco de escama de Dragon flameante
+item.iceandfire.dragonChestplate.flamed.name=Pechera de escama de Dragon flameante
+item.iceandfire.dragonLeggings.flamed.name=Pantalones de escama de Dragon flameantes
+item.iceandfire.dragonBoots.flamed.name=Botas de escama de dragon flameantes
+item.iceandfire.dragonHelmet.iced.name=Casco de escama de Dragon gelido
+item.iceandfire.dragonChestplate.iced.name=Pechera de escama de Dragon gelida
+item.iceandfire.dragonLeggings.iced.name=Pantalones de escama de Dragon gelidos
+item.iceandfire.dragonBoots.iced.name=Botas de escama de dragon gelidas
+item.iceandfire.dragonHelmet.shocked.name=Casco de escama de dragon electrico
+item.iceandfire.dragonChestplate.shocked.name=Pechera de escama de dragon electrica
+item.iceandfire.dragonLeggings.shocked.name=Pantalones de escama de dragon electricos
+item.iceandfire.dragonBoots.shocked.name=Botas de escama de Dragon electricos
 item.iceandfire.dragonbone.name=Hueso de Dragon
 item.iceandfire.witherbone.name=Hueso de Wither
 item.iceandfire.fishing_spear.name=Lanza de pescar Ancestral
@@ -327,16 +350,43 @@ item.iceandfire.tide_trident.desc_0=§aInflige mas daño cuando se arroja bajo e
 item.iceandfire.tide_trident.desc_1=§3Atraviesa multiples enemigos
 item.iceandfire.tide_trident.not_original=No puede ser reparado o encantado
 
+item.iceandfire.hippogryph_skull.name=Craneo de Hipogrifo
+item.iceandfire.cyclops_skull.name=Craneo de Ciclope
+item.iceandfire.cockatrice_skull.name=Craneo de Cocatriz
+item.iceandfire.stymphalian_skull.name=Craneo de Ave del Estinfalo
+item.iceandfire.troll_skull.name=Craneo de Troll
+item.iceandfire.amphithere_skull.name=Craneo de Anfiptero
+item.iceandfire.seaserpent_skull.name=Craneo de Serpiente marina
+item.iceandfire.hydra_skull.name=Craneo de Hidra
+
 item.iceandfire.lich_staff.name=Baston de Liche del horror
+item.iceandfire.dread_key.name=§bLlave del sepulturero§r
 item.iceandfire.dread_shard.name=Fragmento del horror
 item.iceandfire.dread_sword.name=Espada de Thrall del horror
 item.iceandfire.dread_knight_sword.name=Espada de Caballero del horror
+item.iceandfire.dread_queen_sword.name=Espada de la Reina aterradora
+item.iceandfire.dread_queen_staff.name=Baston de la Reina aterradora
+
 item.iceandfire.custom_banner.jei_desc=¡Tiene un patrón único de estandarte!
+
 item.iceandfire.ghost_sword.name=Navaja fantasmal
 item.iceandfire.ghost_sword.desc_0=§aDispara una espada giratoria que atraviesa bloques
 item.iceandfire.ectoplasm.name=Ectoplasma
 item.iceandfire.ghost_ingot.name=Lingote fantasmal
 item.iceandfire.ghost_ingot.desc_0=§6Drop raro§r
+
+item.iceandfire.myrmex_desert_swarm.name=Enjambre de Mirmex del desierto
+item.iceandfire.myrmex_jungle_swarm.name=Enjambre de Mirmex de jungla
+item.iceandfire.myrmex_swarm.desc_0=Invoca 5 Mirmex rondantes que te defenderán por 30 segundos
+item.iceandfire.myrmex_swarm.desc_1=Un solo uso
+item.iceandfire.hippogryph_talon.name=Garra de Hipogrifo
+item.iceandfire.hippogryph_talon.desc_0=§6Drop raro§r
+item.iceandfire.hippogryph_sword.name=Espada de garra de Hipogrifo
+item.iceandfire.hippogryph_sword.desc_0=Siempre corta al objetivo, infligiendo daño adicional
+
+item.iceandfire.dragonbone_arrow_fire.name=Flecha de Dragon flameante
+item.iceandfire.dragonbone_arrow_ice.name=Flecha de Dragon gelida
+item.iceandfire.dragonbone_arrow_lightning.name=Flecha de Dragon electrica
 
 item.iceandfire.dragonbone_bow_fire.name=Arco de Dragon flameante
 item.iceandfire.dragonbone_bow_ice.name=Arco de Dragon gelido
@@ -347,7 +397,7 @@ item.iceandfire.dragon_collar.name=Collar de dragon
 item.banner.firedragon.white=Figura blanca de un Dragon de fuego
 item.banner.firedragon.orange=Figura naranja de un Dragon de fuego
 item.banner.firedragon.magenta=Figura magenta de un Dragon de fuego
-item.banner.firedragon.lightBlue=Figura azul claro de un Dragon de fuego
+item.banner.firedragon.light_blue=Figura azul claro de un Dragon de fuego
 item.banner.firedragon.yellow=Figura amarilla de un Dragon de fuego
 item.banner.firedragon.lime=Figura verde lima de un Dragon de fuego
 item.banner.firedragon.pink=Figura rosa de un Dragon de fuego
@@ -602,7 +652,7 @@ item.banner.sea_serpent.black=Figura negra de una Serpiente marina
 item.banner.dread.white=Figura blanca de craneo del horror
 item.banner.dread.orange=Figura naranja de craneo del horror
 item.banner.dread.magenta=Figura magenta de craneo del horror
-item.banner.dread.lightBlue=Figura azul claro de craneo del horror
+item.banner.dread.light_blue=Figura azul claro de craneo del horror
 item.banner.dread.yellow=Figura amarilla de craneo del horror
 item.banner.dread.lime=Figura verde lima de craneo del horror
 item.banner.dread.pink=Figura rosa de craneo del horror
@@ -616,11 +666,23 @@ item.banner.dread.green=Figura verde de craneo del horror
 item.banner.dread.red=Figura roja de craneo del horror
 item.banner.dread.black=Figura negra de craneo del horror
 
+iceandfire.fire_dragon_forge=Forja de Dragon de fuego
+iceandfire.ice_dragon_forge=Forja de Dragon de hielo
+iceandfire.lightning_dragon_forge=Forja de Dragon de rayo
+
 item.iceandfire.fire_dragon_blood.jei_desc=Obtenido al interactuar con un cadáver de §4Dragón de fuego§r, sosteniendo un frasco vacío.
 item.iceandfire.ice_dragon_blood.jei_desc=Obtenido al interactuar con un cadáver de §bDragón de hielo§r, sosteniendo un frasco vacío.
 item.iceandfire.lightning_dragon_blood.jei_desc=Obtenido al interactuar con un cadáver de §5Dragón de rayo§r, sosteniendo un frasco vacío.
 item.iceandfire.dragonegg.jei_desc=Colócalo en el fuego si es de un §4Dragón de fuego§r, bajo el agua si es de un §bDragón de hielo§r o bajo la lluvia si es de un §5Dragón de rayo§r y espera un tiempo.\nAl nacer, el dragón se ligará al jugador más cercano.
 item.iceandfire.dragon_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
+item.iceandfire.hippogryph_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
+item.iceandfire.cyclops_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
+item.iceandfire.cockatrice_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
+item.iceandfire.stymphalian_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
+item.iceandfire.troll_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
+item.iceandfire.amphithere_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
+item.iceandfire.seaserpent_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
+item.iceandfire.hydra_skull.jei_desc=Puede colocarse en el suelo o en paredes como trofeo.
 item.iceandfire.fire_stew.jei_desc=Se utiliza para reproducir dos §4Dragones de fuego§r, macho y hembra.\n\nDespués, la hembra creará un nido con un huevo.
 item.iceandfire.frost_stew.jei_desc=Se utiliza para reproducir dos §bDragones de hielo§r, macho y hembra.\n\nDespués, la hembra creará un nido con un huevo.
 item.iceandfire.lightning_stew.jei_desc=Se utiliza para reproducir dos §5Dragones de rayo§r, macho y hembra.\n\nDespués, la hembra creará un nido con un huevo.
@@ -685,6 +747,8 @@ entity.ghost_sword.name=Navaja fantasmal
 entity.lightningdragon.name=Dragon de rayo
 entity.dragonlightningcharge.name=Carga de dragon de rayo
 
+entity.shivaxi_dragon.name=Dragon Shivaxi
+
 entity.dread_thrall.name=Thrall del horror
 entity.dread_ghoul.name=Necrofago del horror
 entity.dread_beast.name=Bestia del horror
@@ -694,11 +758,18 @@ entity.dread_lich_skull.name=Craneo de Liche del horror
 entity.dread_knight.name=Caballero del horror
 entity.dread_horse.name=Caballo del Caballero del horror
 
+entity.black_frost.name=Black Frost
+entity.dread_queen.name=Reina aterradora
+
 entity.if_hydra.name=Hidra
 entity.hydra_breath.name=Aliento de Hidra
 entity.hydra_arrow.name=Flecha de Hidra
 
 entity.tide_trident.name=Tridente de la Marea
+
+entity.myrmex_swarmer.name=Mirmex rondante
+
+entity.if_mob_skull.name=Craneo
 
 iceandfire.effect.acid=Acido
 
@@ -831,12 +902,10 @@ bestiary.seaserpent=Serpiente marina
 bestiary.hydra=Hidra
 bestiary.dread_mobs=No-muertos
 bestiary.dragonforge=Forja draconica
-
 lectern.nopages=No se puede agregar más info.
 silvertools.hurt=Daño contra no-muertos: +2
 myrmextools.hurt=Daño contra no-artropodos y Gusanos de la Muerte: +4
 myrmextools.poison=Envenena por 10 segundos
-
 dragon_sword_fire.hurt1=Daño contra Dragones de hielo: +8
 dragon_sword_fire.hurt2=Incendia y empuja a enemigos
 dragon_sword_ice.hurt1=Daño contra Dragones de fuego: +8
@@ -844,6 +913,10 @@ dragon_sword_ice.hurt2=Ralentiza y empuja a enemigos
 dragon_sword_lightning.hurt1=Daño contra Dragones de fuego y hielo: +4
 dragon_sword_lightning.hurt2=§5Golpea a los enemigos con un rayo
 
+message.iceandfire.tryAgain=Por favor vuelve a intentar.
+
+message.iceandfire.dragonTeleport=Este Dragon ha sido teletransportado.
+message.iceandfire.noDragonTeleport=§cNo se encontró un Dragón vinculado a este cristal.
 message.iceandfire.dragonWander=Este Dragon esta deambulando.
 message.iceandfire.dragonFollow=Este Dragon te esta siguiendo.
 message.iceandfire.dragonSit=Este Dragon esta sentado.
@@ -870,8 +943,8 @@ death.attack.dragon_lightning.player_0=fue azotado con un rayo por un Dragón
 death.attack.dragon_lightning.player_1=fue energizado por un Dragón
 death.attack.dragon_lightning.player_2=fue electrocutado por un Dragón
 death.attack.acid.player_0=fue disuelto por un ácido
-death.attack.acid.player_1=fue derretido por un ácido
-death.attack.acid.player_2=fue convertido en sopa por un ácido
+death.attack.acid.player_1=encontró su par - y fue altamente corrosivo
+death.attack.acid.player_2=recibió una lección de primera mano en niveles de pH - resulta ser que su cuerpo es muy disoluble
 death.attack.gorgon.player_0=fue petrificado por una Gorgona
 death.attack.gorgon.player_1=fue convertido en Gorgonzola por una Gorgona
 death.attack.gorgon.player_2=fue solidificado por una Gorgona
