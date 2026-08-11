@@ -64,26 +64,26 @@ socketed.tooltip.effect.executecommand=Ejecutar comando: %s
 
 socketed.tooltip.effect.plusenchantment=+%d %s
 
-socketed.modifier.plus.plus.0=+%s a +%s %s
-socketed.modifier.take.plus.0=-%s a +%s %s
-socketed.modifier.take.take.0=-%s a -%s %s
-socketed.modifier.plus.plus.1=+%s%% a +%s%% %s
-socketed.modifier.take.plus.1=-%s%% a +%s%% %s
-socketed.modifier.take.take.1=-%s%% a -%s%% %s
-socketed.modifier.plus.plus.2=+%s%% a +%s%% %s
-socketed.modifier.take.plus.2=+%s%% a -%s%% %s
-socketed.modifier.take.take.2=-%s%% a -%s%% %s
+socketed.modifier.plus.plus.0=+%1$s a +%2$s %3$s
+socketed.modifier.take.plus.0=-%1$s a +%2$s %3$s
+socketed.modifier.take.take.0=-%1$s a -%2$s %3$s
+socketed.modifier.plus.plus.1=+%1$s%% a +%2$s%% %3$s
+socketed.modifier.take.plus.1=-%1$s%% a +%2$s%% %3$s
+socketed.modifier.take.take.1=-%1$s%% a -%2$s%% %3$s
+socketed.modifier.plus.plus.2=+%1$s%% a +%2$s%% %3$s
+socketed.modifier.take.plus.2=+%1$s%% a -%2$s%% %3$s
+socketed.modifier.take.take.2=-%1$s%% a -%2$s%% %3$s
 
-socketed.tooltip.activator.attacked=Atacado
-socketed.tooltip.activator.attacking=Atacando
-socketed.tooltip.activator.deathtotemcheck=Death Totem Check*
-socketed.tooltip.activator.passive=Cada %d ticks
-socketed.tooltip.activator.targeted=Targeted*
+socketed.tooltip.activator.attacked=atacado
+socketed.tooltip.activator.attacking=al atacar
+socketed.tooltip.activator.deathtotemcheck=cuando se está cerca de morir
+socketed.tooltip.activator.passive=cada %d ticks
+socketed.tooltip.activator.targeted=al ser objetivo
 
-socketed.tooltip.target.otheraoe=AOE a otros
-socketed.tooltip.target.other=a otros
-socketed.tooltip.target.selfaoe=AOE propia
-socketed.tooltip.target.self=Propia
+socketed.tooltip.target.otheraoe=(AOE a otros)
+socketed.tooltip.target.other=(a otros)
+socketed.tooltip.target.selfaoe=(AOE propia)
+socketed.tooltip.target.self=(a sí mismo)
 
 # Tier 0
 socketed.tooltip.default.poison_potato=Brebaje morado
