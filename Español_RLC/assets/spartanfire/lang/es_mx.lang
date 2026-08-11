@@ -40,8 +40,8 @@ material.spartanfire:ice_dragonbone=Dragon gelido
 material.spartanfire:lightning_dragonbone=Dragon electrico
 material.spartanfire:desert=Mirmex del desierto
 material.spartanfire:jungle=Mirmex de jungla
-material.spartanfire:desert_venom=aguijon de Mirmex del desierto
-material.spartanfire:jungle_venom=aguijon de Mirmex de jungla
+material.spartanfire:desert_venom=Mirmex del desierto con aguijon
+material.spartanfire:jungle_venom=Mirmex de jungla con aguijon
 
 # Config
 config.spartanfire.general=Opciones generales

@@ -110,11 +110,11 @@ item.desertchitinbattleaxe.name=Hacha de batalla de Mirmex del desierto
 item.desertchitindagger.name=Daga de Mirmex del desierto
 item.desertchitinnunchaku.name=Nunchaco de Mirmex del desierto
 
-item.desertstingerhammer.name=Martillo de aguijon de Mirmex del desierto
-item.desertstingerspear.name=Hasta arrojadiza de aguijon de Mirmex del desierto
-item.desertstingerbattleaxe.name=Hacha de batalla de aguijon de Mirmex del desierto
-item.desertstingerdagger.name=Daga de aguijon de Mirmex del desierto
-item.desertstingernunchaku.name=Nunchaco de aguijon de Mirmex del desierto
+item.desertstingerhammer.name=Martillo de Mirmex del desierto con aguijon
+item.desertstingerspear.name=Hasta arrojadiza de Mirmex del desierto con aguijon
+item.desertstingerbattleaxe.name=Hacha de batalla de Mirmex del desierto con aguijon
+item.desertstingerdagger.name=Daga de Mirmex del desierto con aguijon
+item.desertstingernunchaku.name=Nunchaco de Mirmex del desierto con aguijon
 
 item.junglechitinhammer.name=Martillo de Mirmex de jungla
 item.junglechitinspear.name=Hasta arrojadiza de Mirmex de jungla
@@ -122,11 +122,11 @@ item.junglechitinbattleaxe.name=Hacha de batalla de Mirmex de jungla
 item.junglechitindagger.name=Daga de Mirmex de jungla
 item.junglechitinnunchaku.name=Nunchaco de Mirmex de jungla
 
-item.junglestingerhammer.name=Martillo de aguijon de Mirmex de jungla
-item.junglestingerspear.name=Hasta arrojadiza de aguijon de Mirmex de jungla
-item.junglestingerbattleaxe.name=Hacha de batalla de aguijon de Mirmex de jungla
-item.junglestingerdagger.name=Daga de aguijon de Mirmex de jungla
-item.junglestingernunchaku.name=Nunchaco de aguijon de Mirmex de jungla
+item.junglestingerhammer.name=Martillo de Mirmex de jungla con aguijon
+item.junglestingerspear.name=Hasta arrojadiza de Mirmex de jungla con aguijon
+item.junglestingerbattleaxe.name=Hacha de batalla de Mirmex de jungla con aguijon
+item.junglestingerdagger.name=Daga de Mirmex de jungla con aguijon
+item.junglestingernunchaku.name=Nunchaco de Mirmex de jungla con aguijon
 
 mujmajnkraftsbettersurvival.hammer.desc=Puede aturdir enemigos al golpearlos, y golpear al suelo con clic derecho
 mujmajnkraftsbettersurvival.dagger.desc=Hace mucho daño cuando atacas por detras
