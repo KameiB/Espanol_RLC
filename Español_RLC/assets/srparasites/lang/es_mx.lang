@@ -354,7 +354,7 @@ tile.srparasites.parasitefog.name=Niebla infestada
 tile.srparasites.gore_sim_small.name=Restos de asimilado (P)
 tile.srparasites.gore_sim_big.name=Restos de asimilado (G)
 tile.srparasites.gore_sim_flat.name=Restos de asimilado (M)
-tile.srparasites.gore_pri_small.name=Restos de primitivo  (P)
+tile.srparasites.gore_pri_small.name=Restos de primitivo (P)
 tile.srparasites.gore_pri_big.name=Restos de primitivo (G)
 tile.srparasites.gore_pri_flat.name=Restos de primitivo (M)
 tile.srparasites.gore_ada_small.name=Restos de adaptado (P)
@@ -603,8 +603,8 @@ tootip.srparasites.weaponm.800=Ya no podras esconderte...
 tootip.srparasites.weaponr.1=§fUn arma improvisada de varias partes de parasitos. La llama de la vida arde dentro de ella.
 tootip.srparasites.weaponr.2=§eLa forma evolucionada del Arco viviente. Ha desarrollado §bmente propia§e.
 
-tootip.srparasites.weaponr.10=Sigue cargando ese arco
-tootip.srparasites.weaponr.20=Sigue cargando ese arco
+tootip.srparasites.weaponr.10=Sigue tensando ese arco
+tootip.srparasites.weaponr.20=Sigue tensando ese arco
 
 tootip.srparasites.weaponr.100=Ya no podras esconderte...
 tootip.srparasites.weaponr.200=Ya no podras esconderte...

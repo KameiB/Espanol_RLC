@@ -825,7 +825,6 @@ xat.config.magic.regen.frequency=Frec. por defecto de regen.
 xat.config.magic.regen.frequency.tooltip=Cuánto tiempo en ticks se necesita para recuperar Mana
 xat.config.magic.regen.timeout=Retraso de reg. por defecto
 xat.config.magic.regen.timeout.tooltip=Cuánto tiempo en ticks debe pasar antes de permitir la regeneración después de usar Mana
-
 xat.config.magic.items=Objetos magicos
 xat.config.magic.items.tooltip=Configuración de los objetos mágicos
 xat.config.magic.items.recovery=Objetos de recuperación

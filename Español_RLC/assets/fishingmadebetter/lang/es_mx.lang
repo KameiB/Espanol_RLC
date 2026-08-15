@@ -198,12 +198,12 @@ tooltip.fishingmadebetter.fish.alive=§r§9§lVivo
 # %s = Fish Name
 tooltip.fishingmadebetter.fish_slice_raw=%s
 
-# Vanilla fishes
+# Vanilla (caught fishes)
 item.fmb.minecraft:fish:0.name=Pez de rio
 item.fmb.minecraft:fish:1.name=Pez de montaña
 item.fmb.minecraft:fish:2.name=Pez tropical
 item.fmb.minecraft:fish:3.name=Pez de oceano
-# Aquaculture fishes
+# Aquaculture (caught fishes)
 item.fmb.aquaculture:fish:0.name=Mojarra azul
 item.fmb.aquaculture:fish:1.name=Perca
 item.fmb.aquaculture:fish:2.name=Pez aguja
@@ -243,7 +243,7 @@ item.fmb.aquaculture:fish:35.name=Champipez rojo
 item.fmb.aquaculture:fish:36.name=Champipez cafe
 item.fmb.aquaculture:fish:37.name=Pez dorado
 item.fmb.aquaculture:fish:38.name=Huesos de pescado
-# Advanced Fishing fishes
+# Advanced Fishing (caught fishes)
 item.fmb.advanced-fishing:fish:0.name=Fragata portuguesa
 item.fmb.advanced-fishing:fish:1.name=Medusa magmatica
 item.fmb.advanced-fishing:fish:2.name=Atun de lodo
