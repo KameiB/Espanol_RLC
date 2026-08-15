@@ -414,6 +414,7 @@ item.fish.salmon.cooked.name=Pez de montaña asado
 item.fish.clownfish.raw.name=Pez tropical
 item.fish.pufferfish.raw.name=Pez de oceano
 item.saddle.name=Montura basica
+tile.button.name=Boton de piedra
 
 # Added by KameiB for UsefulTooltips.zs
 effect.moveSpeed.detail.1=Vel. de movimiento: +20%

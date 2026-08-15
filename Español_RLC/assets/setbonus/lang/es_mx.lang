@@ -44,6 +44,7 @@ setbonus.config.potionEffects.tooltip=FIXNEWLINES FILLSCREEN Efectos de pocion c
 
 # RLCraft custom config texts
 # SetBonus Localized sets and bonuses texts
+##### Sets ==========================================
 set.LB=Ranchero peligroso
 set.NSet=Bendi. de Neptuno
 set.GSet=Infusion magi
@@ -70,6 +71,7 @@ set.FlamedSet=Dragon de fuego
 set.IcedSet=Dragon de hielo
 set.ShockedSet=Dragon de rayo
 
+##### Bonuses ==========================================
 bonus.LeatherBonus=Daño de proyectiles: +3
 bonus.LeatherBonus2=Absorcion
 bonus.NBonus=Nado rapido II
