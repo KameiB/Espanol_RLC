@@ -12,10 +12,10 @@ item.socketed.socket.socket_tier_4.tooltip=Agrega una nueva ranura Legendaria a 
 item.socketed.socket.socket_tier_5.tooltip=Agrega una nueva ranura Definitiva a un objeto
 
 
-item.socketed.socket_generic.name=§6Ranura Generica
-item.socketed.socket_tier_0.name=§7Ranura Comun
-item.socketed.socket_tier_1.name=§fRanura Poco comun
-item.socketed.socket_tier_2.name=§eRanura Rara
+item.socketed.socket_generic.name=§6Omni Ranura
+item.socketed.socket_tier_0.name=§fRanura Comun
+item.socketed.socket_tier_1.name=§bRanura Rara
+item.socketed.socket_tier_2.name=§dRanura Epica
 item.socketed.socket_tier_3.name=§bRanura Epica
 item.socketed.socket_tier_4.name=§5Ranura Legendaria
 item.socketed.socket_tier_5.name=§4Ranura Definitiva
@@ -32,22 +32,22 @@ socketed.tooltip.holdshift=Presiona <Shift> para más información
 
 socketed.tooltip.gem=En ranura:
 
-socketed.tooltip.generic=§6(Genérica)
-socketed.tooltip.tier_0=§7(Común)
-socketed.tooltip.tier_1=§f(Poco común)
-socketed.tooltip.tier_2=§e(Rara)
+socketed.tooltip.generic=§6(Omni)
+socketed.tooltip.tier_0=§f(Común)
+socketed.tooltip.tier_1=§b(Rara)
+socketed.tooltip.tier_2=§d(Épica)
 socketed.tooltip.tier_3=§b(Épica)
 socketed.tooltip.tier_4=§5(Legendaria)
 socketed.tooltip.tier_5=§4(Definitiva)
 
 socketed.tooltip.slottype.all=
 socketed.tooltip.slottype.none=()
-socketed.tooltip.slottype.body=(En cuerpo)
-socketed.tooltip.slottype.head=(En cabeza)
-socketed.tooltip.slottype.chest=(En pecho)
-socketed.tooltip.slottype.legs=(En piernas)
-socketed.tooltip.slottype.feet=(En pies)
-socketed.tooltip.slottype.hand=(En mano)
+socketed.tooltip.slottype.body=(En armadura)
+socketed.tooltip.slottype.head=(En casco)
+socketed.tooltip.slottype.chest=(En pechera)
+socketed.tooltip.slottype.legs=(En pantalones)
+socketed.tooltip.slottype.feet=(En botas)
+socketed.tooltip.slottype.hand=(En arma)
 socketed.tooltip.slottype.mainhand=(En mano principal)
 socketed.tooltip.slottype.offhand=(En mano secundaria)
 
