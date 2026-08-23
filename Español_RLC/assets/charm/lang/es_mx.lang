@@ -80,7 +80,7 @@ lingering_potion.effect.ender_sight=Pocion persistente de Vista de ender
 potion.potency.3=III
 
 # Entities
-entity.charm:spectre.name=Espectro
+entity.charm:spectre.name=Anima
 
 # Enchantments
 charm.enchantment.clumsiness_curse=§cMaldicion de Torpeza§r
@@ -101,11 +101,11 @@ enchantment.charm.homing.desc=La azada es atraida por la mena del material del q
 enchantment.charm.magnetic.desc=Las herramientas recogen items tirados automaticamente.
 
 # Sound Subtitles
-subtitle.charm.spectre.disappear=El Espectro se desvanecio
-subtitle.charm.spectre.ambient=Sonidos escalofriantes de Espectro
-subtitle.charm.spectre.walk=Pasos escalofriantes de Espectro
-subtitle.charm.spectre.hit=Un Espectro te golpeo
-subtitle.charm.whispers=Puedes escuchar Espectros susurrando a tu alrededor
+subtitle.charm.spectre.disappear=El Anima se desvanecio
+subtitle.charm.spectre.ambient=Sonidos escalofriantes de Anima
+subtitle.charm.spectre.walk=Pasos escalofriantes de Anima
+subtitle.charm.spectre.hit=Un Anima te golpeo
+subtitle.charm.whispers=Puedes escuchar Animas susurrando a tu alrededor
 
 # Maps
 charm.map.village=Mapa de Aldea
