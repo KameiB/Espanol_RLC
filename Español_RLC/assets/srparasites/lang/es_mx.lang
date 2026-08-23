@@ -92,7 +92,7 @@ entity.srparasites.seizer.name=Seizer
 
 entity.srparasites.bomber_heavy.name=Bomber pesado
 entity.srparasites.carrier_colony.name=Colony Carrier
-entity.srparasites.wraith.name=Wraith
+entity.srparasites.wraith.name=Devoralmas
 entity.srparasites.bogle.name=Bogle
 entity.srparasites.haunter.name=Haunter
 entity.srparasites.succor.name=Succor
@@ -208,7 +208,7 @@ item.srparasites.itemmobspawner_nak.name=Generar Seizer
 
 item.srparasites.itemmobspawner_jinjo.name=Generar Bomber pesado
 item.srparasites.itemmobspawner_vesta.name=Generar Colony Carrier
-item.srparasites.itemmobspawner_elvia.name=Generar Wraith
+item.srparasites.itemmobspawner_elvia.name=Generar Devoralmas
 item.srparasites.itemmobspawner_lencia.name=Generar Bogle
 item.srparasites.itemmobspawner_pheon.name=Generar Haunter
 item.srparasites.itemmobspawner_flam.name=Generar Succor
