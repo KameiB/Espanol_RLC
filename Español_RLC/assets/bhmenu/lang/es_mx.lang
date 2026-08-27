@@ -71,5 +71,5 @@ step.select_plan.choose_budget=Elige presupuesto
 step.select_plan.choose_premium=Elige Premium
 
 # Added by KameiB
-server_entry.title=Ordenar servidor
-server_entry.description=Creemos tu propio servidor de Minecraft.
+server_entry.title=¿Necesitas un servidor?
+server_entry.description=¡Obtén tu propio servidor aquí!
